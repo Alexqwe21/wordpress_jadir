@@ -1,0 +1,6 @@
+2025-07-17T01:39:09+00:00 INFO Payment gateway enabled: "Boleto via PagBank"
+2025-07-17T20:20:27+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Transparente Boleto e lotérica"
+2025-07-17T20:20:30+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Pro Linha de Crédito"
+2025-07-17T20:21:57+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Transparente"
+2025-07-17T20:22:15+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Transparente PIX"
+2025-07-17T20:23:08+00:00 INFO Payment gateway enabled: "Mercado Pago - Checkout Pro"

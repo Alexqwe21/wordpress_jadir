@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0px !important;
+  font-size: 1.125rem !important;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.container-index{
+margin: 30px auto;
+}
+
+.container-separador{
+  background: #f8f8f850;
+  padding: 20px 0;
+}
+
+.titulo{
+  background: #2a0031c2;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: white;
+  padding: 30px 0;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: .05rem;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-link {
+  padding: 15px;
+  background: white;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+
+  &::after {
+    content: '';
+    display: block;
+    background: url('../img/icons/arrow.svg') no-repeat center center;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.subtitulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.375rem;
+  margin-bottom: 60px;
+  font-weight: bold;
+color: #C622E0;
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 100px;
+      height: 6px;
+      background: currentColor;
+      transform: skew(-20deg);
+  }
+
+  &::before{
+    margin: 0px calc(50% + 20px) 0 auto;
+  }
+
+  &::after{
+    margin: 5px calc(50% - 120px) 0 auto;
+  }
+}
+
+
+p:has(> strong:only-child),
+p:contains("woocommerce_checkout") {
+  display: none !important;
+}

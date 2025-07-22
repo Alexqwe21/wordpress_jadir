@@ -1,0 +1,1235 @@
+2025-07-17T01:37:57+00:00 DEBUG POST Request to ws/public-keys with params: {
+    "type": "card"
+}
+array (
+)
+2025-07-17T01:37:57+00:00 DEBUG Response from ws/public-keys: {
+    "public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvgOc9+JCjLbYH94hL1HZBzmDcWTSL6g3PjJMUIY69wYETBTwt3kGzRoX3pz\/tgrr6yedIy\/7qC2HNw46P0I8Eex9naFFr\/B6RMpoa8R1PeEQ\/X6Qz45+BS\/H7X+ENfh16AjWT7jJsE9lxhyX7ygYzQL85\/6m45E0ohikvvtONW9eZ5z6eRhbtrozr\/kiA8j\/U1BWX\/OK2DHZfmXns7FcW+P7jnTwI9oVaWY7+0ivNO+oIigOKnIn78xcvteNqtwArbQ\/\/1ed1TmohxzR0vilIm1Pb5MTs784fBftc2xUISk2ao3kOTNhe8FMjSMpZ3afls+pOA0dVDaU+qGdZJO4GQIDAQAB",
+    "created_at": 1752716277737
+}
+array (
+)
+2025-07-17T01:40:52+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T01:40:52+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T01:40:52+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "dqO+e8Br7LwM1niQL4dccJw5sR323+STqWJ6Lawhfy+Zf2Xmn4UtgJyhht9Bdby4xq6\/gkwgBA66PtXtwdYtZL9RZ+wmDsOUq05cGGsNnwfZqE13boa6TNVPwDUhPCwrZ3nLbdeHdlBM6B1N53WDAWJYqVyiHlLDKSaTSavoeGQ8j0GVNMWKGQcdEoo9zOlb8srBgY8uE+wYiokEHr2Y9QbWELF8YzjJ87vAFmjBfZsC7qoajVmmqS0BryEU8wUpRcAyu+mFYk1A3flWViYELV1WAuxMqqu67nyN1emKNJijtywYApLqouSwvW6SWjPKjNVrDdN8cjQQ7P1AouxiKg==",
+    "expires_at": 1752718252565
+}
+array (
+)
+2025-07-17T01:40:52+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:41:00+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:41:03+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:41:03+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [error] => value_is_invalid
+                    [description] => Parameter value has an invalid value, see documentation.
+                    [parameter_name] => value
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 0
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-17T01:41:26+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:41:31+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:42:11+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:42:12+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T01:42:52+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 207,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103800",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "123",
+            "name": "Camisa Vermelha",
+            "quantity": 1,
+            "unit_amount": 6900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=70235"
+    ],
+    "qr_codes": [
+        {
+            "amount": {
+                "value": 6900,
+                "currency": "BRL"
+            },
+            "expiration_date": "2025-07-18T01:42:52+00:00"
+        }
+    ]
+}
+array (
+)
+2025-07-17T01:42:52+00:00 DEBUG Response from ws/orders: {
+    "error_messages": [
+        {
+            "code": "40002",
+            "description": "must be a valid CPF or CNPJ",
+            "parameter_name": "customer.tax_id"
+        }
+    ]
+}
+array (
+)
+2025-07-17T01:42:52+00:00 ERROR Erro Connect: 40002 - must be a valid CPF or CNPJ (customer.tax_id)
+array (
+)
+2025-07-17T01:43:02+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 207,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "123",
+            "name": "Camisa Vermelha",
+            "quantity": 1,
+            "unit_amount": 6900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=70235"
+    ],
+    "qr_codes": [
+        {
+            "amount": {
+                "value": 6900,
+                "currency": "BRL"
+            },
+            "expiration_date": "2025-07-18T01:43:02+00:00"
+        }
+    ]
+}
+array (
+)
+2025-07-17T01:43:03+00:00 DEBUG Response from ws/orders: {
+    "id": "ORDE_789D1C14-F0B7-467F-B0F2-EE21DBB21620",
+    "reference_id": "207",
+    "created_at": "2025-07-16T22:43:02.600-03:00",
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888"
+    },
+    "items": [
+        {
+            "reference_id": "123",
+            "name": "Camisa Vermelha",
+            "quantity": 1,
+            "unit_amount": 6900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "qr_codes": [
+        {
+            "id": "QRCO_88419944-4293-41EE-B8A7-0B674FC82DEC",
+            "expiration_date": "2025-07-17T22:43:02.000-03:00",
+            "amount": {
+                "value": 6900
+            },
+            "text": "00020101021226830014br.gov.bcb.pix2561api.pagseguro.com\/pix\/v2\/88419944-4293-41EE-B8A7-0B674FC82DEC27600016BR.COM.PAGSEGURO013688419944-4293-41EE-B8A7-0B674FC82DEC520489995303986540569.005802BR5922ALEX SANDRO PIMENTA JU6009SAO PAULO62070503***63045B12",
+            "arrangements": [
+                "PIX"
+            ],
+            "links": [
+                {
+                    "rel": "QRCODE.PNG",
+                    "href": "https:\/\/api.pagseguro.com\/qrcode\/QRCO_88419944-4293-41EE-B8A7-0B674FC82DEC\/png",
+                    "media": "image\/png",
+                    "type": "GET"
+                },
+                {
+                    "rel": "QRCODE.BASE64",
+                    "href": "https:\/\/api.pagseguro.com\/qrcode\/QRCO_88419944-4293-41EE-B8A7-0B674FC82DEC\/base64",
+                    "media": "text\/plain",
+                    "type": "GET"
+                }
+            ]
+        }
+    ],
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=70235"
+    ],
+    "links": [
+        {
+            "rel": "SELF",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_789D1C14-F0B7-467F-B0F2-EE21DBB21620",
+            "media": "application\/json",
+            "type": "GET"
+        },
+        {
+            "rel": "PAY",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_789D1C14-F0B7-467F-B0F2-EE21DBB21620\/pay",
+            "media": "application\/json",
+            "type": "POST"
+        }
+    ]
+}
+array (
+)
+2025-07-17T01:43:03+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "Eqr9I8K2RkOXzhx2\/npZdsBPa+E95UqlwitCsuvW02OI3mN4fxiyd32fD0EoBZKWxxgBaWpgcUv\/jPzmHx5ZsQGSl1ws6fEBm6RfLppUbXRo0SFt1CVUw1yjU+ogNj+ISQpK84DYaC\/roEiq2Ly5no+Sxgzjy5ckI3+C0+LaanBBaEUmLVVvu1cD6IZ9l0yJh1MDJ57r978opiOqPhlKy5eAODyUpjzktB\/g6lqB\/n2IID4OoirSxuBDPL10r2ewd6n9cNca1u0iRHYRk6zK9mut4uEbrg\/p90T2jE05Aj1DR2IUJjT9iedvlYR4LZNLqDNLe69Iwt+INKw6NJgMug==",
+    "expires_at": 1752718252602
+}
+array (
+)
+2025-07-17T03:34:30+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T03:34:30+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "TvwDVfICWI\/IoOVQrNim542Rg95DLHwKhBQXk2xqsBYK927qblrmsgqygN45Mli2H5U6Ow0mpw7V4MAOIKQosKtHrFA5e1c3LIkr1TeYBvzLYxGNjzRR7BJ6xRuQlzZNkiJTgfufiS51vNr8Sre5OuqTOBoZfJvfRDkSPcg6PJjESMrdemIvYd+RftEfdbK8dOvGxya2urkEi5sC01baLcVN+f4h3gHQ6SZK+A9BPyjsCfBl++99yQRjaiPkkuUHUTIa+c0SY0tVNAdghMRrRi2wH7paBuI2rLJM3mLkkpqRTjKPheqVOAfi0vgZfh9m66pYdBszA7B8SK0rO2vETw==",
+    "expires_at": 1752725070509
+}
+array (
+)
+2025-07-17T03:34:31+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "TvwDVfICWI\/IoOVQrNim542Rg95DLHwKhBQXk2xqsBYK927qblrmsgqygN45Mli2H5U6Ow0mpw7V4MAOIKQosKtHrFA5e1c3LIkr1TeYBvzLYxGNjzRR7BJ6xRuQlzZNkiJTgfufiS51vNr8Sre5OuqTOBoZfJvfRDkSPcg6PJjESMrdemIvYd+RftEfdbK8dOvGxya2urkEi5sC01baLcVN+f4h3gHQ6SZK+A9BPyjsCfBl++99yQRjaiPkkuUHUTIa+c0SY0tVNAdghMRrRi2wH7paBuI2rLJM3mLkkpqRTjKPheqVOAfi0vgZfh9m66pYdBszA7B8SK0rO2vETw==",
+    "expires_at": 1752725070509
+}
+array (
+)
+2025-07-17T03:34:34+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "TvwDVfICWI\/IoOVQrNim542Rg95DLHwKhBQXk2xqsBYK927qblrmsgqygN45Mli2H5U6Ow0mpw7V4MAOIKQosKtHrFA5e1c3LIkr1TeYBvzLYxGNjzRR7BJ6xRuQlzZNkiJTgfufiS51vNr8Sre5OuqTOBoZfJvfRDkSPcg6PJjESMrdemIvYd+RftEfdbK8dOvGxya2urkEi5sC01baLcVN+f4h3gHQ6SZK+A9BPyjsCfBl++99yQRjaiPkkuUHUTIa+c0SY0tVNAdghMRrRi2wH7paBuI2rLJM3mLkkpqRTjKPheqVOAfi0vgZfh9m66pYdBszA7B8SK0rO2vETw==",
+    "expires_at": 1752725070509
+}
+array (
+)
+2025-07-17T04:34:16+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T04:34:16+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "CsrRdGWwrHFeiAU0r5XVkbWiWZh+p2WmCVajkWNEHLx2rfho+FIzTqTGHwWACDUAAZhFp38ThpY12GerXLO+FoqtccyXenE5MzbKBTCe0rDtNXdO0142\/EsnRRY7IidmqmSHdcuyRcaaBeC6CLmVFXxlmzdxJoRJBtWRHcL+VZD0C8VvV9vyETFxDCKKxSkHY0QPos16CjHML4\/5hB4VBl72GnRw0i1Mga0E0pOEIZoXlqYO4k\/09GSlMCE7VRinI2dCpUhzC0nigG7zUP+yuuv+zBVLLogrs2SZhA4x4TcwEbLXpfWYylTegLyKTR6tGFtVXHMjllcQBFeGeLC+tA==",
+    "expires_at": 1752728656741
+}
+array (
+)
+2025-07-17T04:34:16+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "CsrRdGWwrHFeiAU0r5XVkbWiWZh+p2WmCVajkWNEHLx2rfho+FIzTqTGHwWACDUAAZhFp38ThpY12GerXLO+FoqtccyXenE5MzbKBTCe0rDtNXdO0142\/EsnRRY7IidmqmSHdcuyRcaaBeC6CLmVFXxlmzdxJoRJBtWRHcL+VZD0C8VvV9vyETFxDCKKxSkHY0QPos16CjHML4\/5hB4VBl72GnRw0i1Mga0E0pOEIZoXlqYO4k\/09GSlMCE7VRinI2dCpUhzC0nigG7zUP+yuuv+zBVLLogrs2SZhA4x4TcwEbLXpfWYylTegLyKTR6tGFtVXHMjllcQBFeGeLC+tA==",
+    "expires_at": 1752728656741
+}
+array (
+)
+2025-07-17T04:34:19+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "CsrRdGWwrHFeiAU0r5XVkbWiWZh+p2WmCVajkWNEHLx2rfho+FIzTqTGHwWACDUAAZhFp38ThpY12GerXLO+FoqtccyXenE5MzbKBTCe0rDtNXdO0142\/EsnRRY7IidmqmSHdcuyRcaaBeC6CLmVFXxlmzdxJoRJBtWRHcL+VZD0C8VvV9vyETFxDCKKxSkHY0QPos16CjHML4\/5hB4VBl72GnRw0i1Mga0E0pOEIZoXlqYO4k\/09GSlMCE7VRinI2dCpUhzC0nigG7zUP+yuuv+zBVLLogrs2SZhA4x4TcwEbLXpfWYylTegLyKTR6tGFtVXHMjllcQBFeGeLC+tA==",
+    "expires_at": 1752728656741
+}
+array (
+)
+2025-07-17T04:35:41+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 183,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "124",
+            "name": "Bermuda Azul",
+            "quantity": 1,
+            "unit_amount": 12000
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=187b3"
+    ],
+    "charges": [
+        {
+            "reference_id": "183",
+            "amount": {
+                "value": 12000,
+                "currency": "BRL"
+            },
+            "payment_method": {
+                "type": "BOLETO",
+                "boleto": {
+                    "due_date": "2025-07-24",
+                    "instruction_lines": {
+                        "line_1": "Sr. Caixa, favor n\u00e3o aceitar ap\u00f3s vencimento.",
+                        "line_2": "Obrigado por comprar em nossa loja!"
+                    },
+                    "holder": {
+                        "name": "ALEX JUNIOR",
+                        "tax_id": "48960103888",
+                        "email": "desenvolvedorweb21@gmail.com",
+                        "address": {
+                            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+                            "number": "...",
+                            "locality": "...",
+                            "city": "S\u00e3o Paulo",
+                            "region": "S\u00e3o Paulo",
+                            "region_code": "SP",
+                            "country": "BRA",
+                            "postal_code": "68900070"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+array (
+)
+2025-07-17T04:35:42+00:00 DEBUG Response from ws/orders: {
+    "id": "ORDE_33A30950-9DE8-40F6-8C8E-C678F6027BDE",
+    "reference_id": "183",
+    "created_at": "2025-07-17T01:35:41.334-03:00",
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888"
+    },
+    "items": [
+        {
+            "reference_id": "124",
+            "name": "Bermuda Azul",
+            "quantity": 1,
+            "unit_amount": 12000
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "charges": [
+        {
+            "id": "CHAR_64416398-0025-48DE-B7D0-D9FB5B75AF68",
+            "reference_id": "183",
+            "status": "WAITING",
+            "created_at": "2025-07-17T01:35:41.532-03:00",
+            "description": "",
+            "amount": {
+                "value": 12000,
+                "currency": "BRL",
+                "summary": {
+                    "total": 12000,
+                    "paid": 0,
+                    "refunded": 0
+                }
+            },
+            "payment_response": {
+                "code": "20000",
+                "message": "SUCESSO"
+            },
+            "payment_method": {
+                "type": "BOLETO",
+                "boleto": {
+                    "id": "39288983-6148-4CC5-BC42-CD959756A5E3",
+                    "barcode": "08197081080010000001701044123915411520000012000",
+                    "formatted_barcode": "08197.08108 00100.000017 01044.123915 4 11520000012000",
+                    "due_date": "2025-07-24",
+                    "instruction_lines": {
+                        "line_1": "Sr. Caixa, favor n\u00e3o aceitar ap\u00f3s vencimento.",
+                        "line_2": "Obrigado por comprar em nossa loja!"
+                    },
+                    "holder": {
+                        "name": "ALEX JUNIOR",
+                        "tax_id": "48960103888",
+                        "email": "desenvolvedorweb21@gmail.com",
+                        "address": {
+                            "region": "S\u00e3o Paulo",
+                            "city": "S\u00e3o Paulo",
+                            "postal_code": "68900070",
+                            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+                            "number": "...",
+                            "locality": "...",
+                            "country": "BRA",
+                            "region_code": "SP"
+                        }
+                    }
+                }
+            },
+            "links": [
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/boleto.pagseguro.com.br\/39288983-6148-4cc5-bc42-cd959756a5e3.pdf",
+                    "media": "application\/pdf",
+                    "type": "GET"
+                },
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/boleto.pagseguro.com.br\/39288983-6148-4cc5-bc42-cd959756a5e3.png",
+                    "media": "image\/png",
+                    "type": "GET"
+                },
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/api.pagseguro.com\/charges\/CHAR_64416398-0025-48DE-B7D0-D9FB5B75AF68",
+                    "media": "application\/json",
+                    "type": "GET"
+                }
+            ]
+        }
+    ],
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=187b3"
+    ],
+    "links": [
+        {
+            "rel": "SELF",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_33A30950-9DE8-40F6-8C8E-C678F6027BDE",
+            "media": "application\/json",
+            "type": "GET"
+        },
+        {
+            "rel": "PAY",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_33A30950-9DE8-40F6-8C8E-C678F6027BDE\/pay",
+            "media": "application\/json",
+            "type": "POST"
+        }
+    ]
+}
+array (
+)
+2025-07-17T04:35:43+00:00 DEBUG Notification received: {"id":"ORDE_33A30950-9DE8-40F6-8C8E-C678F6027BDE","reference_id":"183","created_at":"2025-07-17T01:35:41.334-03:00","customer":{"name":"ALEX JUNIOR","email":"desenvolvedorweb21@gmail.com","tax_id":"48960103888"},"items":[{"reference_id":"124","name":"Bermuda Azul","quantity":1,"unit_amount":12000}],"shipping":{"address":{"street":"RUA DESEMBARGADOR ARLINDO PERERIA LIMA","number":"...","complement":"Casa","locality":"...","city":"São Paulo","region_code":"SP","country":"BRA","postal_code":"68900070"}},"charges":[{"id":"CHAR_64416398-0025-48DE-B7D0-D9FB5B75AF68","reference_id":"183","status":"WAITING","created_at":"2025-07-17T01:35:41.532-03:00","amount":{"value":12000,"currency":"BRL","summary":{"total":12000,"paid":0,"refunded":0}},"payment_response":{"code":"20000","message":"SUCESSO"},"payment_method":{"type":"BOLETO","boleto":{"id":"39288983-6148-4CC5-BC42-CD959756A5E3","barcode":"08197081080010000001701044123915411520000012000","formatted_barcode":"08197.08108 00100.000017 01044.123915 4 11520000012000","due_date":"2025-07-24","instruction_lines":{"line_1":"Sr. Caixa, favor não aceitar após vencimento.","line_2":"Obrigado por comprar em nossa loja!"},"holder":{"name":"ALEX JUNIOR","tax_id":"48960103888","email":"desenvolvedorweb21@gmail.com","address":{"region":"São Paulo","city":"São Paulo","postal_code":"68900070","street":"RUA DESEMBARGADOR ARLINDO PERERIA LIMA","number":"...","locality":"...","country":"Brasil","region_code":"SP"}},"days_until_expiration":10}},"links":[{"rel":"SELF","href":"https://boleto.pagseguro.com.br/39288983-6148-4cc5-bc42-cd959756a5e3.pdf","media":"application/pdf","type":"GET"},{"rel":"SELF","href":"https://boleto.pagseguro.com.br/39288983-6148-4cc5-bc42-cd959756a5e3.png","media":"image/png","type":"GET"},{"rel":"SELF","href":"https://api.pagseguro.com/charges/CHAR_64416398-0025-48DE-B7D0-D9FB5B75AF68","media":"application/json","type":"GET"}],"metadata":{}}],"notification_urls":["https://jadirstore.webdevsolutions.com.br/?wc-api=rm_ps_notif&hash=187b3"],"links":[{"rel":"SELF","href":"https://api.pagseguro.com/orders/ORDE_33A30950-9DE8-40F6-8C8E-C678F6027BDE","media":"application/json","type":"GET"},{"rel":"PAY","href":"https://api.pagseguro.com/orders/ORDE_33A30950-9DE8-40F6-8C8E-C678F6027BDE/pay","media":"application/json","type":"POST"}]}
+array (
+  'hash' => '187b3',
+)
+2025-07-17T04:35:43+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "CsrRdGWwrHFeiAU0r5XVkbWiWZh+p2WmCVajkWNEHLx2rfho+FIzTqTGHwWACDUAAZhFp38ThpY12GerXLO+FoqtccyXenE5MzbKBTCe0rDtNXdO0142\/EsnRRY7IidmqmSHdcuyRcaaBeC6CLmVFXxlmzdxJoRJBtWRHcL+VZD0C8VvV9vyETFxDCKKxSkHY0QPos16CjHML4\/5hB4VBl72GnRw0i1Mga0E0pOEIZoXlqYO4k\/09GSlMCE7VRinI2dCpUhzC0nigG7zUP+yuuv+zBVLLogrs2SZhA4x4TcwEbLXpfWYylTegLyKTR6tGFtVXHMjllcQBFeGeLC+tA==",
+    "expires_at": 1752728656741
+}
+array (
+)
+2025-07-17T05:15:31+00:00 DEBUG Notificação de atualização ignorada para o pedido 183 pois o conteúdo é o mesmo da última atualização. (Atualizado via Cron)
+array (
+)
+2025-07-17T10:47:19+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T10:47:20+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "SdMcNHU5b\/6eMOHmuAwyC48HtiiK7YP7LqnFSyVcxhhPSrL7CLD+vHwCqM2Onuilom8pLW7KpINLSTusWgZnjXC5Qyl276\/976gm62lq8w3AvB+BVj7F7jhFNHAoikDqRfe90uxnqR1Di3HbGdS+iPJZJ36yTdyRLai7K0XEdvHbNmf2v4CRkgQFnp2i1vsiuW4WCB+G9tMBzd9itCS\/duPpohOzw6nDxE4mgfJYomdrcfjY4O+WWM48JDuf930r3BZ3n9X0GpxeAdC4jSqYt1gURY\/DVdaA28o7\/HwyZJU\/JJOEN1\/hRLLJI9bwOr8ifScgy359vegr1nl0snv9EA==",
+    "expires_at": 1752751040028
+}
+array (
+)
+2025-07-17T10:47:29+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "SdMcNHU5b\/6eMOHmuAwyC48HtiiK7YP7LqnFSyVcxhhPSrL7CLD+vHwCqM2Onuilom8pLW7KpINLSTusWgZnjXC5Qyl276\/976gm62lq8w3AvB+BVj7F7jhFNHAoikDqRfe90uxnqR1Di3HbGdS+iPJZJ36yTdyRLai7K0XEdvHbNmf2v4CRkgQFnp2i1vsiuW4WCB+G9tMBzd9itCS\/duPpohOzw6nDxE4mgfJYomdrcfjY4O+WWM48JDuf930r3BZ3n9X0GpxeAdC4jSqYt1gURY\/DVdaA28o7\/HwyZJU\/JJOEN1\/hRLLJI9bwOr8ifScgy359vegr1nl0snv9EA==",
+    "expires_at": 1752751040028
+}
+array (
+)
+2025-07-17T10:47:29+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "SdMcNHU5b\/6eMOHmuAwyC48HtiiK7YP7LqnFSyVcxhhPSrL7CLD+vHwCqM2Onuilom8pLW7KpINLSTusWgZnjXC5Qyl276\/976gm62lq8w3AvB+BVj7F7jhFNHAoikDqRfe90uxnqR1Di3HbGdS+iPJZJ36yTdyRLai7K0XEdvHbNmf2v4CRkgQFnp2i1vsiuW4WCB+G9tMBzd9itCS\/duPpohOzw6nDxE4mgfJYomdrcfjY4O+WWM48JDuf930r3BZ3n9X0GpxeAdC4jSqYt1gURY\/DVdaA28o7\/HwyZJU\/JJOEN1\/hRLLJI9bwOr8ifScgy359vegr1nl0snv9EA==",
+    "expires_at": 1752751040028
+}
+array (
+)
+2025-07-17T10:47:29+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "SdMcNHU5b\/6eMOHmuAwyC48HtiiK7YP7LqnFSyVcxhhPSrL7CLD+vHwCqM2Onuilom8pLW7KpINLSTusWgZnjXC5Qyl276\/976gm62lq8w3AvB+BVj7F7jhFNHAoikDqRfe90uxnqR1Di3HbGdS+iPJZJ36yTdyRLai7K0XEdvHbNmf2v4CRkgQFnp2i1vsiuW4WCB+G9tMBzd9itCS\/duPpohOzw6nDxE4mgfJYomdrcfjY4O+WWM48JDuf930r3BZ3n9X0GpxeAdC4jSqYt1gURY\/DVdaA28o7\/HwyZJU\/JJOEN1\/hRLLJI9bwOr8ifScgy359vegr1nl0snv9EA==",
+    "expires_at": 1752751040028
+}
+array (
+)
+2025-07-17T10:47:44+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "SdMcNHU5b\/6eMOHmuAwyC48HtiiK7YP7LqnFSyVcxhhPSrL7CLD+vHwCqM2Onuilom8pLW7KpINLSTusWgZnjXC5Qyl276\/976gm62lq8w3AvB+BVj7F7jhFNHAoikDqRfe90uxnqR1Di3HbGdS+iPJZJ36yTdyRLai7K0XEdvHbNmf2v4CRkgQFnp2i1vsiuW4WCB+G9tMBzd9itCS\/duPpohOzw6nDxE4mgfJYomdrcfjY4O+WWM48JDuf930r3BZ3n9X0GpxeAdC4jSqYt1gURY\/DVdaA28o7\/HwyZJU\/JJOEN1\/hRLLJI9bwOr8ifScgy359vegr1nl0snv9EA==",
+    "expires_at": 1752751040028
+}
+array (
+)
+2025-07-17T12:07:09+00:00 DEBUG Notificação de atualização ignorada para o pedido 183 pois o conteúdo é o mesmo da última atualização. (Atualizado via Cron)
+array (
+)
+2025-07-17T19:23:33+00:00 DEBUG Notificação de atualização ignorada para o pedido 183 pois o conteúdo é o mesmo da última atualização. (Atualizado via Cron)
+array (
+)
+2025-07-17T19:29:36+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T19:29:36+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T19:29:36+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "k\/ZOvmsECFxQNqumPRGvmStxWev9jfaoRgiEi8jNria18iQvJP7E23mheqn390O4K+UJOvSUbFGdtVVlkao41c8LsaGaBmGUufT+d5CRTjhTu47uEpRMkzTqI\/j6vqkOFQbS67xcIt7K8VN97JTP5pr9UZnpJ2OJWWq2AEkJ3JOcXHi\/c\/CSoJKTABymi1yePyXMzVIh8gvdBjHX6k2WcgNB4z93DRjr\/EuVXbefoXtkytbta89D2Nvl1VX8uahQYNxKMO9XDDa5B3YwLv2oDfkkzaQdXFBI68Zfcb079aD35e68ZV5Ii2TlQsq7OolMBFfPnz5CvX4Bkl+o4fB0Ug==",
+    "expires_at": 1752782376674
+}
+array (
+)
+2025-07-17T19:29:36+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:29:38+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:31:03+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [error] => credit_card_bin_data_not_found
+                    [description] => credit_card_bin data not found.
+                    [parameter_name] => credit_card_bin
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 8900
+            [credit_card_bin] => 453962
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-17T19:32:03+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 209,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "126",
+            "name": "Camisa Preta",
+            "quantity": 1,
+            "unit_amount": 8900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=a5a86"
+    ],
+    "charges": [
+        {
+            "amount": {
+                "value": 8900,
+                "currency": "BRL"
+            },
+            "payment_method": {
+                "type": "CREDIT_CARD",
+                "installments": 1,
+                "capture": true,
+                "soft_descriptor": "",
+                "card": {
+                    "encrypted": "SqfX+osgoZ0SaqpL5PmDehIQiU5MUlvhfc7OT7H2lMXlkythGG6qqy44rF5LkmweduoDwQof3Tx2B3ujw9mvipXSCmSNa5C10Fn46sVuDvc64y1i3QXudUj0pokcK3CU45fKY+21FaZSuJFyXWmNV+B9Vkshy39yr4vXfRWaDXqA3UIUsISwqRdOBZmdI1sJoXgcEntwuXS24kfpxZXpC+NMACYP2+awiqJUPSp+ezi5yIc8tOqRfTyzRJ+KQsaSvXJAw5nwa8vZSY2Fi0V5Qz0HummTO3AJJfv2W0CwUfp815k7slp92nlzUnc7z+Q6C6oUA9GhRHTvfJrF9rfVVQ==",
+                    "holder": {
+                        "name": "TESTE"
+                    }
+                }
+            }
+        }
+    ]
+}
+array (
+)
+2025-07-17T19:32:05+00:00 DEBUG Response from ws/orders: {
+    "id": "ORDE_034D03AD-D9DC-45D8-AFC5-90AD305BA4BA",
+    "reference_id": "209",
+    "created_at": "2025-07-17T16:32:03.270-03:00",
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888"
+    },
+    "items": [
+        {
+            "reference_id": "126",
+            "name": "Camisa Preta",
+            "quantity": 1,
+            "unit_amount": 8900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "charges": [
+        {
+            "id": "CHAR_7C42988F-7A4E-4D37-85C3-F5E095143544",
+            "status": "DECLINED",
+            "created_at": "2025-07-17T16:32:03.464-03:00",
+            "description": "",
+            "amount": {
+                "value": 8900,
+                "currency": "BRL",
+                "summary": {
+                    "total": 8900,
+                    "paid": 0,
+                    "refunded": 0
+                }
+            },
+            "payment_response": {
+                "code": "10000",
+                "message": "NAO AUTORIZADO PELO PAGSEGURO"
+            },
+            "payment_method": {
+                "type": "CREDIT_CARD",
+                "installments": 1,
+                "capture": true,
+                "card": {
+                    "brand": "visa",
+                    "first_digits": "453962",
+                    "last_digits": "2097",
+                    "exp_month": "12",
+                    "exp_year": "2020",
+                    "holder": {
+                        "name": "TESTE"
+                    }
+                },
+                "soft_descriptor": "AlexSandroPimenta"
+            },
+            "links": [
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/api.pagseguro.com\/charges\/CHAR_7C42988F-7A4E-4D37-85C3-F5E095143544",
+                    "media": "application\/json",
+                    "type": "GET"
+                },
+                {
+                    "rel": "CHARGE.CANCEL",
+                    "href": "https:\/\/api.pagseguro.com\/charges\/CHAR_7C42988F-7A4E-4D37-85C3-F5E095143544\/cancel",
+                    "media": "application\/json",
+                    "type": "POST"
+                }
+            ]
+        }
+    ],
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=a5a86"
+    ],
+    "links": [
+        {
+            "rel": "SELF",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_034D03AD-D9DC-45D8-AFC5-90AD305BA4BA",
+            "media": "application\/json",
+            "type": "GET"
+        },
+        {
+            "rel": "PAY",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_034D03AD-D9DC-45D8-AFC5-90AD305BA4BA\/pay",
+            "media": "application\/json",
+            "type": "POST"
+        }
+    ]
+}
+array (
+)
+2025-07-17T19:32:06+00:00 DEBUG Notification received: {"id":"ORDE_034D03AD-D9DC-45D8-AFC5-90AD305BA4BA","reference_id":"209","created_at":"2025-07-17T16:32:03.270-03:00","customer":{"name":"ALEX JUNIOR","email":"desenvolvedorweb21@gmail.com","tax_id":"48960103888"},"items":[{"reference_id":"126","name":"Camisa Preta","quantity":1,"unit_amount":8900}],"shipping":{"address":{"street":"RUA DESEMBARGADOR ARLINDO PERERIA LIMA","number":"...","complement":"Casa","locality":"...","city":"São Paulo","region_code":"SP","country":"BRA","postal_code":"68900070"}},"charges":[{"id":"CHAR_7C42988F-7A4E-4D37-85C3-F5E095143544","status":"DECLINED","created_at":"2025-07-17T16:32:03.464-03:00","amount":{"value":8900,"currency":"BRL","summary":{"total":8900,"paid":0,"refunded":0}},"payment_response":{"code":"10000","message":"NAO AUTORIZADO PELO PAGSEGURO"},"payment_method":{"type":"CREDIT_CARD","installments":1,"capture":true,"card":{"brand":"visa","first_digits":"453962","last_digits":"2097","exp_month":"12","exp_year":"2020","holder":{"name":"TESTE"}},"soft_descriptor":"AlexSandroPimenta"},"links":[{"rel":"SELF","href":"https://api.pagseguro.com/charges/CHAR_7C42988F-7A4E-4D37-85C3-F5E095143544","media":"application/json","type":"GET"},{"rel":"CHARGE.CANCEL","href":"https://api.pagseguro.com/charges/CHAR_7C42988F-7A4E-4D37-85C3-F5E095143544/cancel","media":"application/json","type":"POST"}],"metadata":{}}],"notification_urls":["https://jadirstore.webdevsolutions.com.br/?wc-api=rm_ps_notif&hash=a5a86"],"links":[{"rel":"SELF","href":"https://api.pagseguro.com/orders/ORDE_034D03AD-D9DC-45D8-AFC5-90AD305BA4BA","media":"application/json","type":"GET"},{"rel":"PAY","href":"https://api.pagseguro.com/orders/ORDE_034D03AD-D9DC-45D8-AFC5-90AD305BA4BA/pay","media":"application/json","type":"POST"}]}
+array (
+  'hash' => 'a5a86',
+)
+2025-07-17T19:32:53+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 209,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "126",
+            "name": "Camisa Preta",
+            "quantity": 1,
+            "unit_amount": 8900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=a5a86"
+    ],
+    "qr_codes": [
+        {
+            "amount": {
+                "value": 8900,
+                "currency": "BRL"
+            },
+            "expiration_date": "2025-07-18T19:32:53+00:00"
+        }
+    ]
+}
+array (
+)
+2025-07-17T19:32:53+00:00 DEBUG Response from ws/orders: {
+    "id": "ORDE_8F2D9313-2D12-4D35-8AEC-8FB603067706",
+    "reference_id": "209",
+    "created_at": "2025-07-17T16:32:53.497-03:00",
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888"
+    },
+    "items": [
+        {
+            "reference_id": "126",
+            "name": "Camisa Preta",
+            "quantity": 1,
+            "unit_amount": 8900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "qr_codes": [
+        {
+            "id": "QRCO_EF816048-A988-417C-8E7C-D9D383F38898",
+            "expiration_date": "2025-07-18T16:32:53.000-03:00",
+            "amount": {
+                "value": 8900
+            },
+            "text": "00020101021226830014br.gov.bcb.pix2561api.pagseguro.com\/pix\/v2\/EF816048-A988-417C-8E7C-D9D383F3889827600016BR.COM.PAGSEGURO0136EF816048-A988-417C-8E7C-D9D383F38898520489995303986540589.005802BR5922ALEX SANDRO PIMENTA JU6009SAO PAULO62070503***6304FDF1",
+            "arrangements": [
+                "PIX"
+            ],
+            "links": [
+                {
+                    "rel": "QRCODE.PNG",
+                    "href": "https:\/\/api.pagseguro.com\/qrcode\/QRCO_EF816048-A988-417C-8E7C-D9D383F38898\/png",
+                    "media": "image\/png",
+                    "type": "GET"
+                },
+                {
+                    "rel": "QRCODE.BASE64",
+                    "href": "https:\/\/api.pagseguro.com\/qrcode\/QRCO_EF816048-A988-417C-8E7C-D9D383F38898\/base64",
+                    "media": "text\/plain",
+                    "type": "GET"
+                }
+            ]
+        }
+    ],
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=a5a86"
+    ],
+    "links": [
+        {
+            "rel": "SELF",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_8F2D9313-2D12-4D35-8AEC-8FB603067706",
+            "media": "application\/json",
+            "type": "GET"
+        },
+        {
+            "rel": "PAY",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_8F2D9313-2D12-4D35-8AEC-8FB603067706\/pay",
+            "media": "application\/json",
+            "type": "POST"
+        }
+    ]
+}
+array (
+)
+2025-07-17T19:32:54+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:32:58+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:33:32+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:33:33+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:33:51+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 209,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "126",
+            "name": "Camisa Preta",
+            "quantity": 1,
+            "unit_amount": 8900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=a5a86"
+    ],
+    "charges": [
+        {
+            "reference_id": "209",
+            "amount": {
+                "value": 8900,
+                "currency": "BRL"
+            },
+            "payment_method": {
+                "type": "BOLETO",
+                "boleto": {
+                    "due_date": "2025-07-24",
+                    "instruction_lines": {
+                        "line_1": "Sr. Caixa, favor n\u00e3o aceitar ap\u00f3s vencimento.",
+                        "line_2": "Obrigado por comprar em nossa loja!"
+                    },
+                    "holder": {
+                        "name": "ALEX JUNIOR",
+                        "tax_id": "48960103888",
+                        "email": "desenvolvedorweb21@gmail.com",
+                        "address": {
+                            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+                            "number": "...",
+                            "locality": "...",
+                            "city": "S\u00e3o Paulo",
+                            "region": "S\u00e3o Paulo",
+                            "region_code": "SP",
+                            "country": "BRA",
+                            "postal_code": "68900070"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+array (
+)
+2025-07-17T19:33:52+00:00 DEBUG Response from ws/orders: {
+    "id": "ORDE_7035441D-4381-41B1-9C0B-07ED655CF218",
+    "reference_id": "209",
+    "created_at": "2025-07-17T16:33:51.599-03:00",
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888"
+    },
+    "items": [
+        {
+            "reference_id": "126",
+            "name": "Camisa Preta",
+            "quantity": 1,
+            "unit_amount": 8900
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "charges": [
+        {
+            "id": "CHAR_85428C3E-C245-4B43-B231-22A19D215090",
+            "reference_id": "209",
+            "status": "WAITING",
+            "created_at": "2025-07-17T16:33:51.793-03:00",
+            "description": "",
+            "amount": {
+                "value": 8900,
+                "currency": "BRL",
+                "summary": {
+                    "total": 8900,
+                    "paid": 0,
+                    "refunded": 0
+                }
+            },
+            "payment_response": {
+                "code": "20000",
+                "message": "SUCESSO"
+            },
+            "payment_method": {
+                "type": "BOLETO",
+                "boleto": {
+                    "id": "EF7F6BCF-CB7E-40A7-8D24-A5DFC278C4C8",
+                    "barcode": "08197081080010000001701045284450111520000008900",
+                    "formatted_barcode": "08197.08108 00100.000017 01045.284450 1 11520000008900",
+                    "due_date": "2025-07-24",
+                    "instruction_lines": {
+                        "line_1": "Sr. Caixa, favor n\u00e3o aceitar ap\u00f3s vencimento.",
+                        "line_2": "Obrigado por comprar em nossa loja!"
+                    },
+                    "holder": {
+                        "name": "ALEX JUNIOR",
+                        "tax_id": "48960103888",
+                        "email": "desenvolvedorweb21@gmail.com",
+                        "address": {
+                            "region": "S\u00e3o Paulo",
+                            "city": "S\u00e3o Paulo",
+                            "postal_code": "68900070",
+                            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+                            "number": "...",
+                            "locality": "...",
+                            "country": "BRA",
+                            "region_code": "SP"
+                        }
+                    }
+                }
+            },
+            "links": [
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/boleto.pagseguro.com.br\/ef7f6bcf-cb7e-40a7-8d24-a5dfc278c4c8.pdf",
+                    "media": "application\/pdf",
+                    "type": "GET"
+                },
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/boleto.pagseguro.com.br\/ef7f6bcf-cb7e-40a7-8d24-a5dfc278c4c8.png",
+                    "media": "image\/png",
+                    "type": "GET"
+                },
+                {
+                    "rel": "SELF",
+                    "href": "https:\/\/api.pagseguro.com\/charges\/CHAR_85428C3E-C245-4B43-B231-22A19D215090",
+                    "media": "application\/json",
+                    "type": "GET"
+                }
+            ]
+        }
+    ],
+    "notification_urls": [
+        "https:\/\/jadirstore.webdevsolutions.com.br\/?wc-api=rm_ps_notif&hash=a5a86"
+    ],
+    "links": [
+        {
+            "rel": "SELF",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_7035441D-4381-41B1-9C0B-07ED655CF218",
+            "media": "application\/json",
+            "type": "GET"
+        },
+        {
+            "rel": "PAY",
+            "href": "https:\/\/api.pagseguro.com\/orders\/ORDE_7035441D-4381-41B1-9C0B-07ED655CF218\/pay",
+            "media": "application\/json",
+            "type": "POST"
+        }
+    ]
+}
+array (
+)
+2025-07-17T19:33:52+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "EsfVfLyBNhomSF5QBk1GF0EHks0N\/vNIjqGju9nNG5KB4VKAUY7zJlqOW\/eplgmCQKR+RNvw84qNBktpf7TrtoqIZa1dMwwILPhEhu5sDWXkunDxTWu5qgFRGZP99i5Ha9ZySx+rSHrJi\/2Bzq0wpJHTglkmB36hGSJDmapUcddsIgOaStFcNgo6xBsWWzFgf+Fs21m9VkkZdys\/2lmDcHcmUB8rdtGcDGSXHUAgtQS1UiSjACsNJM+E+dvD1\/tC1oZCXTHAvKF0uWPI71O5GlwN6rQKySxFLf2JMjk1qXy7JS4xEEvNKaHp8VgllUI49g26EMd5uIb1GDIwdpaP3A==",
+    "expires_at": 1752782376761
+}
+array (
+)
+2025-07-17T19:33:52+00:00 DEBUG Notification received: {"id":"ORDE_7035441D-4381-41B1-9C0B-07ED655CF218","reference_id":"209","created_at":"2025-07-17T16:33:51.599-03:00","customer":{"name":"ALEX JUNIOR","email":"desenvolvedorweb21@gmail.com","tax_id":"48960103888"},"items":[{"reference_id":"126","name":"Camisa Preta","quantity":1,"unit_amount":8900}],"shipping":{"address":{"street":"RUA DESEMBARGADOR ARLINDO PERERIA LIMA","number":"...","complement":"Casa","locality":"...","city":"São Paulo","region_code":"SP","country":"BRA","postal_code":"68900070"}},"charges":[{"id":"CHAR_85428C3E-C245-4B43-B231-22A19D215090","reference_id":"209","status":"WAITING","created_at":"2025-07-17T16:33:51.793-03:00","amount":{"value":8900,"currency":"BRL","summary":{"total":8900,"paid":0,"refunded":0}},"payment_response":{"code":"20000","message":"SUCESSO"},"payment_method":{"type":"BOLETO","boleto":{"id":"EF7F6BCF-CB7E-40A7-8D24-A5DFC278C4C8","barcode":"08197081080010000001701045284450111520000008900","formatted_barcode":"08197.08108 00100.000017 01045.284450 1 11520000008900","due_date":"2025-07-24","instruction_lines":{"line_1":"Sr. Caixa, favor não aceitar após vencimento.","line_2":"Obrigado por comprar em nossa loja!"},"holder":{"name":"ALEX JUNIOR","tax_id":"48960103888","email":"desenvolvedorweb21@gmail.com","address":{"region":"São Paulo","city":"São Paulo","postal_code":"68900070","street":"RUA DESEMBARGADOR ARLINDO PERERIA LIMA","number":"...","locality":"...","country":"Brasil","region_code":"SP"}},"days_until_expiration":10}},"links":[{"rel":"SELF","href":"https://boleto.pagseguro.com.br/ef7f6bcf-cb7e-40a7-8d24-a5dfc278c4c8.pdf","media":"application/pdf","type":"GET"},{"rel":"SELF","href":"https://boleto.pagseguro.com.br/ef7f6bcf-cb7e-40a7-8d24-a5dfc278c4c8.png","media":"image/png","type":"GET"},{"rel":"SELF","href":"https://api.pagseguro.com/charges/CHAR_85428C3E-C245-4B43-B231-22A19D215090","media":"application/json","type":"GET"}],"metadata":{}}],"notification_urls":["https://jadirstore.webdevsolutions.com.br/?wc-api=rm_ps_notif&hash=a5a86"],"links":[{"rel":"SELF","href":"https://api.pagseguro.com/orders/ORDE_7035441D-4381-41B1-9C0B-07ED655CF218","media":"application/json","type":"GET"},{"rel":"PAY","href":"https://api.pagseguro.com/orders/ORDE_7035441D-4381-41B1-9C0B-07ED655CF218/pay","media":"application/json","type":"POST"}]}
+array (
+  'hash' => 'a5a86',
+)
+2025-07-17T19:46:38+00:00 DEBUG Notificação de atualização ignorada para o pedido 209 pois o conteúdo é o mesmo da última atualização. (Atualizado via Cron)
+array (
+)
+2025-07-17T20:27:04+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T20:27:04+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T20:27:04+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "CCSimSFWasQ3g21SADbNKYZ88sGk7PQusbmG8L6V2Y9M2TmZgZOn48eXQZuZ0dMtz5hKqTPdbmjp9+tdr8r5u92LKp0ZDC5NEhY66SmH25Cptah9RU1dsPyemZqyEy3eTz\/RY77fVn6AS0QaX8gbaUqjrVpfPlgn+dDsPbQAF6lBRIpa68uBhkV4bEfszJEv4G\/7Up3xv00HhE3\/BYzRP\/kQhtJogknl+tIy1ffbnFFKtEk9b0F7cQy6QamxKnVTvvaL5hmXCDeP5\/njghXAtBbLnztAu1KVSWC2unEnazZvs+5fxodndX2RwgmaToY3kDnwJ+g7tmgsAKexIRG+Mg==",
+    "expires_at": 1752785824318
+}
+array (
+)
+2025-07-17T20:27:04+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:27:10+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:29:39+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:29:49+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:29:55+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:29:57+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:30:43+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:31:53+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:31:53+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "session": "BX9oYiaF1xPPF8KxniapCwKMA+9dYRzIRfZ0yj8nmVDm6XmxfDel\/fAslw1yOK2y0Ubd23v3wWDmRbacN3eGN7UqFBxtJWbwaecvBAGzyt3+rMRjQEWDgzm6YruNI\/WD5Xx3\/8N\/Xbf4NlLp55wsGQrFVKsAVhbOcgBvK1vpV2KQMix+4ZOuHznmwah9qLxx2nnYCctQv\/RBPhkwZEyzlr\/jNCC9rsM03pT70nPtoKGUP4cGxGK3Eq1UTqg3SH8ssZQzdOi8gBNYaT1vRLeGcC0qm162BkRYLZ5DudjsZCrnScrTIKXfQqmhsl+5HsDNgkNzf1NIIdO1OGK74jaRgQ==",
+    "expires_at": 1752785824317
+}
+array (
+)
+2025-07-17T20:32:49+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T20:32:49+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-17T20:32:49+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "kHaaTjEI9oriHyf78SGQ2GzHTYE\/7aTfhlwRxTy3dfspPDMuCeJstEcpI+Ls+aoDgsRWuU1pO9nR8o+T\/+3WfNxrcw5veum9hinu5kPT\/fCnZ8Aa+Y2US0mhiDs41PIGKwHuj6E6cVOnvmO3s\/oOJoZtVcF3fkFs4+dWjRlumajfJKUvjG0U2T5Vb0lydfVhVX8E45Y80YEcRtH\/tmuHArM\/8E7M+QcJ8eqLhmWYoOipsjrABPw2yodbZ\/8K\/zizesYRknN2GubZxHO7PPt\/IRq0wzmxS8QoHNR6R0CeR9v7ztgz3GK7+kiuuRScNqPtTxtplGq6wy8j7mzD5a\/exQ==",
+    "expires_at": 1752786169812
+}
+array (
+)
+2025-07-17T20:32:49+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "session": "CJ4XYej9alOD5BSEmeHXMPgEOTcS6XIyRPN6quQ+LUgK3VUZl0SA231ZoBFQD0EVS5z9mEFSOBADm6HnYxceHCw8kbbYNvyxT+3PGgwdJmZh5UJBdkUs\/OheovpPdjBTP\/G4T5pSPuaxG4AdWlODxNsJVGAqgXBQwzApK4zbtFAmBPrilxmGkFHIXLeFNz9ZFCHeh\/r6cCVeCUsUa8OREHQbZ8OU+9qDosyFLeTzQNnBpoTxdRUqPbB+vXE+wFgkeRD2137Bj5pCqi0dy1ST2HESGQ9GPp2q\/MV6oKM2kaGYQlOEV8C0TBusXfWD1SfWNnFPc0LDYEtENxhmYru2mQ==",
+    "expires_at": 1752786169898
+}
+array (
+)

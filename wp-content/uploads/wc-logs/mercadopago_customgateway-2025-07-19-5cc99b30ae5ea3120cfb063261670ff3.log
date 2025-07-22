@@ -1,0 +1,392 @@
+2025-07-19T01:55:08+00:00 ERROR Message: <strong>O banco emissor do cartão recusou seu pagamento</strong><br>Recomendamos que você pague com outro meio de pagamento ou entre em contato com seu banco. \n\n\nStackstrace: #0 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce-mercadopago/src/Gateways/CustomGateway.php(826): MercadoPago\Woocommerce\Gateways\AbstractGateway->handleWithRejectPayment()
+#1 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce-mercadopago/src/Gateways/CustomGateway.php(586): MercadoPago\Woocommerce\Gateways\CustomGateway->handleResponseStatus()
+#2 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Legacy.php(56): MercadoPago\Woocommerce\Gateways\CustomGateway->process_payment()
+#3 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment()
+#4 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CheckoutTrait.php(82): do_action_ref_array()
+#7 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Checkout.php(557): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment()
+#8 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response()
+#9 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Checkout.php(158): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method()
+#10 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api/class-wp-rest-server.php(1292): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response()
+#11 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request()
+#12 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#13 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api.php(459): WP_REST_Server->serve_request()
+#14 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#15 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#16 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp.php(418): do_action_ref_array()
+#18 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp.php(818): WP->parse_request()
+#19 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/functions.php(1342): WP->main()
+#20 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-blog-header.php(16): wp()
+#21 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/index.php(17): require('/home/u23056425...')
+#22 {main} \n\n\n - Context: {
+    "id": 1339447017,
+    "date_created": "2025-07-18T21:55:08.206-04:00",
+    "date_last_updated": "2025-07-18T21:55:08.535-04:00",
+    "operation_type": "regular_payment",
+    "issuer_id": "24",
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "status": "rejected",
+    "status_detail": "cc_rejected_other_reason",
+    "currency_id": "BRL",
+    "description": "Camiseta Masculina Lisa GuGi Básica Sem Estampa 100% Algodão Macio 30.1 CM01-LISA - Branco, G x 1",
+    "live_mode": false,
+    "authorization_code": "000000",
+    "taxes_amount": 0,
+    "shipping_amount": 0,
+    "collector_id": 761693161,
+    "payer": {
+        "id": "2568296996"
+    },
+    "metadata": {
+        "settings": {
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/jadirstore.webdevsolutions.com.br",
+        "php_version": "8.2.27",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "zip_code": "68900070",
+            "street_name": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA"
+        },
+        "module_version": "8.3.3",
+        "cpp_extra": {
+            "platform_version": "10.0.2",
+            "module_version": "8.3.3"
+        },
+        "blocks_payment": "yes",
+        "sponsor_id": "208686191",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "original_notification_url": "https:\/\/jadirstore.webdevsolutions.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "platform_version": "10.0.2",
+        "auto_update": false,
+        "test_mode": "1",
+        "site_id": "mlb",
+        "theme": {
+            "theme_name": "jadir_store"
+        },
+        "checkout": "custom",
+        "user": {
+            "user_email": "desenvolvedorweb21@gmail.com",
+            "registered_user": "yes",
+            "user_registration_date": "2025-07-02T18:05:48.000+00:00"
+        }
+    },
+    "additional_info": {
+        "ip_address": "2a02:4780:13:1985:0:dbe:219c:4",
+        "nsu_processadora": "30121999",
+        "items": [
+            {
+                "quantity": "1",
+                "picture_url": "https:\/\/jadirstore.webdevsolutions.com.br\/wp-content\/uploads\/2025\/07\/kf-Afa8d6c9d080b480bbeca0bd2e4e94dfcr.webp",
+                "category_id": "others",
+                "id": "309",
+                "title": "Camiseta Masculina Lisa GuGi Básica Sem Estampa 100% Algodão Macio 30.1 CM01-LISA - Branco, G x 1",
+                "unit_price": "87.65"
+            }
+        ],
+        "payer": {
+            "address": {
+                "zip_code": "68900-070",
+                "street_name": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA"
+            },
+            "registration_date": "2025-07-02 18:05:48",
+            "phone": {
+                "number": "11968812993"
+            },
+            "last_name": "JUNIOR",
+            "first_name": "ALEX"
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "68900-070",
+                "street_name": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+                "apartment": "Casa"
+            }
+        },
+        "tracking_id": "platform:v1-whitelabel,so:ALL,type:N\/A,security:none"
+    },
+    "external_reference": "JADIR STORE409",
+    "transaction_amount": 87.65,
+    "transaction_amount_refunded": 0,
+    "coupon_amount": 0,
+    "transaction_details": {
+        "net_received_amount": 0,
+        "total_paid_amount": 87.65,
+        "overpaid_amount": 0,
+        "installment_amount": 87.65
+    },
+    "captured": true,
+    "binary_mode": false,
+    "statement_descriptor": "Mercadopago*fake",
+    "installments": 1,
+    "card": {
+        "first_six_digits": "503143",
+        "last_four_digits": "6351",
+        "expiration_month": 11,
+        "expiration_year": 2030,
+        "date_created": "2025-07-18T21:55:08.000-04:00",
+        "date_last_updated": "2025-07-18T21:55:08.000-04:00",
+        "tags": [
+            "credit"
+        ],
+        "cardholder": {
+            "name": "JADIR STORE",
+            "identification": {
+                "number": "12345678909",
+                "type": "CPF"
+            }
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/payment-notification\/webhook\/production?source_news=webhooks&notify_all=false&p=bo2hnr2ic4p001kbgpt0",
+    "processing_mode": "aggregator",
+    "acquirer": "rede",
+    "point_of_interaction": {
+        "type": "UNSPECIFIED",
+        "business_info": {
+            "unit": "online_payments",
+            "sub_unit": "woocommerce",
+            "branch": "Merchant Services"
+        }
+    },
+    "build_version": "3.115.0-rc-1",
+    "charges_details": [
+        {
+            "id": "1339447017-001",
+            "name": "mercadopago_fee",
+            "type": "fee",
+            "accounts": {
+                "from": "collector",
+                "to": "mp"
+            },
+            "client_id": 0,
+            "date_created": "2025-07-18T21:55:08.209-04:00",
+            "last_updated": "2025-07-18T21:55:08.209-04:00",
+            "amounts": {
+                "original": 1.75,
+                "refunded": 0
+            },
+            "metadata": {
+                "source": "rule-engine"
+            }
+        }
+    ],
+    "money_release_status": "released",
+    "payment_method": {
+        "id": "master",
+        "type": "credit_card",
+        "issuer_id": "24",
+        "data": {
+            "routing_data": {
+                "merchant_account_id": "60272716"
+            }
+        }
+    },
+    "platform_id": "bo2hnr2ic4p001kbgpt0"
+}
+2025-07-19T01:55:22+00:00 ERROR Message: <strong>O banco emissor do cartão recusou seu pagamento</strong><br>Recomendamos que você pague com outro meio de pagamento ou entre em contato com seu banco. \n\n\nStackstrace: #0 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce-mercadopago/src/Gateways/CustomGateway.php(826): MercadoPago\Woocommerce\Gateways\AbstractGateway->handleWithRejectPayment()
+#1 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce-mercadopago/src/Gateways/CustomGateway.php(586): MercadoPago\Woocommerce\Gateways\CustomGateway->handleResponseStatus()
+#2 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Legacy.php(56): MercadoPago\Woocommerce\Gateways\CustomGateway->process_payment()
+#3 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment()
+#4 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CheckoutTrait.php(82): do_action_ref_array()
+#7 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Checkout.php(557): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment()
+#8 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/AbstractRoute.php(119): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response()
+#9 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-content/plugins/woocommerce/src/StoreApi/Routes/V1/Checkout.php(158): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method()
+#10 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api/class-wp-rest-server.php(1292): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response()
+#11 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api/class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request()
+#12 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#13 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/rest-api.php(459): WP_REST_Server->serve_request()
+#14 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#15 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#16 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#17 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp.php(418): do_action_ref_array()
+#18 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/class-wp.php(818): WP->parse_request()
+#19 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-includes/functions.php(1342): WP->main()
+#20 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/wp-blog-header.php(16): wp()
+#21 /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/index.php(17): require('/home/u23056425...')
+#22 {main} \n\n\n - Context: {
+    "id": 1339443589,
+    "date_created": "2025-07-18T21:55:21.939-04:00",
+    "date_last_updated": "2025-07-18T21:55:22.254-04:00",
+    "operation_type": "regular_payment",
+    "issuer_id": "24",
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "status": "rejected",
+    "status_detail": "cc_rejected_other_reason",
+    "currency_id": "BRL",
+    "description": "Camiseta Masculina Lisa GuGi Básica Sem Estampa 100% Algodão Macio 30.1 CM01-LISA - Branco, G x 1",
+    "live_mode": false,
+    "authorization_code": "000000",
+    "taxes_amount": 0,
+    "shipping_amount": 0,
+    "collector_id": 761693161,
+    "payer": {
+        "id": "2568296996"
+    },
+    "metadata": {
+        "settings": {
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "currency_conversion": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/jadirstore.webdevsolutions.com.br",
+        "php_version": "8.2.27",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "zip_code": "68900070",
+            "street_name": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA"
+        },
+        "module_version": "8.3.3",
+        "cpp_extra": {
+            "platform_version": "10.0.2",
+            "module_version": "8.3.3"
+        },
+        "blocks_payment": "yes",
+        "sponsor_id": "208686191",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "original_notification_url": "https:\/\/jadirstore.webdevsolutions.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "platform_version": "10.0.2",
+        "auto_update": false,
+        "test_mode": "1",
+        "site_id": "mlb",
+        "theme": {
+            "theme_name": "jadir_store"
+        },
+        "checkout": "custom",
+        "user": {
+            "user_email": "desenvolvedorweb21@gmail.com",
+            "registered_user": "yes",
+            "user_registration_date": "2025-07-02T18:05:48.000+00:00"
+        }
+    },
+    "additional_info": {
+        "ip_address": "2a02:4780:13:1985:0:dbe:219c:4",
+        "nsu_processadora": "30121999",
+        "items": [
+            {
+                "quantity": "1",
+                "picture_url": "https:\/\/jadirstore.webdevsolutions.com.br\/wp-content\/uploads\/2025\/07\/kf-Afa8d6c9d080b480bbeca0bd2e4e94dfcr.webp",
+                "category_id": "others",
+                "id": "309",
+                "title": "Camiseta Masculina Lisa GuGi Básica Sem Estampa 100% Algodão Macio 30.1 CM01-LISA - Branco, G x 1",
+                "unit_price": "87.65"
+            }
+        ],
+        "payer": {
+            "address": {
+                "zip_code": "68900-070",
+                "street_name": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA"
+            },
+            "registration_date": "2025-07-02 18:05:48",
+            "phone": {
+                "number": "11968812993"
+            },
+            "last_name": "JUNIOR",
+            "first_name": "ALEX"
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "68900-070",
+                "street_name": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+                "apartment": "Casa"
+            }
+        },
+        "tracking_id": "platform:v1-whitelabel,so:ALL,type:N\/A,security:none"
+    },
+    "external_reference": "JADIR STORE409",
+    "transaction_amount": 87.65,
+    "transaction_amount_refunded": 0,
+    "coupon_amount": 0,
+    "transaction_details": {
+        "net_received_amount": 0,
+        "total_paid_amount": 87.65,
+        "overpaid_amount": 0,
+        "installment_amount": 87.65
+    },
+    "captured": true,
+    "binary_mode": false,
+    "statement_descriptor": "Mercadopago*fake",
+    "installments": 1,
+    "card": {
+        "first_six_digits": "503143",
+        "last_four_digits": "6351",
+        "expiration_month": 11,
+        "expiration_year": 2030,
+        "date_created": "2025-07-18T21:55:21.000-04:00",
+        "date_last_updated": "2025-07-18T21:55:21.000-04:00",
+        "tags": [
+            "credit"
+        ],
+        "cardholder": {
+            "name": "JADIR STORE",
+            "identification": {
+                "number": "48960103888",
+                "type": "CPF"
+            }
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/payment-notification\/webhook\/production?source_news=webhooks&notify_all=false&p=bo2hnr2ic4p001kbgpt0",
+    "processing_mode": "aggregator",
+    "acquirer": "rede",
+    "point_of_interaction": {
+        "type": "UNSPECIFIED",
+        "business_info": {
+            "unit": "online_payments",
+            "sub_unit": "woocommerce",
+            "branch": "Merchant Services"
+        }
+    },
+    "build_version": "3.115.0-rc-1",
+    "charges_details": [
+        {
+            "id": "1339443589-001",
+            "name": "mercadopago_fee",
+            "type": "fee",
+            "accounts": {
+                "from": "collector",
+                "to": "mp"
+            },
+            "client_id": 0,
+            "date_created": "2025-07-18T21:55:21.942-04:00",
+            "last_updated": "2025-07-18T21:55:21.942-04:00",
+            "amounts": {
+                "original": 1.75,
+                "refunded": 0
+            },
+            "metadata": {
+                "source": "rule-engine"
+            }
+        }
+    ],
+    "money_release_status": "released",
+    "payment_method": {
+        "id": "master",
+        "type": "credit_card",
+        "issuer_id": "24",
+        "data": {
+            "routing_data": {
+                "merchant_account_id": "60272716"
+            }
+        }
+    },
+    "platform_id": "bo2hnr2ic4p001kbgpt0"
+}

@@ -1,0 +1,1344 @@
+# Translation of Plugins - PagBank / PagSeguro Connect para WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - PagBank / PagSeguro Connect para WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-21 07:28:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - PagBank / PagSeguro Connect para WooCommerce - Stable (latest release)\n"
+
+#: admin/views/settings/cc-fields.php:125
+msgid "Nome que será exibido na fatura do Cliente. <a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945038495629-Identificador-na-fatura\" target=\"_blank\">Veja algumas dicas</a>."
+msgstr "Nome que será exibido na fatura do Cliente. <a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945038495629-Identificador-na-fatura\" target=\"_blank\">Veja algumas dicas</a>."
+
+#: admin/views/settings/cc-fields.php:109
+msgid "<a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/26223028355597-Exibir-informa%C3%A7%C3%B5es-de-parcelamento-na-p%C3%A1gina-de-produto\" target=\"_blank\">Saiba mais </a>"
+msgstr "<a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/26223028355597-Exibir-informa%C3%A7%C3%B5es-de-parcelamento-na-p%C3%A1gina-de-produto\" target=\"_blank\">Saiba mais </a>"
+
+#: admin/views/settings/cc-fields.php:98
+msgid "Shortcode de parcelamento"
+msgstr "Shortcode de parcelamento"
+
+#: admin/views/settings/cc-fields.php:68
+msgid "<a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945359660173-Op%C3%A7%C3%B5es-de-Parcelamento#limitar-parcelas\" target=\"_blank\">Saiba mais</a>"
+msgstr "<a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945359660173-Op%C3%A7%C3%B5es-de-Parcelamento#limitar-parcelas\" target=\"_blank\">Saiba mais</a>"
+
+#: src/Connect/Standalone/CreditCard.php:43
+msgid "Receba pagamentos com Cartão de Crédito via PagBank (por Ricardo Martins)"
+msgstr "Receba pagamentos com Cartão de Crédito via PagBank (por Ricardo Martins)"
+
+#: admin/views/settings/boleto-fields.php:17
+#: src/Connect/Standalone/Boleto.php:42 src/Connect/Standalone/Boleto.php:53
+msgid "Boleto via PagBank"
+msgstr "Boleto via PagBank"
+
+#: admin/views/settings/cc-fields.php:20
+#: src/Connect/Standalone/CreditCard.php:41
+#: src/Connect/Standalone/CreditCard.php:47
+msgid "Cartão de Crédito via PagBank"
+msgstr "Cartão de Crédito via PagBank"
+
+#: admin/views/settings/pix-fields.php:19
+msgid "PIX via PagBank"
+msgstr "PIX via PagBank"
+
+#: src/Connect/Standalone/Boleto.php:44
+msgid "Receba pagamentos com Boleto via PagBank (por Ricardo Martins)"
+msgstr "Receba pagamentos com Boleto via PagBank (por Ricardo Martins)"
+
+#: src/templates/product/product-installments-text-installment-max.php:20
+msgid "Em até <strong class=\"installment-x\">%sx</strong> de <strong class=\"installment-amount\">R$ %s</strong> no Cartão de Crédito com PagBank"
+msgstr "Em até <strong class=\"installment-x\">%sx</strong> de <strong class=\"installment-amount\">R$ %s</strong> no Cartão de Crédito com PagBank"
+
+#: src/templates/product/product-installments-text-installment-free.php:28
+msgid "Em até <strong class=\"installment-x\">%sx</strong> de <strong class=\"installment-amount\">R$ %s</strong> sem juros no Cartão de Crédito com PagBank"
+msgstr "Em até <strong class=\"installment-x\">%sx</strong> de <strong class=\"installment-amount\">R$ %s</strong> sem juros no Cartão de Crédito com PagBank"
+
+#: admin/views/settings/cc-fields.php:90
+msgid "Exibir informações de parcelamento na tela do produto?"
+msgstr "Exibir informações de parcelamento na tela do produto?"
+
+#: admin/views/settings/cc-fields.php:107
+msgid "Formato das informações de parcelamento"
+msgstr "Formato das informações de parcelamento"
+
+#: admin/views/settings/cc-fields.php:89
+msgid "Informações de Parcelamento"
+msgstr "Informações de Parcelamento"
+
+#: src/templates/product/product-installments-table.php:45
+msgid "Parcelamento PagBank"
+msgstr "Parcelamento PagBank"
+
+#: src/templates/product/product-installments-table.php:32
+msgid "Sem juros"
+msgstr "Sem juros"
+
+#: admin/views/settings/cc-fields.php:116
+msgid "Tabela com todas as parcelas"
+msgstr "Tabela com todas as parcelas"
+
+#: admin/views/settings/cc-fields.php:118
+msgid "Texto com parcela máxima"
+msgstr "Texto com parcela máxima"
+
+#: admin/views/settings/cc-fields.php:117
+msgid "Texto com parcela máxima sem juros"
+msgstr "Texto com parcela máxima sem juros"
+
+#: src/templates/product/product-installments-table.php:33
+msgid "Total: R$ "
+msgstr "Total: R$ "
+
+#: src/templates/product/product-installments-table.php:31
+msgid "x de R$ "
+msgstr "x de R$ "
+
+#: src/Connect/Payments/CreditCard.php:171
+msgid "Não foi possível obter as parcelas. Total do pedido inválido."
+msgstr "Não foi possível obter as parcelas. Total do pedido inválido."
+
+#: admin/views/settings/boleto-fields.php:69
+#: admin/views/settings/pix-fields.php:78
+#: admin/views/settings/redirect-fields.php:48
+msgid "Excluir Frete"
+msgstr "Excluir Frete"
+
+#: src/Cron/CancelExpiredPix.php:41
+msgid "PagBank: O código PIX expirou e o pagamento não foi identificado. O pedido foi cancelado."
+msgstr "PagBank: O código PIX expirou e o pagamento não foi identificado. O pedido foi cancelado."
+
+#: admin/views/settings/boleto-fields.php:72
+#: admin/views/settings/pix-fields.php:81
+#: admin/views/settings/redirect-fields.php:51
+msgid "Se marcado, o desconto não será aplicado sobre o valor do frete."
+msgstr "Se marcado, o desconto não será aplicado sobre o valor do frete."
+
+#: src/Connect.php:540
+msgid "Chave de formulário inválida. Recarregue a página e tente novamente."
+msgstr "Chave de formulário inválida. Recarregue a página e tente novamente."
+
+#: src/Connect.php:189
+msgid "Documentação"
+msgstr "Documentação"
+
+#: src/Connect.php:190
+msgid "Suporte"
+msgstr "Suporte"
+
+#: src/Connect/Exception.php:87
+msgid "E-mail do Cliente"
+msgstr "E-mail do Cliente"
+
+#: src/EnvioFacil.php:275
+msgid "% ou fixo, positivo ou negativo"
+msgstr "% ou fixo, positivo ou negativo"
+
+#: src/EnvioFacil.php:270
+msgid "Acrescente ou remova um valor fixo ou percentual do frete. <br/>Use o sinal de menos para descontar. <br/>Adicione o símbolo % para um valor percentual."
+msgstr "Acrescente ou remova um valor fixo ou percentual do frete. <br/>Use o sinal de menos para descontar. <br/>Adicione o símbolo % para um valor percentual."
+
+#: src/EnvioFacil.php:279
+msgid "Adicionar"
+msgstr "Adicionar"
+
+#: src/EnvioFacil.php:268
+msgid "Ajuste de preço"
+msgstr "Ajuste de preço"
+
+#: src/EnvioFacil.php:281
+msgid "dias à estimativa do frete."
+msgstr "dias à estimativa do frete."
+
+#: src/Helpers/Functions.php:168
+msgid "positivo"
+msgstr "positivo"
+
+#: src/Connect/Exception.php:79
+msgid "Autenticação 3D - Recarregue e tente novamente"
+msgstr "Autenticação 3D - Recarregue e tente novamente"
+
+#: admin/views/settings/general-fields.php:103
+msgid "Cor dos Ícones"
+msgstr "Cor dos Ícones"
+
+#: src/Connect/Exception.php:83
+msgid "Nome do Cliente"
+msgstr "Nome do Cliente"
+
+#: src/templates/payments/creditcard.php:24
+#: src/templates/recurring/my-account/form-change-credit-card.php:40
+msgid "como gravado no cartão"
+msgstr "como gravado no cartão"
+
+#: src/Helpers/Recurring.php:205
+msgid "anos"
+msgstr "anos"
+
+#: src/Helpers/Recurring.php:204
+msgid "meses"
+msgstr "meses"
+
+#: src/Helpers/Recurring.php:203
+msgid "semanas"
+msgstr "semanas"
+
+#: src/Helpers/Recurring.php:31 src/Helpers/Recurring.php:47
+msgid "Cancelado"
+msgstr "Cancelado"
+
+#: src/Helpers/Recurring.php:29 src/Helpers/Recurring.php:46
+msgid "Pendente"
+msgstr "Pendente"
+
+#: src/Helpers/Recurring.php:27 src/Helpers/Recurring.php:45
+msgid "Suspenso"
+msgstr "Suspenso"
+
+#: src/Helpers/Recurring.php:25 src/Helpers/Recurring.php:44
+msgid "Cancelamento Pendente"
+msgstr "Cancelamento Pendente"
+
+#: src/Helpers/Recurring.php:23 src/Helpers/Recurring.php:43
+msgid "Pausado"
+msgstr "Pausado"
+
+#: src/Helpers/Recurring.php:21 src/Helpers/Recurring.php:42
+msgid "Ativo"
+msgstr "Ativo"
+
+#: src/Helpers/Api.php:150
+msgid "\"Resposta vazia\""
+msgstr "\"Resposta vazia\""
+
+#: src/Connect/Recurring/RecurringOrder.php:239
+#: src/Connect/Recurring/RecurringOrder.php:247
+msgid "Pagamento recusado durante a renovação da assinatura."
+msgstr "Pagamento recusado durante a renovação da assinatura."
+
+#: src/Connect/Recurring/RecurringOrder.php:152
+msgid "Erro ao decodificar informações de pagamento para processar assinatura."
+msgstr "Erro ao decodificar informações de pagamento para processar assinatura."
+
+#: src/Connect/Recurring/RecurringOrder.php:101
+msgid "Este é um pedido recorrente. Perfil recorrente #%s. Pedido inicial: #%s. Frequência: %s. Ciclo de cobrança: %s"
+msgstr "Este é um pedido recorrente. Perfil recorrente #%s. Pedido inicial: #%s. Frequência: %s. Ciclo de cobrança: %s"
+
+#: src/Connect/Recurring/RecurringDashboard.php:108
+msgid "Ver detalhes"
+msgstr "Ver detalhes"
+
+#: src/Connect/Recurring/RecurringDashboard.php:91
+#: src/templates/recurring/my-account/subscription-action-buttons.php:32
+msgid "Suspender Cancelamento"
+msgstr "Suspender Cancelamento"
+
+#: src/Connect/Recurring/RecurringDashboard.php:85
+msgid "Resumir"
+msgstr "Resumir"
+
+#: src/Connect/Recurring/RecurringDashboard.php:59
+msgid "Tipo"
+msgstr "Tipo"
+
+#: src/Connect/Recurring/RecurringDashboard.php:58
+msgid "Data Inicial"
+msgstr "Data Inicial"
+
+#: src/Connect/Recurring/RecurringDashboard.php:56
+msgid "Identificador"
+msgstr "Identificador"
+
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:68
+msgid "Assinatura Suspensa: #{subscription_id}"
+msgstr "Assinatura Suspensa: #{subscription_id}"
+
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:58
+msgid "[{site_title}]: Sua assinatura #{subscription_id} foi suspensa."
+msgstr "[{site_title}]: Sua assinatura #{subscription_id} foi suspensa."
+
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:31
+msgid "Email enviado quando uma assinatura foi suspensa."
+msgstr "Email enviado quando uma assinatura foi suspensa."
+
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:30
+msgid "PagBank - Assinatura Suspensa"
+msgstr "PagBank - Assinatura Suspensa"
+
+#: src/Connect/Recurring/Emails/PausedSubscription.php:71
+msgid "Assinatura Pausada: #{id}"
+msgstr "Assinatura Pausada: #{id}"
+
+#: src/Connect/Recurring/Emails/PausedSubscription.php:60
+msgid "[{site_title}]: Sua assinatura #{id} foi pausada."
+msgstr "[{site_title}]: Sua assinatura #{id} foi pausada."
+
+#: src/Connect/Recurring/Emails/PausedSubscription.php:31
+msgid "Email enviado quando uma assinatura é pausada."
+msgstr "Email enviado quando uma assinatura é pausada."
+
+#: src/Connect/Recurring/Emails/PausedSubscription.php:30
+msgid "PagBank - Assinatura Pausada"
+msgstr "PagBank - Assinatura Pausada"
+
+#: src/Connect/Recurring/Emails/NewSubscription.php:67
+msgid "Assinatura Criada: #{id}"
+msgstr "Assinatura Criada: #{id}"
+
+#: src/Connect/Recurring/Emails/NewSubscription.php:57
+msgid "[{site_title}]: Sua assinatura #{id} foi criada."
+msgstr "[{site_title}]: Sua assinatura #{id} foi criada."
+
+#: src/Connect/Recurring/Emails/NewSubscription.php:31
+msgid "Email enviado quando uma assinatura é criada."
+msgstr "Email enviado quando uma assinatura é criada."
+
+#: src/Connect/Recurring/Emails/NewSubscription.php:30
+msgid "PagBank - Nova Assinatura"
+msgstr "PagBank - Nova Assinatura"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:208
+#: src/Connect/Recurring/Emails/NewSubscription.php:208
+#: src/Connect/Recurring/Emails/PausedSubscription.php:213
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:209
+msgid "Choose which format of email to send."
+msgstr "Choose which format of email to send."
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:206
+#: src/Connect/Recurring/Emails/NewSubscription.php:206
+#: src/Connect/Recurring/Emails/PausedSubscription.php:211
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:207
+msgid "Email type"
+msgstr "Email type"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:200
+#: src/Connect/Recurring/Emails/NewSubscription.php:200
+#: src/Connect/Recurring/Emails/PausedSubscription.php:205
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:201
+msgid "N/A"
+msgstr "N/A"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:198
+#: src/Connect/Recurring/Emails/NewSubscription.php:198
+#: src/Connect/Recurring/Emails/PausedSubscription.php:203
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:199
+msgid "Text to appear below the main email content."
+msgstr "Text to appear below the main email content."
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:197
+#: src/Connect/Recurring/Emails/NewSubscription.php:197
+#: src/Connect/Recurring/Emails/PausedSubscription.php:202
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:198
+msgid "Additional content"
+msgstr "Additional content"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:189
+#: src/Connect/Recurring/Emails/NewSubscription.php:189
+#: src/Connect/Recurring/Emails/PausedSubscription.php:194
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:190
+msgid "Email heading"
+msgstr "Email heading"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:181
+#: src/Connect/Recurring/Emails/NewSubscription.php:181
+#: src/Connect/Recurring/Emails/PausedSubscription.php:186
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:182
+msgid "Subject"
+msgstr "Subject"
+
+#. translators: %s: admin email
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:175
+#: src/Connect/Recurring/Emails/NewSubscription.php:175
+#: src/Connect/Recurring/Emails/PausedSubscription.php:180
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:176
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr "Enter recipients (comma separated) for this email. Defaults to %s."
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:172
+#: src/Connect/Recurring/Emails/NewSubscription.php:172
+#: src/Connect/Recurring/Emails/PausedSubscription.php:177
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:173
+msgid "Recipient(s)"
+msgstr "Recipient(s)"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:168
+#: src/Connect/Recurring/Emails/NewSubscription.php:168
+#: src/Connect/Recurring/Emails/PausedSubscription.php:173
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:169
+msgid "Enable this email notification"
+msgstr "Enable this email notification"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:166
+#: src/Connect/Recurring/Emails/NewSubscription.php:166
+#: src/Connect/Recurring/Emails/PausedSubscription.php:171
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:167
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#. translators: %s: list of placeholders
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:163
+#: src/Connect/Recurring/Emails/NewSubscription.php:163
+#: src/Connect/Recurring/Emails/PausedSubscription.php:168
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:164
+msgid "Available placeholders: %s"
+msgstr "Available placeholders: %s"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:155
+#: src/Connect/Recurring/Emails/NewSubscription.php:155
+#: src/Connect/Recurring/Emails/PausedSubscription.php:160
+#: src/Connect/Recurring/Emails/SuspendedSubscription.php:156
+msgid "Obrigado pela preferência."
+msgstr "Obrigado pela preferência."
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:67
+msgid "Assinatura Cancelada: #{subscription_number}"
+msgstr "Assinatura Cancelada: #{subscription_number}"
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:57
+msgid "[{site_title}]: Sua assinatura #{subscription_number} foi cancelada."
+msgstr "[{site_title}]: Sua assinatura #{subscription_number} foi cancelada."
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:30
+msgid "Email enviado quando uma assinatura é cancelada."
+msgstr "Email enviado quando uma assinatura é cancelada."
+
+#: src/Connect/Recurring/Emails/CanceledSubscription.php:29
+msgid "PagBank - Assinatura Cancelada"
+msgstr "PagBank - Assinatura Cancelada"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:148
+msgid "Filtrar"
+msgstr "Filtrar"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:147
+msgid "ID do Pedido"
+msgstr "ID do Pedido"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:32
+msgid "Visualizar"
+msgstr "Visualizar"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:38
+#: src/templates/recurring/subscription-details.php:89
+msgid "Próxima Cobrança"
+msgstr "Próxima Cobrança"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:37
+msgid "Atualizado em"
+msgstr "Atualizado em"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:36
+msgid "Criado em"
+msgstr "Criado em"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:35
+msgid "Tipo Recorrente"
+msgstr "Tipo Recorrente"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:33
+msgid "Valor Recorrente"
+msgstr "Valor Recorrente"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:31
+msgid "Pedido Inicial"
+msgstr "Pedido Inicial"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:21
+msgid "Assinatura"
+msgstr "Assinatura"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionDetails.php:65
+#: src/Connect/Recurring/RecurringDashboard.php:60
+msgid "Valor"
+msgstr "Valor"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionDetails.php:64
+msgid "Nome"
+msgstr "Nome"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionDetails.php:54
+msgid "Detalhes"
+msgstr "Detalhes"
+
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionDetails.php:53
+msgid "Detalhe"
+msgstr "Detalhe"
+
+#: src/Connect/Recurring/Admin/Subscriptions/Details/OrdersList.php:34
+msgid "Total"
+msgstr "Total"
+
+#: src/Connect/Recurring/Admin/Subscriptions/Details/OrdersList.php:33
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:34
+#: src/Connect/Recurring/RecurringDashboard.php:57
+#: src/templates/recurring/subscription-details.php:80
+msgid "Status"
+msgstr "Status"
+
+#: src/Connect/Recurring/Admin/Subscriptions/Details/OrdersList.php:32
+msgid "Data"
+msgstr "Data"
+
+#: src/Connect/Recurring/Admin/Subscriptions/Details/OrdersList.php:31
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:30
+msgid "ID"
+msgstr "ID"
+
+#: src/Connect/Recurring/Admin/Subscriptions/Details/OrdersList.php:21
+msgid "Pedidos"
+msgstr "Pedidos"
+
+#: src/Connect/Recurring/Admin/Subscriptions/Details/OrdersList.php:20
+msgid "Pedido"
+msgstr "Pedido"
+
+#: src/Connect/Recurring.php:1380
+msgid "Não foi possível resumir a assinatura."
+msgstr "Não foi possível resumir a assinatura."
+
+#: src/Connect/Recurring.php:1365
+msgid "Assinatura resumida com sucesso."
+msgstr "Assinatura resumida com sucesso."
+
+#: src/Connect/Recurring.php:1334
+msgid "Não foi possível pausar a assinatura."
+msgstr "Não foi possível pausar a assinatura."
+
+#: src/Connect/Recurring.php:1331
+msgid "Assinatura pausada com sucesso."
+msgstr "Assinatura pausada com sucesso."
+
+#: src/Connect/Recurring.php:1296
+msgid "Não foi possível suspender o cancelamento da assinatura."
+msgstr "Não foi possível suspender o cancelamento da assinatura."
+
+#: src/Connect/Recurring.php:1293
+msgid "Cancelamento suspenso com sucesso. Sua assinatura foi resumida."
+msgstr "Cancelamento suspenso com sucesso. Sua assinatura foi resumida."
+
+#: src/Connect/Recurring.php:1271 src/Connect/Recurring.php:1313
+#: src/Connect/Recurring.php:1345
+msgid "O status atual da assinatura não permite esta alteração."
+msgstr "O status atual da assinatura não permite esta alteração."
+
+#: src/Connect/Recurring.php:1261
+msgid "Não foi possível cancelar a assinatura."
+msgstr "Não foi possível cancelar a assinatura."
+
+#: src/Connect/Recurring.php:1252
+msgid "Assinatura cancelada com sucesso."
+msgstr "Assinatura cancelada com sucesso."
+
+#: src/Connect/Recurring.php:1122
+msgid "Cancelado pelo cliente"
+msgstr "Cancelado pelo cliente"
+
+#: src/Connect/Recurring.php:1119
+msgid "Cancelado pelo administrador"
+msgstr "Cancelado pelo administrador"
+
+#: src/Connect/Recurring.php:1100
+msgid "Ação não implementada."
+msgstr "Ação não implementada."
+
+#: src/Connect.php:832 src/Connect/Recurring.php:1094
+msgid "Você não tem permissão para acessar esta página."
+msgstr "Você não tem permissão para acessar esta página."
+
+#: src/Connect/Recurring.php:1086 src/Connect/Recurring.php:1095
+msgid "Acesso Negado"
+msgstr "Acesso Negado"
+
+#: src/Connect/Recurring.php:1085
+msgid "Você precisa estar logado para acessar esta página."
+msgstr "Você precisa estar logado para acessar esta página."
+
+#: src/Connect/Recurring.php:1077
+msgid "Assinatura não encontrada."
+msgstr "Assinatura não encontrada."
+
+#: src/Connect/Recurring.php:1070
+msgid "Ação inválida. Verifique se o identificador da assinatura é válido."
+msgstr "Ação inválida. Verifique se o identificador da assinatura é válido."
+
+#: src/Connect/Recurring.php:915
+msgid "Ver assinatura"
+msgstr "Ver assinatura"
+
+#: src/Connect/Recurring.php:904
+msgid "Minhas Assinaturas"
+msgstr "Minhas Assinaturas"
+
+#: src/Connect/Recurring.php:897
+msgid "Assinatura #%d"
+msgstr "Assinatura #%d"
+
+#: src/Connect/Recurring.php:455
+msgid "Produtos recorrentes ou assinaturas devem ser comprados separadamente. Remova os itens recorrentes do carrinho antes de prosseguir."
+msgstr "Produtos recorrentes ou assinaturas devem ser comprados separadamente. Remova os itens recorrentes do carrinho antes de prosseguir."
+
+#: src/Connect/Recurring.php:251
+msgid "Use . como separador decimal."
+msgstr "Use . como separador decimal."
+
+#: src/Connect/Recurring.php:250
+msgid "Taxa inicial"
+msgstr "Taxa inicial"
+
+#: src/Connect/Recurring.php:239
+msgid "Ex: Se Frequência fosse Diário e ciclo fosse 2, cobraria a cada 2 dias."
+msgstr "Ex: Se Frequência fosse Diário e ciclo fosse 2, cobraria a cada 2 dias."
+
+#: src/Connect/Recurring.php:238
+msgid "Ciclo"
+msgstr "Ciclo"
+
+#: src/Connect/Recurring.php:231 src/Helpers/Recurring.php:60
+#: src/Helpers/Recurring.php:189
+msgid "Anual"
+msgstr "Anual"
+
+#: src/Connect/Recurring.php:230 src/Helpers/Recurring.php:58
+#: src/Helpers/Recurring.php:188
+msgid "Mensal"
+msgstr "Mensal"
+
+#: src/Connect/Recurring.php:229 src/Helpers/Recurring.php:56
+#: src/Helpers/Recurring.php:187
+msgid "Semanal"
+msgstr "Semanal"
+
+#: src/Connect/Recurring.php:228 src/Helpers/Recurring.php:54
+#: src/Helpers/Recurring.php:186
+msgid "Diário"
+msgstr "Diário"
+
+#: src/Connect/Recurring.php:226
+msgid "Frequência"
+msgstr "Frequência"
+
+#: src/Connect/Recurring.php:219
+msgid "Habilitar recorrência"
+msgstr "Habilitar recorrência"
+
+#: src/Connect/Recurring.php:201
+msgid "Assinatura PagBank"
+msgstr "Assinatura PagBank"
+
+#: src/Connect/Recurring.php:162
+msgid "Taxa Inicial"
+msgstr "Taxa Inicial"
+
+#: src/Connect/MenuPagBank.php:186
+msgid "Pedidos Associados"
+msgstr "Pedidos Associados"
+
+#: src/Connect/MenuPagBank.php:183
+#: src/Connect/Recurring/RecurringDashboard.php:61
+msgid "Ações"
+msgstr "Ações"
+
+#: src/Connect/MenuPagBank.php:177 src/Connect/MenuPagBank.php:219
+#: src/templates/recurring/subscription-details.php:30
+msgid "Detalhes da Assinatura"
+msgstr "Detalhes da Assinatura"
+
+#: src/Connect/MenuPagBank.php:174
+msgid "Ver Próxima Assinatura"
+msgstr "Ver Próxima Assinatura"
+
+#: src/Connect/MenuPagBank.php:171
+msgid "Ver Assinatura Anterior"
+msgstr "Ver Assinatura Anterior"
+
+#: src/Connect/MenuPagBank.php:167 src/Connect/MenuPagBank.php:217
+msgid "Voltar para a listagem de assinaturas"
+msgstr "Voltar para a listagem de assinaturas"
+
+#: src/Connect/MenuPagBank.php:165
+msgid "Visualizar Assinatura"
+msgstr "Visualizar Assinatura"
+
+#: src/Connect/MenuPagBank.php:155 src/Connect/MenuPagBank.php:209
+#: src/templates/recurring/my-account/subscription-not-found.php:14
+msgid "Assinatura não encontrada"
+msgstr "Assinatura não encontrada"
+
+#: src/Connect/MenuPagBank.php:142 src/Connect/MenuPagBank.php:196
+msgid "ID da assinatura não fornecido"
+msgstr "ID da assinatura não fornecido"
+
+#: src/Connect/MenuPagBank.php:111
+msgid "Assinaturas PagBank"
+msgstr "Assinaturas PagBank"
+
+#: src/Connect/MenuPagBank.php:62 src/Connect/MenuPagBank.php:63
+#: src/Connect/Recurring.php:752
+#: src/Connect/Recurring/Admin/Subscriptions/SubscriptionList.php:22
+msgid "Assinaturas"
+msgstr "Assinaturas"
+
+#: src/Connect/Gateway.php:88
+msgid "A recorrência foi desativada pois a Connect Key informada usa taxas personalizadas."
+msgstr "A recorrência foi desativada pois a Connect Key informada usa taxas personalizadas."
+
+#: admin/views/settings/recurring-fields.php:76
+msgid "Diariamente"
+msgstr "Diariamente"
+
+#: admin/views/settings/recurring-fields.php:75
+msgid "Duas vezes ao dia"
+msgstr "Duas vezes ao dia"
+
+#: admin/views/settings/recurring-fields.php:74
+msgid "A cada hora"
+msgstr "A cada hora"
+
+#: admin/views/settings/recurring-fields.php:71
+msgid "Com que frequência o plugin deve verificar se há pagamentos recorrentes a serem processados?"
+msgstr "Com que frequência o plugin deve verificar se há pagamentos recorrentes a serem processados?"
+
+#: admin/views/settings/recurring-fields.php:69
+msgid "Frequência de Processamento"
+msgstr "Frequência de Processamento"
+
+#: admin/views/settings/recurring-fields.php:43
+msgid "Meios de Pagamento Aceitos"
+msgstr "Meios de Pagamento Aceitos"
+
+#: src/templates/recurring/my-account/view-subscription.php:26
+msgid "A assinatura #%s foi criada em %s. O pedido original é o #%s, e o status atual desta assinatura é %s."
+msgstr "A assinatura #%s foi criada em %s. O pedido original é o #%s, e o status atual desta assinatura é %s."
+
+#: src/templates/recurring/my-account/view-subscription.php:42
+msgid "Após o %s, toda vez que uma cobrança é feita, um novo pedido é gerado."
+msgstr "Após o %s, toda vez que uma cobrança é feita, um novo pedido é gerado."
+
+#: src/templates/recurring/subscription-details.php:124
+msgid "Assinatura será cancelada em"
+msgstr "Assinatura será cancelada em"
+
+#: src/templates/recurring/my-account/dashboard.php:80
+msgid "Browse products"
+msgstr "Browse products"
+
+#: src/templates/recurring/subscription-details.php:96
+msgid "Cancelada em"
+msgstr "Cancelada em"
+
+#: src/templates/recurring/my-account/subscription-action-buttons.php:27
+msgid "Cancelar Assinatura"
+msgstr "Cancelar Assinatura"
+
+#: src/templates/recurring/subscription-details.php:84
+msgid "Cobrança"
+msgstr "Cobrança"
+
+#: src/templates/recurring/my-account/subscription-payment-info-rows.php:30
+msgid "Forma de Pagamento"
+msgstr "Forma de Pagamento"
+
+#: src/templates/recurring/my-account/update-subscription.php:26
+#: src/templates/recurring/subscription-details.php:36
+msgid "Informações de Pagamento"
+msgstr "Informações de Pagamento"
+
+#: src/templates/recurring-instructions.php:15
+msgid "Ir para Minhas Assinaturas"
+msgstr "Ir para Minhas Assinaturas"
+
+#: src/Helpers/Recurring.php:361
+msgid "O não pagamento dentro do prazo causará a suspensão da assinatura."
+msgstr "O não pagamento dentro do prazo causará a suspensão da assinatura."
+
+#. translators: %s: Customer first name
+#: src/templates/emails/canceled-subscription.php:36
+#: src/templates/emails/new-subscription.php:36
+#: src/templates/emails/paused-subscription.php:36
+#: src/templates/emails/plain/cancelled-subscription.php:27
+#: src/templates/emails/plain/new-subscription.php:27
+#: src/templates/emails/plain/paused-subscription.php:27
+#: src/templates/emails/plain/suspended-subscription.php:27
+#: src/templates/emails/suspended-subscription.php:42
+msgid "Olá %s,"
+msgstr "Olá %s,"
+
+#: src/templates/recurring/subscription-details.php:103
+msgid "Pausada em"
+msgstr "Pausada em"
+
+#: src/templates/recurring/my-account/subscription-action-buttons.php:37
+msgid "Pausar Assinatura"
+msgstr "Pausar Assinatura"
+
+#: src/templates/order-info.php:31
+msgid "Pedido Recorrente"
+msgstr "Pedido Recorrente"
+
+#: src/templates/recurring/my-account/view-subscription.php:40
+msgid "Pedidos gerados a partir desta assinatura"
+msgstr "Pedidos gerados a partir desta assinatura"
+
+#: src/templates/recurring/subscription-details.php:131
+msgid "Razão da Suspensão"
+msgstr "Razão da Suspensão"
+
+#: src/templates/recurring/subscription-details.php:117
+msgid "Razão do Cancelamento"
+msgstr "Razão do Cancelamento"
+
+#: src/templates/recurring/my-account/subscription-action-buttons.php:42
+msgid "Resumir Assinatura"
+msgstr "Resumir Assinatura"
+
+#: src/templates/order-info.php:23
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: src/Helpers/Recurring.php:355
+msgid "Um código PIX será enviado para seu e-mail %d dias antes de cada vencimento."
+msgstr "Um código PIX será enviado para seu e-mail %d dias antes de cada vencimento."
+
+#: src/Helpers/Recurring.php:358
+msgid "Um novo boleto será enviado para seu e-mail %d dias antes de cada vencimento."
+msgstr "Um novo boleto será enviado para seu e-mail %d dias antes de cada vencimento."
+
+#: src/Helpers/Recurring.php:348
+msgid "Uma taxa de %s foi adicionada à primeira cobrança."
+msgstr "Uma taxa de %s foi adicionada à primeira cobrança."
+
+#: src/templates/recurring/subscription-details.php:50
+msgid "Valor da assinatura"
+msgstr "Valor da assinatura"
+
+#: src/templates/recurring/my-account/dashboard.php:80
+msgid "Você ainda não tem nenhuma assinatura."
+msgstr "Você ainda não tem nenhuma assinatura."
+
+#: src/templates/recurring/my-account/subscription-not-found.php:17
+msgid "Voltar"
+msgstr "Voltar"
+
+#: src/Helpers/Recurring.php:279
+msgid "a cada %d %s"
+msgstr "a cada %d %s"
+
+#: src/Helpers/Recurring.php:275
+msgid "anualmente"
+msgstr "anualmente"
+
+#: src/Helpers/Recurring.php:206
+msgid "desconhecido"
+msgstr "desconhecido"
+
+#: src/Helpers/Recurring.php:266
+msgid "diariamente"
+msgstr "diariamente"
+
+#: src/Helpers/Recurring.php:253 src/Helpers/Recurring.php:272
+msgid "mensalmente"
+msgstr "mensalmente"
+
+#: src/templates/recurring/my-account/view-subscription.php:44
+msgid "pedido inicial"
+msgstr "pedido inicial"
+
+#: src/Helpers/Recurring.php:269
+msgid "semanalmente"
+msgstr "semanalmente"
+
+#: src/EnvioFacil.php:330
+msgid "Ver documentação ↗"
+msgstr "Ver documentação ↗"
+
+#: src/templates/pix-instructions.php:29
+msgid "Código PIX"
+msgstr "Código PIX"
+
+#: src/templates/pix-instructions.php:26
+msgid "Ou se preferir, copie e cole o código abaixo no aplicativo de seu banco usando o PIX com o modo Copie e Cola."
+msgstr "Ou se preferir, copie e cole o código abaixo no aplicativo de seu banco usando o PIX com o modo Copie e Cola."
+
+#: src/templates/pix-instructions.php:22
+msgid "Escaneie o código abaixo com o aplicativo de seu banco."
+msgstr "Escaneie o código abaixo com o aplicativo de seu banco."
+
+#: src/templates/payments/creditcard.php:36 build/js/frontend/cc.js:1
+#: public/js/blocks/components/InstallmentsOptions.js:9
+msgid "Parcelas"
+msgstr "Parcelas"
+
+#: src/templates/payments/creditcard.php:31
+#: src/templates/recurring/my-account/form-change-credit-card.php:47
+#: build/js/frontend/cc.js:1 public/js/blocks/components/CreditCardForm.js:127
+msgid "Validade (MM/AA)"
+msgstr "Validade (MM/AA)"
+
+#: src/templates/payments/creditcard.php:23
+#: src/templates/recurring/my-account/form-change-credit-card.php:39
+#: build/js/frontend/cc.js:1 public/js/blocks/components/CreditCardForm.js:106
+msgid "Titular do Cartão"
+msgstr "Titular do Cartão"
+
+#: src/templates/payments/creditcard.php:18
+#: src/templates/recurring/my-account/form-change-credit-card.php:52
+msgid "CVC"
+msgstr "CVC"
+
+#: src/templates/payments/creditcard.php:17
+#: src/templates/recurring/my-account/form-change-credit-card.php:51
+msgid "Card code"
+msgstr "Card code"
+
+#: src/templates/payments/creditcard.php:11 build/js/frontend/cc.js:1
+#: public/js/blocks/components/InstallmentsOptions.js:18
+msgid "Informe um número de cartão"
+msgstr "Informe um número de cartão"
+
+#: src/templates/payments/creditcard.php:32
+#: src/templates/recurring/my-account/form-change-credit-card.php:48
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: src/templates/payments/creditcard.php:27
+#: src/templates/recurring/my-account/form-change-credit-card.php:43
+msgid "Card number"
+msgstr "Card number"
+
+#: src/templates/payments/boleto.php:20 build/js/frontend/boleto.js:1
+#: public/js/blocks/checkout-blocks-boleto.js:49
+msgid "Seu boleto vencerá amanhã."
+msgid_plural "Seu boleto vence em %d dias."
+msgstr[0] "Seu boleto vencerá amanhã."
+msgstr[1] "Seu boleto vence em %d dias."
+
+#: src/templates/order-info.php:51
+msgid "Cartão de Crédito em"
+msgstr "Cartão de Crédito em"
+
+#: src/templates/order-info.php:23
+msgid "Ambiente de Testes"
+msgstr "Ambiente de Testes"
+
+#: src/templates/boleto-instructions.php:34
+msgid "Imprimir Boleto"
+msgstr "Imprimir Boleto"
+
+#: src/templates/boleto-instructions.php:33
+msgid "Baixar Boleto"
+msgstr "Baixar Boleto"
+
+#: src/templates/boleto-instructions.php:27
+#: src/templates/emails/boleto-payment-details.php:35
+msgid "Código de barras:"
+msgstr "Código de barras:"
+
+#: src/templates/boleto-instructions.php:24
+msgid "Copie o código de barras abaixo e pague direto em seu banco."
+msgstr "Copie o código de barras abaixo e pague direto em seu banco."
+
+#: src/templates/boleto-instructions.php:23
+msgid "Pague seu Boleto"
+msgstr "Pague seu Boleto"
+
+#: src/Helpers/Params.php:389
+msgid "Um desconto de %s será aplicado"
+msgstr "Um desconto de %s será aplicado"
+
+#: src/Helpers/Params.php:382
+msgid "Um desconto de %s será aplicado."
+msgstr "Um desconto de %s será aplicado."
+
+#: src/Helpers/Functions.php:114 src/Helpers/Recurring.php:35
+#: src/Helpers/Recurring.php:62 src/Helpers/Recurring.php:190
+msgid "Desconhecido"
+msgstr "Desconhecido"
+
+#: src/Helpers/Functions.php:109
+msgid "Pix"
+msgstr "Pix"
+
+#: src/EnvioFacil.php:356
+msgid "Para utilizar o PagBank Envio Fácil, você precisa obter suas credenciais connect. Chaves Sandbox ou Minhas Taxas não são elegíveis."
+msgstr "Para utilizar o PagBank Envio Fácil, você precisa obter suas credenciais connect. Chaves Sandbox ou Minhas Taxas não são elegíveis."
+
+#: src/EnvioFacil.php:322
+msgid "⚠️ Use com cautela. Este serviço usa uma API desencorajada pelo PagBank para o cálculo do frete. Faça suas simulações antes. ;)"
+msgstr "⚠️ Use com cautela. Este serviço usa uma API desencorajada pelo PagBank para o cálculo do frete. Faça suas simulações antes. ;)"
+
+#: src/EnvioFacil.php:314
+msgid "Para utilizar o PagBank Envio Fácil, você precisa autorizar nossa aplicação e obter suas credenciais connect. <strong>Chaves Sandbox ou Minhas Taxas não são elegíveis.</strong>"
+msgstr "Para utilizar o PagBank Envio Fácil, você precisa autorizar nossa aplicação e obter suas credenciais connect. <strong>Chaves Sandbox ou Minhas Taxas não são elegíveis.</strong>"
+
+#: src/EnvioFacil.php:259
+msgid "CEP de onde suas mercadorias serão enviadas. Se não informado, o CEP da loja será utilizado."
+msgstr "CEP de onde suas mercadorias serão enviadas. Se não informado, o CEP da loja será utilizado."
+
+#: src/EnvioFacil.php:257
+msgid "CEP de Origem"
+msgstr "CEP de Origem"
+
+#: src/EnvioFacil.php:149
+msgid " - %d dias úteis"
+msgstr " - %d dias úteis"
+
+#: src/EnvioFacil.php:30
+msgid "Use taxas diferenciadas com Correios e transportadoras em pedidos feitos com PagBank"
+msgstr "Use taxas diferenciadas com Correios e transportadoras em pedidos feitos com PagBank"
+
+#: src/EnvioFacil.php:29
+msgid "PagBank Envio Fácil"
+msgstr "PagBank Envio Fácil"
+
+#: src/Connect/Payments/CreditCard.php:228
+msgid "Não foi possível obter o total. Chave de formulário inválida. Recarregue a página e tente novamente."
+msgstr "Não foi possível obter o total. Chave de formulário inválida. Recarregue a página e tente novamente."
+
+#: src/Connect/Payments/CreditCard.php:180
+msgid "Não foi possível obter as parcelas. %s"
+msgstr "Não foi possível obter as parcelas. %s"
+
+#: src/Connect/Payments/CreditCard.php:137
+msgid "Não foi possível obter as parcelas. Chave de formulário inválida. Recarregue a página e tente novamente."
+msgstr "Não foi possível obter as parcelas. Chave de formulário inválida. Recarregue a página e tente novamente."
+
+#: src/Connect/Standalone/CreditCard.php:294
+msgid "Método de pagamento inválido"
+msgstr "Método de pagamento inválido"
+
+#: src/Helpers/Functions.php:181
+msgid "O desconto deve ser um número positivo ou percentual de 0 a 100"
+msgstr "O desconto deve ser um número positivo ou percentual de 0 a 100"
+
+#: src/Connect/Gateway.php:41
+msgid "PagBank (PagSeguro UOL)"
+msgstr "PagBank (PagSeguro UOL)"
+
+#: admin/views/html-recurring-settings-page.php:21 src/Connect/Gateway.php:37
+msgid "Aceite PIX, Cartão e Boleto de forma transparente com PagBank (PagSeguro)."
+msgstr "Aceite PIX, Cartão e Boleto de forma transparente com PagBank (PagSeguro)."
+
+#: src/Connect/Gateway.php:36
+msgid "PagBank Connect por Ricardo Martins"
+msgstr "PagBank Connect por Ricardo Martins"
+
+#: src/Connect/Exception.php:77
+msgid "Estado do Endereço"
+msgstr "Estado do Endereço"
+
+#: src/Connect/Exception.php:75
+msgid "Cidade do Endereço"
+msgstr "Cidade do Endereço"
+
+#: src/Connect/Exception.php:73
+msgid "Número do Endereço"
+msgstr "Número do Endereço"
+
+#: src/Connect/Exception.php:71
+msgid "Bairro"
+msgstr "Bairro"
+
+#: src/Connect/Exception.php:69
+msgid "Data de vencimento do boleto"
+msgstr "Data de vencimento do boleto"
+
+#: src/Connect/Exception.php:67 build/js/frontend/boleto.js:1
+#: build/js/frontend/cc.js:1 build/js/frontend/pix.js:1
+#: public/js/blocks/components/CustomerDocumentField.js:10
+msgid "CPF/CNPJ"
+msgstr "CPF/CNPJ"
+
+#: src/Connect.php:188 src/Connect/MenuPagBank.php:54
+#: src/Connect/MenuPagBank.php:55
+msgid "Configurações"
+msgstr "Configurações"
+
+#: admin/views/settings/pix-fields.php:34
+#: admin/views/settings/redirect-fields.php:30
+msgid "minutos"
+msgstr "minutos"
+
+#: admin/views/settings/pix-fields.php:32
+msgid "Validade do PIX"
+msgstr "Validade do PIX"
+
+#: admin/views/settings/pix-fields.php:27
+msgid "O QrCode será exibido na finalização do pedido."
+msgstr "O QrCode será exibido na finalização do pedido."
+
+#: admin/views/settings/general-fields.php:99
+msgid "Nunca fornecer ao PagBank"
+msgstr "Nunca fornecer ao PagBank"
+
+#: admin/views/settings/general-fields.php:98
+msgid "Não fornecer se estiver incompleto"
+msgstr "Não fornecer se estiver incompleto"
+
+#: admin/views/settings/general-fields.php:97
+msgid "Fornecer ao PagBank sempre que aplicável"
+msgstr "Fornecer ao PagBank sempre que aplicável"
+
+#: admin/views/settings/general-fields.php:94
+#: admin/views/settings/general-fields.php:115
+msgid "Saiba mais"
+msgstr "Saiba mais"
+
+#: admin/views/settings/general-fields.php:91
+msgid "Endereço de Entrega"
+msgstr "Endereço de Entrega"
+
+#: admin/views/settings/general-fields.php:72
+msgid "PagBank UOL"
+msgstr "PagBank UOL"
+
+#: admin/views/settings/general-fields.php:71
+msgid "Nome do meio de pagamento a ser exibido no radio button do checkout."
+msgstr "Nome do meio de pagamento a ser exibido no radio button do checkout."
+
+#: admin/views/settings/cc-fields.php:17
+#: admin/views/settings/general-fields.php:69
+#: admin/views/settings/pix-fields.php:16
+msgid "Título Principal"
+msgstr "Título Principal"
+
+#: admin/views/settings/general-fields.php:25
+msgid "Configurações Gerais"
+msgstr "Configurações Gerais"
+
+#: admin/views/settings/general-fields.php:10
+msgid "Informe sua Connect Key, obtida após Obter as Credenciais. Este NÃO é o token PagBank."
+msgstr "Informe sua Connect Key, obtida após Obter as Credenciais. Este NÃO é o token PagBank."
+
+#: admin/views/settings/general-fields.php:8
+msgid "Connect Key"
+msgstr "Connect Key"
+
+#: admin/views/settings/cc-fields.php:150
+msgid "Permitir concluir"
+msgstr "Permitir concluir"
+
+#: admin/views/settings/cc-fields.php:149
+msgid "Quando 3D não for suportado"
+msgstr "Quando 3D não for suportado"
+
+#: admin/views/settings/cc-fields.php:137
+msgid "Autenticação 3D"
+msgstr "Autenticação 3D"
+
+#: admin/views/settings/cc-fields.php:122
+msgid "Identificador na Fatura"
+msgstr "Identificador na Fatura"
+
+#: admin/views/settings/cc-fields.php:80
+msgid "Número Máximo de Parcelas"
+msgstr "Número Máximo de Parcelas"
+
+#: admin/views/settings/cc-fields.php:75
+msgid "Sim"
+msgstr "Sim"
+
+#: admin/views/settings/cc-fields.php:74
+msgid "Não (recomendável)"
+msgstr "Não (recomendável)"
+
+#: admin/views/settings/cc-fields.php:66
+msgid "Limitar parcelas?"
+msgstr "Limitar parcelas?"
+
+#: admin/views/settings/cc-fields.php:52
+msgid "Valor inteiro sem decimais. Exemplo: 10 para R$ 10,00 <br/><small>Neste exemplo, um pedido de R$100 poderá ser parcelado em 10x sem juros.<br/>Taxa padrão de juros: 2,99% a.m (consulte valor atualizado).</small>"
+msgstr "Valor inteiro sem decimais. Exemplo: 10 para R$ 10,00 <br/><small>Neste exemplo, um pedido de R$100 poderá ser parcelado em 10x sem juros.<br/>Taxa padrão de juros: 2,99% a.m (consulte valor atualizado).</small>"
+
+#: admin/views/settings/cc-fields.php:50
+msgid "Valor Mínimo da Parcela sem Juros"
+msgstr "Valor Mínimo da Parcela sem Juros"
+
+#: admin/views/settings/cc-fields.php:40
+msgid "Número de Parcelas sem Juros"
+msgstr "Número de Parcelas sem Juros"
+
+#: admin/views/settings/cc-fields.php:36
+msgid "Até X parcelas sem juros dependendo do valor da parcela"
+msgstr "Até X parcelas sem juros dependendo do valor da parcela"
+
+#: admin/views/settings/cc-fields.php:35
+msgid "Até X parcelas sem juros"
+msgstr "Até X parcelas sem juros"
+
+#: admin/views/settings/cc-fields.php:34
+msgid "Juros por conta do comprador"
+msgstr "Juros por conta do comprador"
+
+#: admin/views/settings/cc-fields.php:33
+msgid "Obedecer configurações da conta PagBank (padrão)"
+msgstr "Obedecer configurações da conta PagBank (padrão)"
+
+#: admin/views/settings/cc-fields.php:26
+msgid "<a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945359660173-Op%C3%A7%C3%B5es-de-Parcelamento\" target=\"_blank\">Saiba mais</a>"
+msgstr "<a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945359660173-Op%C3%A7%C3%B5es-de-Parcelamento\" target=\"_blank\">Saiba mais</a>"
+
+#: admin/views/settings/cc-fields.php:24
+msgid "Opções de Parcelamento"
+msgstr "Opções de Parcelamento"
+
+#: admin/views/settings/boleto-fields.php:64
+#: admin/views/settings/pix-fields.php:51
+#: admin/views/settings/redirect-fields.php:43
+msgid "% ou fixo"
+msgstr "% ou fixo"
+
+#: admin/views/settings/boleto-fields.php:58
+#: admin/views/settings/pix-fields.php:45
+#: admin/views/settings/redirect-fields.php:37
+msgid "Ex: 5% para valor percentual ou 5.00 para um valor fixo. <br/>Deixe em branco para não oferecer nenhum desconto.<br/><a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945430928909-Oferecer-Desconto-Pix-e-Boleto-\" target=\"_blank\">Saiba mais.</a>"
+msgstr "Ex: 5% para valor percentual ou 5.00 para um valor fixo. <br/>Deixe em branco para não oferecer nenhum desconto.<br/><a href=\"https://pagsegurotransparente.zendesk.com/hc/pt-br/articles/19945430928909-Oferecer-Desconto-Pix-e-Boleto-\" target=\"_blank\">Saiba mais.</a>"
+
+#: admin/views/settings/boleto-fields.php:56
+#: admin/views/settings/pix-fields.php:43
+#: admin/views/settings/redirect-fields.php:35
+msgid "Oferecer Desconto de"
+msgstr "Oferecer Desconto de"
+
+#: admin/views/settings/boleto-fields.php:47
+msgid "Instruções (Linha 2)"
+msgstr "Instruções (Linha 2)"
+
+#: admin/views/settings/boleto-fields.php:38
+msgid "Instruções (Linha 1)"
+msgstr "Instruções (Linha 1)"
+
+#: admin/views/settings/boleto-fields.php:33 src/Helpers/Recurring.php:202
+msgid "dias"
+msgstr "dias"
+
+#: admin/views/settings/boleto-fields.php:31
+msgid "Validade do boleto"
+msgstr "Validade do boleto"
+
+#: admin/views/settings/boleto-fields.php:24
+msgid "Imprima ou copie o código de barras de seu boleto para pagar no banco ou casa lotérica antes do vencimento."
+msgstr "Imprima ou copie o código de barras de seu boleto para pagar no banco ou casa lotérica antes do vencimento."
+
+#: admin/views/settings/boleto-fields.php:23
+#: admin/views/settings/pix-fields.php:26
+msgid "Instruções que serão adicionadas à sua página de sucesso."
+msgstr "Instruções que serão adicionadas à sua página de sucesso."
+
+#: admin/views/settings/boleto-fields.php:21
+#: admin/views/settings/pix-fields.php:24
+msgid "Instruções"
+msgstr "Instruções"
+
+#: admin/views/settings/boleto-fields.php:16
+#: admin/views/settings/cc-fields.php:19 admin/views/settings/pix-fields.php:18
+#: admin/views/settings/redirect-fields.php:23
+msgid "Nome do meio de pagamento que seu cliente irá ver no checkout."
+msgstr "Nome do meio de pagamento que seu cliente irá ver no checkout."
+
+#: admin/views/settings/boleto-fields.php:14
+#: admin/views/settings/redirect-fields.php:21
+msgid "Title"
+msgstr "Title"
+
+#: admin/views/settings/boleto-fields.php:7
+#: admin/views/settings/boleto-fields.php:8
+#: admin/views/settings/cc-fields.php:10 admin/views/settings/cc-fields.php:11
+#: admin/views/settings/cc-fields.php:99 admin/views/settings/cc-fields.php:138
+#: admin/views/settings/general-fields.php:144
+#: admin/views/settings/pix-fields.php:8 admin/views/settings/pix-fields.php:9
+#: admin/views/settings/recurring-fields.php:108
+#: admin/views/settings/redirect-fields.php:7
+#: admin/views/settings/redirect-fields.php:8
+#: admin/views/settings/redirect-fields.php:14
+#: admin/views/settings/redirect-fields.php:15 src/Connect/Recurring.php:220
+#: src/EnvioFacil.php:251 src/EnvioFacil.php:253
+msgid "Habilitar"
+msgstr "Habilitar"
+
+#: admin/views/html-settings-page.php:40
+msgid "Obter ajuda"
+msgstr "Obter ajuda"
+
+#: admin/views/html-settings-page.php:40
+msgid "Ir para central de ajuda. Lá você pode encontrar resposta para a maioria dos problemas e perguntas, ou entrar em contato conosco."
+msgstr "Ir para central de ajuda. Lá você pode encontrar resposta para a maioria dos problemas e perguntas, ou entrar em contato conosco."
+
+#: admin/views/html-settings-page.php:39
+msgid "Obter Connect Key para Testes"
+msgstr "Obter Connect Key para Testes"
+
+#: admin/views/html-settings-page.php:38
+msgid "Obter Connect Key"
+msgstr "Obter Connect Key"
+
+#: admin/views/html-settings-page.php:37
+msgid "Para utilizar o PagBank Connect, você precisa autorizar nossa aplicação e obter suas credenciais connect."
+msgstr "Para utilizar o PagBank Connect, você precisa autorizar nossa aplicação e obter suas credenciais connect."
+
+#: admin/views/html-settings-page.php:36
+msgid "Credenciais"
+msgstr "Credenciais"
+
+#: admin/views/html-recurring-settings-page.php:27
+#: admin/views/html-settings-page.php:31
+#: admin/views/settings/redirect-fields.php:65 src/Helpers/Functions.php:107
+#: src/templates/payment-form.php:57
+msgid "Boleto"
+msgstr "Boleto"
+
+#: admin/views/html-recurring-settings-page.php:26
+#: admin/views/html-settings-page.php:30
+#: admin/views/settings/redirect-fields.php:64
+#: src/templates/payment-form.php:52
+msgid "PIX"
+msgstr "PIX"
+
+#: admin/views/html-recurring-settings-page.php:25
+#: admin/views/html-settings-page.php:29
+#: admin/views/settings/recurring-fields.php:48
+#: admin/views/settings/redirect-fields.php:63 src/Helpers/Functions.php:112
+#: src/templates/payment-form.php:47
+#: src/templates/recurring/my-account/subscription-payment-info-rows.php:40
+msgid "Cartão de Crédito"
+msgstr "Cartão de Crédito"
+
+#: admin/views/html-recurring-settings-page.php:24
+#: admin/views/html-settings-page.php:28
+msgid "Geral"
+msgstr "Geral"
+
+#: admin/views/html-recurring-settings-page.php:17
+#: admin/views/html-settings-page.php:20
+msgid "Voltar para Pagamentos"
+msgstr "Voltar para Pagamentos"
+
+#: admin/messages/html-notice-missing-woocommerce.php:35
+msgid "Instalar WooCommerce"
+msgstr "Instalar WooCommerce"
+
+#: admin/messages/html-notice-missing-woocommerce.php:27
+msgid "Ativar WooCommerce"
+msgstr "Ativar WooCommerce"
+
+#: admin/messages/html-notice-missing-woocommerce.php:24
+msgid "depende da última versão do WooCommerce para funcionar!"
+msgstr "depende da última versão do WooCommerce para funcionar!"
+
+#: admin/messages/html-notice-missing-woocommerce.php:24
+msgid "PagSeguro Connect"
+msgstr "PagSeguro Connect"
+
+#. Description of the plugin
+#: rm-pagbank.php
+msgid "Integra seu WooCommerce com as APIs PagSeguro v4 através da aplicação de Ricardo Martins (com descontos nas taxas oficiais), com suporte a PIX transparente e muito mais."
+msgstr "Integra seu WooCommerce com as APIs PagSeguro v4 através da aplicação de Ricardo Martins (com descontos nas taxas oficiais), com suporte a PIX transparente e muito mais."
+
+#. Plugin Name of the plugin
+#: rm-pagbank.php admin/views/html-recurring-settings-page.php:16
+#: admin/views/html-settings-page.php:19 src/Helpers/Functions.php:69
+msgid "PagBank Connect"
+msgstr "PagBank Connect"

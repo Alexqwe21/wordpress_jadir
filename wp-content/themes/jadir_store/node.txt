@@ -1,0 +1,3 @@
+Comando para atualizar a pagina automaticamente 
+
+browser-sync start --proxy "localhost/wordpress_jadir/" --files "**/*" --no-inject-changes

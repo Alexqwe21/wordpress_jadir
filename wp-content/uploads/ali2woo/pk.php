@@ -1,0 +1,1 @@
+<?php function a2wl_plugin_key(){return "IxhbcLpPkzbfZWjfChRe0zgJz1C7QNzB";}

@@ -1,0 +1,38 @@
+[Jul 22 01:07:52] 
+[Jul 22 01:07:52] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.13==
+[Jul 22 01:07:52] ----------------------------------------------------
+[Jul 22 01:07:52] Installer bootstrap start
+[Jul 22 01:07:52] Ready to extract the installer
+[Jul 22 01:07:52] Checking permission of destination folder
+[Jul 22 01:07:52] Expand directory from offset 57333111
+[Jul 22 01:07:52] SAPI: litespeed
+[Jul 22 01:07:52] creating /home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/dup-installer/.user.ini with the content:
+[Jul 22 01:07:52] max_execution_time = 3600
+max_input_time = -1
+ignore_user_abort = On
+post_max_size = 4096M
+upload_max_filesize = 4096M
+memory_limit = 4294967296
+default_socket_timeout = 3600
+pcre.backtrack_limit = 99999999999
+[Jul 22 01:07:52] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$archive is deprecated [CODE:8192|FILE:/home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/installer.php|LINE:530]
+[Jul 22 01:07:52] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$bootloader is deprecated [CODE:8192|FILE:/home/u230564252/domains/webdevsolutions.com.br/public_html/jadirstore/installer.php|LINE:531]
+[Jul 22 01:07:52] Set permissions of dup-installer<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/addons<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/assets<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/classes<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/ctrls<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/favicon<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/libs<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/src<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/templates<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/vendor<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/.user.ini<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/index.php<br/>
+[Jul 22 01:07:52] Set permissions of dup-installer/main.installer.php<br/>
+[Jul 22 01:07:52] DONE: No detected errors so redirecting to the main installer. Main Installer URI = https://jadirstore.webdevsolutions.com.br/dup-installer/main.installer.php

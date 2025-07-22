@@ -1,0 +1,6 @@
+2025-07-20T09:21:35+00:00 ERROR 2005 - Error on authentication validation transaction - Context: {
+    "source_news": "webhooks"
+}
+2025-07-20T09:25:52+00:00 ERROR 2005 - Error on authentication validation transaction - Context: {
+    "source_news": "webhooks"
+}

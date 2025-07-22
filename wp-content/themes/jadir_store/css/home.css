@@ -1,0 +1,106 @@
+.slide-item {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  background-color: #D645E550;
+
+  .slide-info {
+    padding: 0 20px 40px 20px;
+    color: white;
+    align-self: end;
+  }
+
+  .slide-preco {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .slide-nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+  }
+
+
+
+
+}
+
+.vantagens {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+
+  li {
+    margin: 0 20px;
+    padding: 5px 0 5px 35px;
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    &:nth-child(1) {
+      background-image: url('../img/icons/frete.svg');
+    }
+
+    &:nth-child(2) {
+      background-image: url('../img/icons/troca.svg');
+    }
+
+    &:nth-child(3) {
+      background-image: url('../img/icons/card.svg');
+    }
+  }
+}
+
+.categorias-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+  a {
+    display: grid;
+
+    &:nth-child(1) {
+      border-top: 10px solid #C622E0;
+    }
+
+    &:nth-child(2) {
+      border-bottom: 10px solid #C622E0;
+    }
+
+    &:nth-child(2) span {
+      justify-self: start;
+      margin-left: 40px;
+      margin-bottom: 30px;
+    }
+  }
+
+  img,
+  span {
+    grid-area: 1/1;
+  }
+
+  span {
+    align-self: end;
+    justify-self: end;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 160px;
+  }
+}
+
+@media(max-width: 800px) {
+  .slide-item {
+    grid-template-columns: 1fr;
+  }
+
+  .slide-info {
+    margin-top: 20px;
+  }
+
+  .categorias-home {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,602 @@
+.wp-block-woocommerce-cart {
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+  background: #eee;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+
+  &::before {
+    display: none;
+  }
+}
+
+.woocommerce-error {
+  border-left: 4px solid #C622E0;
+}
+
+.woocommerce-message,
+.woocommerce-info {
+  border-left: 4px solid olivedrab;
+}
+
+
+/* Estilizando o input de e-mail do formulário de endereço */
+/* Estilo base para campos personalizados */
+.wc-block-components-address-form .wc-block-components-text-input.wc-block-components-address-form__email input#email,
+.wc-block-components-address-form .wc-block-components-text-input.wc-block-components-address-form__first_name input#shipping-first_name {
+  border: 2px solid #000;
+  /* borda preta normal */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  padding-top: 30px;
+}
+
+/* Placeholder */
+.wc-block-components-address-form .wc-block-components-text-input.wc-block-components-address-form__email input#email::placeholder,
+.wc-block-components-address-form .wc-block-components-text-input.wc-block-components-address-form__first_name input#shipping-first_name::placeholder {
+  color: #aaa;
+}
+
+/* Estilo ao selecionar o campo (focus) */
+.wc-block-components-address-form .wc-block-components-text-input.wc-block-components-address-form__email input#email:focus,
+.wc-block-components-address-form .wc-block-components-text-input.wc-block-components-address-form__first_name input#shipping-first_name:focus {
+  border-color: #C622E0;
+  /* borda roxa quando selecionado */
+  outline: none;
+}
+
+
+/* Estilo padrão para inputs, selects e textarea */
+.wc-block-components-address-form input[type="text"],
+.wc-block-components-address-form input[type="email"],
+.wc-block-components-address-form input[type="tel"],
+.wc-block-components-address-form input[type="number"],
+.wc-block-components-address-form input[type="password"],
+.wc-block-components-address-form select,
+.wc-block-components-address-form textarea {
+  border: 2px solid #000;
+  /* borda preta padrão */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+/* Placeholder para inputs e textarea */
+.wc-block-components-address-form input::placeholder,
+.wc-block-components-address-form textarea::placeholder {
+  color: #aaa;
+}
+
+/* Quando o campo está selecionado */
+.wc-block-components-address-form input:focus,
+.wc-block-components-address-form select:focus,
+.wc-block-components-address-form textarea:focus {
+  border-color: #C622E0 !important;
+  /* borda roxa */
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.woocommerce button.button {
+  background-color: black !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+
+.wc-block-components-button__text {
+  background-color: #C622E0 !important;
+  color: white !important;
+  height: 50px;
+  padding: 0 10px;
+  display: flex !important;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  font-weight: bold !important;
+}
+
+.wp-block-woocommerce-cart {
+  a {
+    text-decoration: none !important;
+  }
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+
+  text-decoration: none !important;
+  background-color: #C622E0 !important;
+  padding: 10px !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 10px !important;
+}
+
+.wc-block-components-formatted-money-amount {
+  color: #C622E0 !important;
+}
+
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__label {
+  color: transparent !important;
+  /* Oculta o texto original */
+  position: relative;
+}
+
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__label::after {
+  content: "Total estimado";
+  /* Novo texto */
+  color: #000;
+  /* Altere conforme seu design */
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+.wc-block-components-totals-coupon .wc-block-components-panel__button {
+  font-size: 0 !important;
+  /* Oculta apenas o texto, mas mantém ícones SVG visíveis */
+  position: relative;
+}
+
+/* Adiciona o novo texto personalizado */
+.wc-block-components-totals-coupon .wc-block-components-panel__button::after {
+  content: "Adicionar cupom";
+  font-size: 15px;
+  /* Volta o tamanho do texto */
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+button {
+  border: none !important;
+  background: transparent !important;
+}
+
+.wc-block-cart-items__header-image,
+.is-large.wc-block-cart .wc-block-cart-items th:last-child,
+.wc-block-cart .wc-block-cart__totals-title {
+  font-size: 18px !important;
+}
+
+/* FINALIZAR COMPRA */
+
+
+.wc-block-components-title.wc-block-components-title {
+  font-size: 1.125rem !important;
+  padding: 15px !important;
+  background: #C622E0;
+  color: #fff;
+  border-radius: 3px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .wc-block-components-title.wc-block-components-title {
+    margin-bottom: 30px !important;
+  }
+}
+
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {
+  border: none;
+  padding: 0px;
+  margin: 10px 0;
+  max-width: 600px;
+}
+
+/* PAGSEGURO */
+
+
+.woocommerce #pagseguro-payment-form {
+  border: none;
+}
+
+.woocommerce #payment div.payment_box::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, .4);
+
+}
+
+
+/* MINHA CONTA */
+
+
+.woocommerce-order-details__title {
+  font-size: 1.25rem;
+  margin: 15px 0;
+}
+
+.woocommerce-account.logged-in .woocommerce {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 30px;
+
+  &::after,
+  &::before {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  .woocommerce-account.logged-in .woocommerce {
+    grid-template-columns: 1fr;
+  }
+}
+
+.woocommerce-account.logged-in .woocommerce-MyAccount-navigation,
+.woocommerce-account.logged-in .woocommerce-MyAccount-content {
+  width: auto;
+  float: none;
+}
+
+/* ESTILO SIDMENU */
+
+
+.woocommerce-MyAccount-navigation {
+  ul {
+    background-color: #D645E590;
+    border-radius: 3px;
+  }
+
+  a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: black;
+    }
+  }
+
+  .is-active {
+    a {
+      background-color: #1D1D1D;
+    }
+  }
+}
+
+.woocommerce-MyAccount-content {
+  p {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    margin-top: 0px !important;
+  }
+
+
+}
+
+.woocommerce .woocommerce-customer-details {
+  address {
+
+    border-radius: 0px !important;
+    border: 5px solid #C622E0;
+    padding: 15px;
+  }
+}
+
+
+/* PEDIDO RECEBIDO */
+
+.woocommerce-order-received {
+  h2 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    text-transform: uppercase;
+
+  }
+
+  .woocommerce-thankyou-order-received {
+    color: black;
+    background-color: #C622E050;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  ul.order_details {
+    background-color: #C5C5C570;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+
+    +p {
+      margin-bottom: 30px;
+    }
+
+    li {
+      margin: 25px;
+      border-right: 2px solid #C622E0;
+
+      strong {
+        font-weight: 400;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.woocommerce-page .woocommerce-message .button {
+  font-weight: normal;
+  color: white;
+  background: #C622E0;
+}
+
+.woocommerce-page .woocommerce-message .button:hover {
+  color: #fff;
+  background: #000;
+}
+
+p:has(> strong:only-child),
+p:contains("woocommerce_checkout") {
+  display: none !important;
+}
+
+
+/* CONFIGURANDO ALGUNS METODOS DE PAGAMENTOS E ESTILOS NA LOJA */
+
+#submit-payment {
+  width: 100% !important;
+  margin: 20px 0;
+  background: #C622E0;
+}
+
+.order-actions--heading,
+.woocommerce-button.button.pay.order-actions-button,
+.mp-input-table-item:not(:first-child) {
+  display: none !important;
+}
+
+
+/* MUDANÇAS DO NOMES PARA PORTUGUES */
+
+
+.wc-blocks-components-select__label {
+  position: relative;
+  color: transparent;
+  /* Esconde o texto original */
+}
+
+.wc-blocks-components-select__label::before {
+  content: "PAIS/CIDADE";
+  /* Texto novo que aparece */
+  color: black;
+  /* Cor do texto novo */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+}
+
+#shipping-company {
+  display: none !important;
+}
+
+
+.wc-blocks-components-select .wc-blocks-components-select__label {
+  color: white !important;
+}
+
+.wc-block-components-address-form__first_name {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "NOME";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+.wc-block-components-address-form__last_name {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "SOBRENOME";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+.wc-block-components-address-form__address_1 {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "ENDEREÇO";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+.wc-block-components-address-form__address_2 {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "COMPLEMENTO";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+.wc-block-components-address-form__city {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "CIDADE";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+.wc-block-components-address-form__phone {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "TELEFONE";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+.wc-block-components-address-form__postcode {
+  label {
+    font-size: 0;
+    color: white !important;
+
+    &::before {
+      content: "CEP";
+      font-size: 20px !important;
+      color: black;
+    }
+  }
+}
+
+
+.mp-checkout-ticket-billing-number-toggle-checkbox {
+  z-index: -999;
+}
+
+
+.order_data_column {
+  h3 {
+    display: none !important;
+  }
+}
+
+.thwcfe-section-title {
+  display: none !important;
+}
+
+
+
+.woocommerce-order-data__meta .order_number {
+  display: none !important;
+}
+
+#order_data p.order_number {
+  display: none !important;
+}
+
+
+.trp-language-switcher-container.trp-floater-ls-names.trp-bottom-right.trp-color-dark.flags-full-names {
+  display: none !important;
+}
+
+
+.woocommerce .woocommerce-customer-details .addresses:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+  width: 100% !important;
+  margin-bottom: 20px;
+
+  .woocommerce-column__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+
+.woocommerce table.my_account_orders .button {
+  margin: 0 10px;
+}
+
+
+.woocommerce-Address-title.title {
+  display: flex !important;
+  justify-content: space-between;
+  margin: 15px 0;
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+
+  .edit {
+    background-color: #C622E0;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+  }
+}
+
+.woocommerce-notices-wrapper{
+  border-top: 5px solid  #C622E0;
+  padding-bottom: 20px;
+  border-radius: 2px;
+}
+
+
+#customer_login{
+  display: flex !important;
+}
+
+.has-text-align-center{
+  margin-bottom: 30px;
+}

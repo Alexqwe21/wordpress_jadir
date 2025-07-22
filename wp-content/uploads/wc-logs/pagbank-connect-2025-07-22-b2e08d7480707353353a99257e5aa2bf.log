@@ -1,0 +1,165 @@
+2025-07-22T01:29:47+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-22T01:29:47+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-22T01:29:47+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-22T01:29:47+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-22T01:29:47+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-22T01:29:49+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-22T01:29:49+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-22T01:36:41+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-22T01:36:41+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-22T01:36:41+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-22T01:36:41+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-22T01:36:42+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-22T01:36:42+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)

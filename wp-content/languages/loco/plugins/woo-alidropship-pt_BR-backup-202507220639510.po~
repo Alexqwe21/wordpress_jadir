@@ -1,0 +1,4006 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo AliDropship\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-25 03:01+0000\n"
+"PO-Revision-Date: 2025-07-22 06:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.27"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:439
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:493
+msgid " of "
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:93
+#, php-format
+msgid "%1$s => Applied rule number: %2$s"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:95
+#, php-format
+msgid "%s => No rule matched"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3743
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3748
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3745
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3391
+msgid "(price+shipping)"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1226
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:416
+msgid "(Set -1 to not use sale price)"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:58
+msgid "*Required to be able to import AliExpress products"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:217
+msgid "1. Chrome Extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:222
+msgid "2. Product Settings"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:227
+msgid "3. Recommendation"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2220
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"billing neighborhood to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid billing neighborhood being added twice to order address "
+"which makes the address become incorrect."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2192
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"billing number to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid billing number being added twice to order address which "
+"makes the address become incorrect."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2234
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"shipping neighborhood to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid shipping neighborhood being added twice to order "
+"address which makes the address become incorrect."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2206
+msgid ""
+"<strong>*Caution: </strong>If you already use a custom PHP snippet to append "
+"shipping number to order address via <strong>"
+"vi_wad_fulfillment_customer_info</strong> filter hook, please leave this "
+"field empty to avoid shipping number being added twice to order address "
+"which makes the address become incorrect."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:758
+msgid ""
+"<strong>*Note:</strong> The shipping cost will be calculated based on when "
+"the product is added to the import list."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:353
+msgid ""
+"<strong>*Note:</strong> This is not shipping cost/method that your customers "
+"see at your store."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2164
+msgid ""
+"<strong>*Note:</strong> This only overrides a customer's phone number if the "
+"default phone country is the same as the customer's country"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1589
+#, php-format
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: <i>wp_vi_wad_background_download_images_cron</i> is "
+"late, queued product images may not be processed. If you want to move all "
+"queued images to Failed images page to handle them manually, please click <a "
+"href=\"%s\">Move</a>"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1609
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: Finish processing product images"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1597
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: Product images are still being processed in the "
+"background, please do not edit products/go to product edit page until all "
+"images are processed completely."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1618
+#, php-format
+msgid ""
+"<strong>ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce</strong>: There are still images in the queue but background "
+"process is not running. <a href=\"%1$s\">Run</a> or <a href=\"%2$s\">Move to "
+"Failed images</a>"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:432
+msgid ""
+"<strong>DISABLE_WP_CRON</strong> is set to true, product images may not be "
+"downloaded properly. Please try option <strong>\"Disable background "
+"process\"</strong>"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:58
+msgid ""
+"<strong>EXMAGE – WordPress Image Links</strong> is currently inactive, "
+"external images added by this plugin(Post/product featured image, product "
+"gallery images...) will no longer work properly."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:71
+msgid ""
+"<strong>Notification for WooCommerce</strong> display recent orders as popup "
+"notifications, boosting conversion rates by showing real-time purchase, "
+"creating urgency, and showcasing new products."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:72
+msgid ""
+"<strong>Notification for WooCommerce</strong> is currently inactive. "
+"Activate it to display recent orders as popup notifications"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:64
+msgid ""
+"<strong>Photo Reviews for WooCommerce</strong> helps you send review "
+"reminder emails automatically to request a review, and lets your customer "
+"include photos in their feedback."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:65
+msgid ""
+"<strong>Photo Reviews for WooCommerce</strong> is currently inactive. "
+"Activate it to automatically send email to your customers to request reviews"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:79
+msgid ""
+"<strong>Product Variations Swatches for WooCommerce</strong> is currently "
+"inactive, this prevents variable products from displaying beautifully."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1210
+msgid "=> set \"Exchange rate\" 23 000"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2056
+msgid ""
+"Access token is used to bulk fulfill AliExpress orders/automatically sync "
+"product price and stock without using chrome extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:524
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2969
+msgid "Action"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:248
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1223
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:413
+msgid "Actions"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:198
+msgid "Activate"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:120
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:868
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:649
+msgid "Activate now"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:595
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:626
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1129
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2449
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2524
+msgid "Add"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1412
+msgid "Add a new range"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:595
+msgid "Add selected and keep existing categories"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:626
+msgid "Add selected and keep existing tags"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:774
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:360
+msgid "Add shipping cost after price rules"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2272
+msgid "Add this note to AliExpress order when fulfilling with Chrome extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1899
+msgid "Add video to description"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:559
+msgid "Add WooCommerce AliExpress Dropshipping Extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1467
+msgid ""
+"Adjust product prices following below rules after prices are calculated with "
+"above rules"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:68
+msgctxt "Admin menu name"
+msgid "Failed Images"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:648
+#, fuzzy
+msgctxt "Admin menu name"
+msgid "Import List"
+msgstr "Lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:187
+#, fuzzy
+msgctxt "Admin menu name"
+msgid "Imported"
+msgstr "Importado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:209
+msgid "ALD - Aliexpress Dropshipping and Fulfillment for WooCommerce icon"
+msgstr ""
+
+#. Name of the plugin
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/header.php:37
+msgid "ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:344
+msgid ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce plugin is "
+"currently disabled. Please enable it to use this function."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2302
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:419
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2667
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2677
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2686
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2695
+msgid ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce Settings"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:120
+msgid ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce: you can "
+"not import products or fulfil AliExpress orders unless below issue is "
+"resolved"
+msgid_plural ""
+"ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce: you can "
+"not import products or fulfil AliExpress orders unless below issues are "
+"resolved"
+msgstr[0] ""
+msgstr[1] ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:453
+msgid "ALD - Warning"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2582
+msgid "Ali Order"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2678
+msgid "Ali Order (Only Pro)"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:240
+msgid "Ali Order ID"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2086
+msgid "AliExpress account"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2080
+msgid "AliExpress API"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:514
+msgid ""
+"AliExpress does not currently support shipping to certain countries, like "
+"India or mainland China. Before starting dropshipping on this platform, it’s "
+"recommended to verify whether your country or your target dropshipping "
+"destination is supported. Visit AliExpress and check their shipping policies "
+"to avoid any potential issues"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1183
+msgid ""
+"AliExpress now does not allow switching currency if ship-to is set to "
+"Russian Federation(always in RUB) so if your store's currency is not RUB, "
+"you have to set this rate to be able to import products"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:325
+msgid "AliExpress order ID"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2266
+msgid "AliExpress Order note"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:143
+msgid "AliExpress Product ID:"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:166
+msgid "AliExpress sync"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:223
+msgid "All failed images"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:386
+msgid "All imported products"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2378
+msgid "All options below will only work if this option is enabled"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:140
+msgid "Also delete product from your WooCommerce store."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2162
+msgid ""
+"Always use Default phone number when fulfilling AliExpress order no matter "
+"your customers have phone number or not"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:533
+msgid "Amount"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:568
+msgid "Are you sure you want to delete all item(s) on this page?"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:567
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1824
+msgid "Attribute slug"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2803
+msgid "Attributes"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/auth.php:23
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/auth.php:24
+msgid "Auth"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/auth.php:35
+msgid "Authorize WooCommerce AliExpress Dropshipping Extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:709
+msgid "Auto generate unique sku if exists"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2314
+msgid ""
+"Automatically change order status after order id & tracking number of an "
+"order are synced successfully"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1913
+msgid "Automatically remove attribute"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1055
+msgid "Automatically remove Ship-from attribute if any"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:684
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:748
+msgid "Back"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1925
+msgid "Below options are used when you override a product"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2211
+msgid "Billing neighborhood meta field"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2183
+msgid "Billing number meta field"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2434
+msgid "Bulk Action"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:571
+msgid "Bulk set product categories"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:606
+msgid "Bulk set product tags"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:973
+msgid ""
+"By selecting a replacement, a new variation will be created by modifying the "
+"respective overridden variation. Overridden variations with no replacement "
+"selected will be deleted"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:50
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:63
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:243
+msgid "Can not delete product"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/functions.php:116
+msgid "Can not detect file type"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1477
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1495
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1537
+msgid ""
+"Can not find replacement for product attributes values. Please remove this "
+"product and import it again with the latest version of this plugin and "
+"Chrome Extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:274
+msgid "Can not override itself"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:172
+msgid "Can not remove image from list"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1434
+msgid ""
+"Can use an <strong>x</strong> in New value of compared part to remain the "
+"respective digit in the Compared part of input price"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:168
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:501
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:545
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:598
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:629
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:266
+msgid "Cancel"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:852
+msgid "Cancel overriding"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:844
+msgid "Cancel overriding this product"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:574
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:453
+msgid "Cannot create post"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:522
+msgid "Cannot retrieve data."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:404
+msgid ""
+"Cannot retrieve data. Please contact us and we will help you detect and "
+"handle the problem"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:764
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2103
+msgid "Carrier company"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:569
+msgid "Carrier: "
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1075
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2469
+msgid "Case Sensitive"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2878
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:805
+msgid "Catalog visibility"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2895
+msgid "Categories"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2297
+msgid "Change order status"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:647
+msgid "Change to use data from new table"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:106
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:161
+msgid "Check"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1974
+msgid ""
+"Check for existence of overridden product in unfulfilled orders before "
+"overriding"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:589
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:620
+msgid "Clear selected"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1487
+msgid "Compared part"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1488
+msgid "Compared part range"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:843
+msgid "Complete overriding"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1678
+msgid ""
+"Configure what the plugin will do when you update product manually with the "
+"chrome extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/data.php:1446
+msgid "Connect the Extension"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:494
+msgid ""
+"Connecting with extension using secret key may be deprecated in an update in "
+"the near future."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:534
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:294
+msgid "Copy Secret key"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:275
+msgid "Copy Site URL"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:728
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3387
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3625
+msgid "Cost"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3629
+msgid "Cost(price+shipping)"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2169
+msgid "CPF meta field"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:434
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:488
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2494
+msgid "Current Page"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:201
+msgid "Currently active"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2751
+msgid "Date: "
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1375
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2088
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:559
+msgid "Default"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2116
+msgid "Default carrier company"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:930
+msgid "Default categories"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2122
+msgid "Default phone number"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:832
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:613
+msgid "Default product description when adding product to import list"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:957
+msgid "Default product tags"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:899
+msgid "Default select product images"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:980
+msgid "Default shipping class"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3330
+msgid "Default variation"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:380
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:165
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:634
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:648
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:665
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:674
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:680
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:800
+msgid "Delete"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:400
+msgid "Delete All"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:631
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:645
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:662
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:671
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:797
+msgid "Delete this product permanently"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:124
+msgid "Delete: "
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:653
+msgid "Deleting old data in background"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/migrate-new-table.php:37
+msgid "Deletion progress has started running in the background."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:283
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:342
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2792
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:167
+msgid "Description"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:915
+msgid "Disable background process"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:41
+msgid "Dismiss"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1877
+msgid "Display product video on a separate tab in the frontend"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1951
+msgid ""
+"Do not create new variations even if the number of variations you select "
+"when overriding/reimporting a product is greater than the number of "
+"variations of target product."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:690
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:701
+msgid "Do not replace"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2031
+msgid "Do not show these options when overriding product"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1706
+msgid "Do not sync price if a product is on sale"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2574
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:691
+msgid "Draft"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2303
+msgid "Dropship & Fulfill"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1609
+msgid "Duplicate this row"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1209
+msgid ""
+"E.g: Your WooCommerce store currency is VND, exchange rate is: 1 USD = 23 "
+"000 VND"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:98
+msgid ""
+"Easily set unlimited images or MP4/WebM videos for each WC product variation "
+"and display them when the customer selects"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:254
+msgid "Edit"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3314
+msgid "Edit product"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:403
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2430
+msgid "Empty List"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:502
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2374
+msgid "Enable"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1038
+msgid "Enable manage stock and import product inventory."
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1647
+msgid "Enable product auto-sync"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1022
+msgid "Enable to make variations of imported products visible on product page"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1625
+msgid "Enter a price to test"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1818
+msgid "Enter attribute term to search"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:674
+msgid "Error"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/wp-background-process.php:420
+msgid "Every %d Minutes"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1172
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:392
+msgid "Exchange rate - RUB/USD"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1156
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:376
+#, php-format
+msgid "Exchange rate - USD/%s"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1191
+msgid "Exchange rate API"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1720
+msgid "Exclude categories"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1702
+msgid "Exclude on-sale products"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1711
+msgid "Exclude products"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2087
+msgid "Expire time"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:51
+msgid "Export/Import Settings"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:203
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:204
+msgid "Failed Images"
+msgstr ""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/functions.php:113
+#, fuzzy
+msgid "File type is not permitted"
+msgstr "O tipo de arquivo não é permitido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:607
+#, fuzzy
+msgid "Filter by AliExpress order status"
+msgstr "Filtrar por status do pedido do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:489
+#, fuzzy
+msgid "Filter by product"
+msgstr "Filtrar por produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/admin.php:37
+#, fuzzy
+msgid "Find Ali product"
+msgstr "Encontre o produto Ali"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1065
+#, fuzzy
+msgid "Find and Replace"
+msgstr "Localizar e substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:430
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1964
+#, fuzzy
+msgid "Find in unfulfilled orders"
+msgstr "Encontre em pedidos não atendidos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:511
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2342
+#, fuzzy
+msgid "Find product to import"
+msgstr "Encontre o produto para importar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:908
+#, fuzzy
+msgid ""
+"First image will be selected as product image and other images(except images "
+"from product description) are selected in gallery when adding product to "
+"import list"
+msgstr ""
+"A primeira imagem será selecionada como imagem do produto e as outras "
+"imagens (exceto imagens da descrição do produto) serão selecionadas na "
+"galeria ao adicionar o produto à lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:454
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2461
+#, fuzzy
+msgid "First Page"
+msgstr "Primeira página"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2778
+#, fuzzy
+msgid ""
+"First-purchase discount may apply to this product, please check its price "
+"carefully or import with consideration."
+msgstr ""
+"Desconto na primeira compra pode ser aplicado a este produto. Verifique o "
+"preço com atenção ou importe com consideração."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1217
+#, fuzzy
+msgid ""
+"For each price, first matched rule(from top to bottom) will be applied. If "
+"no rules match, the default will be used."
+msgstr ""
+"Para cada preço, será aplicada a primeira regra correspondente (de cima para "
+"baixo). Se nenhuma regra corresponder, será usada a padrão."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1854
+#, fuzzy
+msgid ""
+"For products you imported before 1.0.9, please sync them for videos to be "
+"updated"
+msgstr ""
+"Para produtos importados antes da versão 1.0.9, sincronize-os para que os "
+"vídeos sejam atualizados"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:978
+#, fuzzy
+msgid "Found in unfulfilled orders"
+msgstr "Encontrado em pedidos não atendidos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1553
+#, fuzzy
+msgid "Fraction"
+msgstr "Fração"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:481
+#, fuzzy
+msgid "Frontend Shipping"
+msgstr "Envio de front-end"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:479
+#, fuzzy
+msgid "Fulfill"
+msgstr "Completar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:285
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:347
+#, fuzzy
+msgid "Gallery"
+msgstr "Galeria"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2819
+#, fuzzy, php-format
+msgid "Gallery(%s)"
+msgstr "Galeria(%s)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:470
+#, fuzzy
+msgid "General"
+msgstr "Em geral"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:538
+#, fuzzy
+msgid "Generate new key"
+msgstr "Gerar nova chave"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1195
+#, fuzzy
+msgid ""
+"Get exchange rate from Google finance, Yahoo finance API, Cuex API, Wise API."
+".."
+msgstr ""
+"Obtenha taxas de câmbio do Google Finance, API do Yahoo Finance, API do Cuex,"
+" API do Wise..."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/form-grant-access.php:44
+#, fuzzy
+msgid "Get orders data to fulfill AliExpress orders"
+msgstr "Obtenha dados de pedidos para atender aos pedidos do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:273
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:307
+#, fuzzy
+msgid "Get tracking"
+msgstr "Obtenha rastreamento"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2319
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2334
+#, fuzzy
+msgid "Get tracking number automatically"
+msgstr "Obtenha o número de rastreamento automaticamente"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:729
+#, fuzzy
+msgid ""
+"Global attributes will be used instead of custom attributes. More detail "
+"about <a href=\"https://woocommerce.com/document/managing-product-"
+"taxonomies/#product-attributes\" target=\"_blank\">Product attributes</a>"
+msgstr ""
+"Atributos globais serão usados em vez de atributos personalizados. Mais "
+"detalhes sobre os atributos do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:673
+#, fuzzy
+msgid ""
+"Global attributes will be used instead of custom attributes. More details "
+"about <a href=\"https://woocommerce.com/document/managing-product-"
+"taxonomies/#product-attributes\" target=\"_blank\">Product attributes</a>"
+msgstr ""
+"Atributos globais serão usados em vez de atributos personalizados. Mais "
+"detalhes sobre os atributos do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2337
+#, fuzzy
+msgid "Go to AliExpress"
+msgstr "Vá para o AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:840
+#, fuzzy
+msgid "Go to import list to complete overriding"
+msgstr "Vá para a lista de importação para concluir a substituição"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2582
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:814
+#, fuzzy
+msgid "Hidden"
+msgstr "Escondido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2024
+#, fuzzy
+msgid "Hide options"
+msgstr "Ocultar opções"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1421
+#, fuzzy
+msgid "How does it work?"
+msgstr "Como funciona?"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:581
+#, fuzzy
+msgid "How to use this plugin?"
+msgstr "Como usar este plugin?"
+
+#. Author URI of the plugin
+#, fuzzy
+msgid "http://villatheme.com"
+msgstr "http://villatheme.com"
+
+#. URI of the plugin
+#, fuzzy
+msgid ""
+"https://villatheme.com/extensions/aliexpress-dropshipping-and-fulfillment-"
+"for-woocommerce/"
+msgstr ""
+"https://villatheme.com/extensions/aliexpress-dropshipping-e-fulfillment-para-"
+"woocommerce/"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:799
+#, fuzzy
+msgid ""
+"If a product has only 1 variation or you select only 1 variation to import, "
+"that product will be imported as simple product. Variation sku and "
+"attributes will not be used."
+msgstr ""
+"Se um produto tiver apenas 1 variação ou você selecionar apenas 1 variação "
+"para importar, esse produto será importado como um produto simples. O SKU e "
+"os atributos da variação não serão utilizados."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1738
+#, fuzzy
+msgid "If a product is available purchase"
+msgstr "Se um produto estiver disponível para compra"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1756
+#, fuzzy
+msgid "If a product is no longer available"
+msgstr "Se um produto não estiver mais disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1747
+#, fuzzy
+msgid "If a product is out of stock"
+msgstr "Se um produto estiver fora de estoque"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1774
+#, fuzzy
+msgid "If a variation is no longer available"
+msgstr "Se uma variação não estiver mais disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2149
+#, fuzzy
+msgid ""
+"If an order does not have phone number, this number will be used when "
+"fulfilling AliExpress order"
+msgstr ""
+"Se um pedido não tiver número de telefone, este número será usado para "
+"atender o pedido do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1765
+#, fuzzy
+msgid "If selected shipping method is no longer available"
+msgstr "Se o método de envio selecionado não estiver mais disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1057
+#, fuzzy
+msgid ""
+"If Ship-from attribute of a product does not contain the selected \"Default "
+"Ship-from country\" below, Ship-from attribute will not be removed"
+msgstr ""
+"Se o atributo Ship-from de um produto não contiver o \"País de envio "
+"padrão\" selecionado abaixo, o atributo Ship-from não será removido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1040
+#, fuzzy
+msgid ""
+"If this option is disabled, products stock status will be set \"Instock\" "
+"and product inventory will not be imported"
+msgstr ""
+"Se esta opção estiver desabilitada, o status do estoque dos produtos será "
+"definido como \"Em estoque\" e o estoque do produto não será importado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2356
+#, fuzzy
+msgid ""
+"If you are sure that the tracking number will not change during the order's "
+"lifetime, use this option to exclude items that already have a tracking "
+"number from being synchronized."
+msgstr ""
+"Se você tiver certeza de que o número de rastreamento não mudará durante a "
+"vigência do pedido, use esta opção para excluir itens que já tenham um "
+"número de rastreamento da sincronização."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2218
+#, fuzzy
+msgid ""
+"If you customize checkout fields to add the billing neighborhood field, "
+"please enter the order meta field which is used to store billing "
+"neighborhood here."
+msgstr ""
+"Se você personalizar os campos de checkout para adicionar o campo de bairro "
+"de cobrança, insira aqui o metacampo do pedido que é usado para armazenar o "
+"bairro de cobrança."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2190
+#, fuzzy
+msgid ""
+"If you customize checkout fields to add the billing number field, please "
+"enter the order meta field which is used to store billing number here."
+msgstr ""
+"Se você personalizar os campos de checkout para adicionar o campo de número "
+"de cobrança, insira aqui o metacampo do pedido usado para armazenar o número "
+"de cobrança."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2232
+#, fuzzy
+msgid ""
+"If you customize checkout fields to add the shipping neighborhood field, "
+"please enter the order meta field which is used to store shipping "
+"neighborhood here."
+msgstr ""
+"Se você personalizar os campos de checkout para adicionar o campo de bairro "
+"de entrega, insira aqui o metacampo do pedido que é usado para armazenar o "
+"bairro de entrega."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2204
+#, fuzzy
+msgid ""
+"If you customize checkout fields to add the shipping number field, please "
+"enter the order meta field which is used to store shipping number here."
+msgstr ""
+"Se você personalizar os campos de checkout para adicionar o campo de número "
+"de envio, insira aqui o metacampo do pedido usado para armazenar o número de "
+"envio."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1724
+#, fuzzy
+msgid ""
+"If you don't want to sync price of products from some specific categories, "
+"enter them here"
+msgstr ""
+"Se você não quiser sincronizar o preço dos produtos de algumas categorias "
+"específicas, insira-os aqui"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1715
+#, fuzzy
+msgid ""
+"If you don't want to sync price of some specific products, enter them here"
+msgstr ""
+"Se você não quiser sincronizar o preço de alguns produtos específicos, "
+"insira-os aqui"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:598
+#, fuzzy
+msgid ""
+"If you increase the \"Number of items per page\" using in the Screen options "
+"on each page above too high and the page can not be fully loaded, you can "
+"use this option to decrease the value accordingly."
+msgstr ""
+"Se você aumentar o \"Número de itens por página\" nas opções de Tela em cada "
+"página acima e a página não puder ser carregada completamente, você pode "
+"usar esta opção para diminuir o valor correspondente."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2178
+#, fuzzy
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_billing_cpf</strong>"
+msgstr ""
+"Se você usa o Mercado Brasileiro no WooCommerce, preencha esta opção com "
+"_billing_cpf"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2219
+#, fuzzy
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_billing_neighborhood</strong>"
+msgstr ""
+"Se você usa o Mercado Brasileiro no WooCommerce, preencha esta opção com "
+"_billing_neighborhood"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2191
+#, fuzzy
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_billing_number</strong>"
+msgstr ""
+"Se você usa o Mercado Brasileiro no WooCommerce, preencha esta opção com "
+"_billing_number"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2233
+#, fuzzy
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_shipping_neighborhood</strong>"
+msgstr ""
+"Se você usa o Mercado Brasileiro no WooCommerce, preencha esta opção com "
+"_shipping_neighborhood"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2205
+#, fuzzy
+msgid ""
+"If you use <a target=\"_blank\" href=\"https://wordpress."
+"org/plugins/woocommerce-extra-checkout-fields-for-brazil/\">Brazilian Market "
+"on WooCommerce</a>, please fill this option with <strong>"
+"_shipping_number</strong>"
+msgstr ""
+"Se você usa o Mercado Brasileiro no WooCommerce, preencha esta opção com "
+"_shipping_number"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:401
+#, fuzzy
+msgid "If you want to import products from aliexpress.ru, this is required"
+msgstr "Se você deseja importar produtos do aliexpress.ru, isso é necessário"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:59
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:127
+#, fuzzy
+msgid ""
+"If your customers buy this product, this selected AliExpress variation will "
+"be used when fulfilling AliExpress orders"
+msgstr ""
+"Se seus clientes comprarem este produto, esta variação selecionada do "
+"AliExpress será usada para atender aos pedidos do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:246
+#, fuzzy
+msgid "Image url"
+msgstr "URL da imagem"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:375
+#, fuzzy
+msgid "Import"
+msgstr "Importar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:496
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3157
+#, fuzzy
+msgid "Import & Map"
+msgstr "Importar e mapear"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:447
+#, fuzzy
+msgid "Import & map existing Woo product: "
+msgstr "Importar e mapear produtos Woo existentes:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3143
+#, fuzzy
+msgid "Import & Override"
+msgstr "Importar e substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:741
+#, fuzzy
+msgid ""
+"Import AliExpress product specification as Woo product additional "
+"information."
+msgstr ""
+"Importe as especificações do produto AliExpress como informações adicionais "
+"do produto Woo."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3195
+#, fuzzy
+msgid "Import AliExpress Products"
+msgstr "Importar produtos AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/form-grant-access.php:43
+#, fuzzy
+msgid "Import AliExpress products"
+msgstr "Importe produtos AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:399
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2427
+#, fuzzy
+msgid "Import All"
+msgstr "Importar tudo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2427
+#, fuzzy
+msgid "Import all products on this page"
+msgstr "Importar todos os produtos desta página"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:415
+#, fuzzy
+msgid "Import all products on this page to your WooCommerce store?"
+msgstr "Importar todos os produtos desta página para sua loja WooCommerce?"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:418
+#, fuzzy
+msgid "Import all selected product(s)?"
+msgstr "Importar todos os produtos selecionados?"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:790
+#, fuzzy
+msgid "Import as simple product"
+msgstr "Importar como produto simples"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:883
+#, fuzzy
+msgid "Import description images"
+msgstr "Importar imagens de descrição"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2314
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2334
+#, fuzzy
+msgid "Import List"
+msgstr "Lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2313
+#, fuzzy
+msgid ""
+"Import List - ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce"
+msgstr ""
+"Lista de Importação - ALD - Dropshipping e Fulfillment para AliExpress e "
+"WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3149
+#, fuzzy
+msgid "Import Now"
+msgstr "Importar agora"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1864
+#, fuzzy
+msgid "Import product video"
+msgstr "Importar vídeo do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2444
+#, fuzzy
+msgid "Import selected"
+msgstr "Importação selecionada"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:82
+#, fuzzy
+msgid "Import Settings"
+msgstr "Configurações de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:736
+#, fuzzy
+msgid "Import specifications"
+msgstr "Especificações de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1751
+#, fuzzy
+msgid "Import successfully"
+msgstr "Importação com sucesso"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:670
+#, fuzzy
+msgid "Import this product"
+msgstr "Importe este produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3149
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3155
+#, fuzzy
+msgid "Import this product to your WooCommerce store"
+msgstr "Importe este produto para sua loja WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1147
+#, fuzzy
+msgid "Important"
+msgstr "Importante"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:356
+#, fuzzy
+msgid "Imported"
+msgstr "Importado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:355
+#, fuzzy
+msgid ""
+"Imported Products - ALD - Dropshipping and Fulfillment for AliExpress and "
+"WooCommerce"
+msgstr ""
+"Produtos Importados - ALD - Dropshipping e Fulfillment para AliExpress e "
+"WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:693
+#, fuzzy
+msgid "Imported products status will be set to this value."
+msgstr "O status dos produtos importados será definido para este valor."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:952
+#, fuzzy
+msgid "Imported products will be added to these categories."
+msgstr "Produtos importados serão adicionados a essas categorias."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:424
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:502
+#, fuzzy
+msgid "In transit"
+msgstr "Em trânsito"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1310
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1379
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:495
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:563
+#, fuzzy
+msgid "Increase by Fixed amount($)"
+msgstr "Aumento por valor fixo ($)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:528
+#, fuzzy, php-format
+msgid "Increase by fixed value(%s)"
+msgstr "Aumento em valor fixo(%s)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1311
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1380
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:496
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:564
+#, fuzzy
+msgid "Increase by Percentage(%)"
+msgstr "Aumento em porcentagem (%)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:529
+#, fuzzy
+msgid "Increase by percentage(%)"
+msgstr "Aumento em porcentagem(%)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:242
+#, fuzzy
+msgid "Index"
+msgstr "Índice"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:575
+#, fuzzy
+msgid "Input keyword to search"
+msgstr "Insira a palavra-chave para pesquisar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:190
+#, fuzzy
+msgid "Install"
+msgstr "Instalar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:753
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:775
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:784
+#, fuzzy
+msgid "Install & Return to Import list"
+msgstr "Instalar e retornar à lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:570
+#, fuzzy
+msgid "Install and connect the chrome extension"
+msgstr "Instalar e conectar a extensão do Chrome"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/data.php:1450
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:257
+#, fuzzy
+msgid "Install Chrome Extension"
+msgstr "Instale a extensão do Chrome"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:55
+#, fuzzy
+msgid "Install Extension"
+msgstr "Instalar extensão"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:113
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:863
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:644
+#, fuzzy
+msgid "Install now"
+msgstr "Instale agora"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1917
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1941
+#, fuzzy
+msgid ""
+"Instead of deleting old product to create a new one, it will update the "
+"overridden old product's prices/stock/attributes/variations based on the new "
+"data. This way, data such as reviews, metadata... will not be lost."
+msgstr ""
+"Em vez de excluir o produto antigo para criar um novo, ele atualizará os "
+"preços/estoque/atributos/variações do produto antigo substituído com base "
+"nos novos dados. Dessa forma, dados como avaliações e metadados não serão "
+"perdidos."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1552
+#, fuzzy
+msgid "Integer"
+msgstr "Inteiro"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:49
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:915
+#, fuzzy
+msgid "Invalid data"
+msgstr "Dados inválidos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:593
+#, fuzzy
+msgid "Invalid nonce"
+msgstr "Nonce inválido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:90
+#, fuzzy
+msgid "Invalid product"
+msgstr "Produto inválido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3407
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3718
+#, fuzzy
+msgid "Inventory"
+msgstr "Inventário"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:100
+#, fuzzy
+msgid "is currently inactive, the variation gallery setting will not be set."
+msgstr ""
+"estiver inativo no momento, a configuração da galeria de variações não será "
+"definida."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:99
+#, fuzzy
+msgid "is what you need."
+msgstr "é o que você precisa."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:828
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:609
+#, fuzzy
+msgid "Item specifics"
+msgstr "Especificidades do item"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:830
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:611
+#, fuzzy
+msgid "Item specifics & Product Description"
+msgstr "Especificações do item e descrição do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:629
+#, fuzzy
+msgid ""
+"items remaining in the migration process. New Ali products cannot be added "
+"while the process is ongoing."
+msgstr ""
+"itens restantes no processo de migração. Novos produtos Ali não podem ser "
+"adicionados enquanto o processo estiver em andamento."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1956
+#, fuzzy
+msgid "Keep SKU"
+msgstr "Manter SKU"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:429
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1931
+#, fuzzy
+msgid "Keep Woo product"
+msgstr "Mantenha o produto Woo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:603
+#, fuzzy
+msgid "Keyword is empty"
+msgstr "A palavra-chave está vazia"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:533
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2533
+#, fuzzy
+msgid "Last Page"
+msgstr "Última página"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:545
+#, fuzzy
+msgid "Last volume high to low"
+msgstr "Último volume alto para baixo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:544
+#, fuzzy
+msgid "Last volume low to high"
+msgstr "Último volume baixo para alto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1113
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2507
+#, fuzzy
+msgid "Leave blank to delete matches"
+msgstr "Deixe em branco para excluir correspondências"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1433
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1443
+#, fuzzy
+msgid ""
+"Leave Compared part range <strong>empty</strong> to apply to all prices in "
+"the Price range"
+msgstr ""
+"Deixe o intervalo de peças comparadas em branco para aplicar a todos os "
+"preços no intervalo de preços"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1432
+#, fuzzy
+msgid ""
+"Leave Price range <strong>empty</strong> to apply to all prices that have "
+"decimal part matches the Compared part range"
+msgstr ""
+"Deixe o intervalo de preço em branco para aplicar a todos os preços cuja "
+"parte decimal corresponde ao intervalo da parte comparada"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1947
+#, fuzzy
+msgid "Link existing variations only"
+msgstr "Vincular apenas variações existentes"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2922
+#, fuzzy
+msgid "Link existing Woo product"
+msgstr "Somente variação do link"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2043
+#, fuzzy
+msgid "Link variation only"
+msgstr "Somente variação do link"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2687
+#, fuzzy
+msgid "Logs (Only Pro)"
+msgstr "Logs (somente Pro)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:99
+#, fuzzy
+msgid ""
+"Looking for a plugin that lets you add unlimited images or MP4/WebM videos "
+"to each WooCommerce product variation?"
+msgstr ""
+"Procurando um plugin que permita adicionar imagens ilimitadas ou vídeos "
+"MP4/WebM a cada variação de produto WooCommerce?"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1891
+#, fuzzy
+msgid "Make video full tab width"
+msgstr "Tornar o vídeo com largura de tabulação completa"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1029
+#, fuzzy
+msgid "Manage stock"
+msgstr "Gerenciar estoque"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:507
+#, fuzzy
+msgid "Manual"
+msgstr "Manual"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1802
+#, fuzzy
+msgid "Manual sync with current Ali country"
+msgstr "Sincronização manual com o país atual do Ali"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:217
+#, fuzzy
+msgid "Max can not < min"
+msgstr "Max não pode < min"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:218
+#, fuzzy, php-format
+msgid "Max decimal: %s"
+msgid_plural "Max decimals: %s"
+msgstr[0] "Decimal máximo: %s"
+msgstr[1] "Máximo de decimais: %s"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1441
+#, fuzzy
+msgid ""
+"Maximum number of digits of Compared part range is 1 subtracted from the "
+"minimum number of digits of Price range"
+msgstr ""
+"O número máximo de dígitos do intervalo de peças comparadas é 1 subtraído do "
+"número mínimo de dígitos do intervalo de preços"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1442
+#, fuzzy
+msgid ""
+"Maximum number of digits of New value of compared part is the maximum number "
+"of digits of Compared part range"
+msgstr ""
+"O número máximo de dígitos do novo valor da parte comparada é o número "
+"máximo de dígitos do intervalo da parte comparada"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:211
+#, fuzzy
+msgid "Maximum {value} digit"
+msgstr "Dígito máximo {valor}"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:212
+#, fuzzy
+msgid "Maximum {value} digits"
+msgstr "Máximo de dígitos {valor}"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:43
+#, fuzzy
+msgid "Memory Limit"
+msgstr "Limite de memória"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:635
+#, fuzzy
+msgid "Migrate & use new table"
+msgstr "Migrar e usar nova tabela"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:425
+#, fuzzy
+msgid "Migrate import list/imported to new data table"
+msgstr "Migrar lista de importação/importação para nova tabela de dados"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2613
+#, fuzzy
+msgid "Migrate Products"
+msgstr "Migrar produtos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2696
+#, fuzzy
+msgid "Migrate Products (Only Pro)"
+msgstr "Migrar produtos (somente Pro)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/migrate-new-table.php:25
+#, fuzzy
+msgid "Migration progress has started running in the background."
+msgstr "O progresso da migração começou a ocorrer em segundo plano."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:216
+#, fuzzy
+msgid "Min can not > max"
+msgstr "Min não pode > max"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:215
+#, fuzzy
+msgid "Minimum 2 digits"
+msgstr "Mínimo 2 dígitos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:331
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:389
+#, fuzzy
+msgid "Missing required arguments"
+msgstr "Argumentos obrigatórios ausentes"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1312
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1381
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:497
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:565
+#, fuzzy
+msgid "Multiply with"
+msgstr "Multiplique com"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2966
+#, fuzzy
+msgid "Name"
+msgstr "Nome"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:78
+#, fuzzy
+msgid ""
+"Need a variations swatches plugin that works perfectly with ALD - "
+"Dropshipping and Fulfillment for AliExpress and WooCommerce? <strong>Product "
+"Variations Swatches for WooCommerce</strong> is what you need."
+msgstr ""
+"Precisa de um plugin de amostras de variações que funcione perfeitamente com "
+"o ALD - Dropshipping e Fulfillment para AliExpress e WooCommerce? Amostras "
+"de Variações de Produtos para WooCommerce é o que você precisa."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:57
+#, fuzzy
+msgid ""
+"Need to save your server storage? <strong>EXMAGE – WordPress Image "
+"Links</strong> will help you solve the problem by using external image URLs. "
+"</br>When this plugin is active, \"Use external links for images\" option "
+"will be available in the ALD plugin settings/Product which allows to use "
+"original AliExpress product image URLs for featured image, gallery images "
+"and variation image of imported AliExpress products."
+msgstr ""
+"Precisa economizar espaço no seu servidor? O EXMAGE – WordPress Image Links "
+"ajudará você a resolver o problema usando URLs de imagens externas. Quando "
+"este plugin estiver ativo, a opção \"Usar links externos para imagens\" "
+"estará disponível nas configurações do plugin ALD/Produto, permitindo usar "
+"URLs de imagens originais de produtos AliExpress para imagens em destaque, "
+"imagens de galeria e imagens de variação de produtos importados do "
+"AliExpress."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1489
+#, fuzzy
+msgid "New value of compared part"
+msgstr "Novo valor da parte comparada"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1435
+#, fuzzy, php-format
+msgid ""
+"New value of compared part can contain maximum %s digit which is the Number "
+"of decimals in your <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">WooCommerce "
+"settings</a>"
+msgid_plural ""
+"New value of compared part can contain maximum %s digits which is the Number "
+"of decimals in your <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">WooCommerce "
+"settings</a>"
+msgstr[0] ""
+"O novo valor da parte comparada pode conter no máximo %s dígitos, que é o "
+"número de decimais em suas <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">configurações do "
+"WooCommerce</a>"
+msgstr[1] ""
+"O novo valor da parte comparada pode conter no máximo %s dígitos, que é o "
+"número de decimais em suas <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">configurações do "
+"WooCommerce</a>"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:324
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:690
+#, fuzzy
+msgid "Next"
+msgstr "Próximo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:460
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:515
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2516
+#, fuzzy
+msgid "Next Page"
+msgstr "Próxima página"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2304
+#, fuzzy
+msgid "No change"
+msgstr "Sem alteração"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:961
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:970
+#, fuzzy
+msgid "No matched order found"
+msgstr "Nenhum pedido correspondente encontrado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:684
+#, fuzzy
+msgid "No product found"
+msgstr "Nenhum produto encontrado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:414
+#, fuzzy
+msgid "No product found."
+msgstr "Nenhum produto encontrado."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2910
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:986
+#, fuzzy
+msgid "No shipping class"
+msgstr "Sem classe de envio"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:857
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:934
+#, fuzzy
+msgid "No tracking number"
+msgstr "Sem número de rastreamento"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1485
+#, fuzzy
+msgid "No."
+msgstr "Não."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:827
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:608
+#, fuzzy
+msgid "None"
+msgstr "Nenhum"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3371
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3608
+#, fuzzy
+msgid "Not available"
+msgstr "Não disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:325
+#, fuzzy
+msgid "Not find this product data to override"
+msgstr "Não foi possível encontrar os dados deste produto para substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:148
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:175
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:680
+#, fuzzy
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:284
+#, fuzzy
+msgid ""
+"Not found product data. Please make sure the product is added to the import "
+"list before checking"
+msgstr ""
+"Dados do produto não encontrados. Certifique-se de que o produto foi "
+"adicionado à lista de importação antes de verificar."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:279
+#, fuzzy
+msgid ""
+"Not found. Please make sure the product is added to the import list before "
+"checking"
+msgstr ""
+"Não encontrado. Certifique-se de que o produto foi adicionado à lista de "
+"importação antes de verificar."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:877
+#, fuzzy
+msgid ""
+"Note: In some cases, AliExpress may block image access. If images don’t "
+"display properly, please download the images instead of using external links"
+msgstr ""
+"Observação: em alguns casos, o AliExpress pode bloquear o acesso às imagens. "
+"Se as imagens não forem exibidas corretamente, baixe-as em vez de usar links "
+"externos."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1858
+#, fuzzy
+msgid ""
+"Note: In some cases, AliExpress may block image/video access. If you see "
+"that the videos don’t display properly, please disable this feature and "
+"download them instead of using external linksl"
+msgstr ""
+"Observação: em alguns casos, o AliExpress pode bloquear o acesso a "
+"imagens/vídeos. Se você notar que os vídeos não estão sendo exibidos "
+"corretamente, desative esse recurso e baixe-os em vez de usar links externos."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:662
+#, fuzzy
+msgid "Note: You should backup data before doing this action"
+msgstr "Nota: Você deve fazer backup dos dados antes de realizar esta ação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1784
+#, fuzzy
+msgid "Notification email"
+msgstr "E-mail de notificação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1797
+#, fuzzy
+msgid ""
+"Notification will be sent to this address. If not set, the \"From\" address "
+"in <a target=\"_blank\" href=\"admin.php?page=wc-settings&tab=email\">"
+"WooCommerce settings/Emails</a> will be used."
+msgstr ""
+"A notificação será enviada para este endereço. Caso não seja definido, será "
+"utilizado o endereço \"De\" nas configurações/E-mails do WooCommerce."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:594
+#, fuzzy
+msgid "Number of items per page"
+msgstr "Número de itens por página"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:214
+#, fuzzy
+msgid "Numerical digit & X only"
+msgstr "Apenas dígito numérico e X"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:213
+#, fuzzy
+msgid "Numerical digit only"
+msgstr "Apenas dígitos numéricos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2293
+#, fuzzy
+msgid "Only show action buttons for orders with status among these"
+msgstr "Mostrar apenas botões de ação para pedidos com status entre estes"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1688
+#, fuzzy
+msgid ""
+"Only sync products with selected statuses. Leave empty to select all "
+"statuses."
+msgstr ""
+"Sincronize apenas produtos com status selecionados. Deixe em branco para "
+"selecionar todos os status."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:528
+#, fuzzy
+msgid "Order ID: "
+msgstr "ID do pedido:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:1202
+#, fuzzy
+msgid "Order not found"
+msgstr "Pedido não encontrado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class-vi-wad-draft-product.php:20
+#, fuzzy
+msgctxt "Order status"
+msgid "Override"
+msgstr "Substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:480
+#, fuzzy
+msgid "Order Sync"
+msgstr "Sincronização de pedidos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:816
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:896
+#, fuzzy
+msgid "Order synced successfully"
+msgstr "Pedido sincronizado com sucesso"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2343
+#, fuzzy
+msgid "Order's priority"
+msgstr "Prioridade do pedido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:59
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:127
+#, fuzzy
+msgid "Original AliExpress variation"
+msgstr "Variação original do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1825
+#, fuzzy
+msgid "Original attribute term(case-insensitive)"
+msgstr "Termo de atributo original (sem distinção de maiúsculas e minúsculas)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:978
+#, fuzzy
+msgid "Overridden items"
+msgstr "Itens substituídos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:451
+#, fuzzy
+msgid ""
+"Overridden product and all of its data(including variations, reviews, "
+"metadata...) will be deleted. Please make sure you had backed up those kinds "
+"of data before continuing!"
+msgstr ""
+"O produto substituído e todos os seus dados (incluindo variações, avaliações,"
+" metadados...) serão excluídos. Certifique-se de ter feito backup desses "
+"dados antes de continuar!"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:985
+#, fuzzy
+msgid "Overridden product does not exist"
+msgstr "O produto substituído não existe"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:107
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:808
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:495
+#, fuzzy
+msgid "Override"
+msgstr "Substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2154
+#, fuzzy
+msgid "Override customer phone number"
+msgstr "Substituir número de telefone do cliente"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2012
+#, fuzzy
+msgid "Override description"
+msgstr "Substituir descrição"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1991
+#, fuzzy
+msgid "Override images"
+msgstr "Substituir imagens"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2004
+#, fuzzy
+msgid "Override specifications"
+msgstr "Substituir especificações"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:805
+#, fuzzy
+msgid "Override this product"
+msgstr "Substituir este produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1979
+#, fuzzy
+msgid "Override title"
+msgstr "Substituir título"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:129
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:445
+#, fuzzy
+msgid "Override: "
+msgstr "Substituir:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2573
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:690
+#, fuzzy
+msgid "Pending"
+msgstr "Pendente"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:32
+#, fuzzy
+msgid "PHP Max Execution Time"
+msgstr "Tempo máximo de execução do PHP"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:37
+#, fuzzy
+msgid "PHP Max Input Vars"
+msgstr "Variáveis de entrada máximas do PHP"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:855
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1640
+#, fuzzy
+msgid "PHP max_input_vars is too low, please increase it in php.ini"
+msgstr "O valor max_input_vars do PHP está muito baixo, aumente-o no php.ini"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:32
+#, fuzzy
+msgid "PHP Time Limit"
+msgstr "Limite de tempo PHP"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:1000
+#, fuzzy, php-format
+msgid "Please configure %s/USD rate in the plugin settings/Product price"
+msgstr ""
+"Por favor, configure a taxa %s/USD nas configurações do plugin/Preço do "
+"produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:142
+#, fuzzy
+msgid ""
+"Please disable \"Use external links for images\" and enable \"Import "
+"description images\""
+msgstr ""
+"Desabilite \"Usar links externos para imagens\" e habilite \"Importar "
+"imagens de descrição\""
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:232
+#, fuzzy
+msgid ""
+"Please disable \"Use external links for images\" and enable \"Import "
+"description images\" to make Import button available for Description images"
+msgstr ""
+"Desabilite \"Usar links externos para imagens\" e habilite \"Importar "
+"imagens de descrição\" para tornar o botão Importar disponível para imagens "
+"de descrição"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:270
+#, fuzzy
+msgid ""
+"Please enter AliExpress Product ID( the product must be imported to the "
+"import list before checking)"
+msgstr ""
+"Insira o ID do produto AliExpress (o produto deve ser importado para a lista "
+"de importação antes da verificação)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:909
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1296
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1657
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1759
+#, fuzzy
+msgid "Please select at least 1 variation to import this product."
+msgstr "Selecione pelo menos 1 variação para importar este produto."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:411
+#, fuzzy
+msgid "Please select at least 1 variation to import."
+msgstr "Selecione pelo menos 1 variação para importar."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:554
+#, fuzzy
+msgid ""
+"Please select default value to fulfill orders after this attribute is removed"
+msgstr ""
+"Selecione o valor padrão para atender aos pedidos após a remoção deste "
+"atributo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:63
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:134
+#, fuzzy
+msgid "Please select original variation"
+msgstr "Selecione a variação original"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1652
+#, fuzzy
+msgid "Please select product to import"
+msgstr "Selecione o produto a ser importado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:1002
+#, fuzzy
+msgid "Please switch AliExpress currency to USD"
+msgstr "Por favor, altere a moeda do AliExpress para USD"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:166
+#, fuzzy
+msgid "Plugins"
+msgstr "Plug-ins"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2965
+#, fuzzy
+msgid "Position"
+msgstr "Posição"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/data.php:1685
+#, fuzzy
+msgid "Preg_match fails"
+msgstr "Falha no Preg_match"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2565
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2596
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2627
+#, fuzzy
+msgid "Preview"
+msgstr "Visualização"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:425
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:479
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2485
+#, fuzzy
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1458
+#, fuzzy
+msgid "Price format"
+msgstr "Formato de preço"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:543
+#, fuzzy
+msgid "Price high to low"
+msgstr "Preço alto para baixo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:542
+#, fuzzy
+msgid "Price low to high"
+msgstr "Preço baixo a alto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2762
+#, fuzzy
+msgid "Price of the product applicable to the"
+msgstr "Preço do produto aplicável ao"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1222
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1486
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:412
+#, fuzzy
+msgid "Price range"
+msgstr "Faixa de preço"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:127
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:416
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:419
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:500
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:609
+#, fuzzy
+msgid "Processing"
+msgstr "Processamento"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2788
+#, fuzzy
+msgid "Product"
+msgstr "Produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1966
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1977
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2082
+#, fuzzy, php-format
+msgid "Product #%1$s is replaced with product #%2$s."
+msgstr "O produto #%1$s é substituído pelo produto #%2$s."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2071
+#, fuzzy, php-format
+msgid ""
+"Product #%1$s is replaced with product #%2$s. Variation #%3$s is replaced "
+"with variation #%4$s."
+msgstr ""
+"O produto nº%1$s foi substituído pelo produto nº%2$s. A variação nº%3$s foi "
+"substituída pela variação nº%4$s."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:473
+#, fuzzy
+msgid "Product Attributes"
+msgstr "Atributos do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1642
+#, fuzzy
+msgid "Product auto-sync is currently DISABLED"
+msgstr "A sincronização automática do produto está DESATIVADA no momento"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:829
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:610
+#, fuzzy
+msgid "Product Description"
+msgstr "Descrição do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:821
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:602
+#, fuzzy
+msgid "Product description"
+msgstr "Descrição do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:145
+#, fuzzy
+msgid "Product does not exist"
+msgstr "O produto não existe"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:580
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:456
+#, fuzzy
+msgid "Product exists"
+msgstr "O produto existe"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:243
+#, fuzzy
+msgid "Product ID"
+msgstr "ID do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:578
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:440
+#, fuzzy
+msgid "Product is added to import list"
+msgstr "O produto foi adicionado à lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:888
+#, fuzzy
+msgid "Product is deleted from your store"
+msgstr "O produto foi excluído da sua loja"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:478
+#, fuzzy
+msgid "Product Migration"
+msgstr "Migração de produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:477
+#, fuzzy
+msgid "Product Overriding"
+msgstr "Substituição de produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:472
+#, fuzzy
+msgid "Product Price"
+msgstr "Preço do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:699
+#, fuzzy
+msgid "Product sku"
+msgstr "SKU do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:476
+#, fuzzy
+msgid "Product Splitting"
+msgstr "Divisão de produtos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2869
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:683
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1684
+#, fuzzy
+msgid "Product status"
+msgstr "Estado do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:475
+#, fuzzy
+msgid "Product Sync"
+msgstr "Sincronização de produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:244
+#, fuzzy
+msgid "Product Title"
+msgstr "Título do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2855
+#, fuzzy
+msgid "Product title"
+msgstr "Título do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1013
+#, fuzzy
+msgid "Product variations is visible on product page"
+msgstr "As variações do produto são visíveis na página do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:474
+#, fuzzy
+msgid "Product Video"
+msgstr "Vídeo do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1853
+#, fuzzy
+msgid "Product video uses original AliExpress video url"
+msgstr "O vídeo do produto usa a URL original do vídeo do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1868
+#, fuzzy
+msgid "Product video will be imported as an external link"
+msgstr "O vídeo do produto será importado como um link externo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:245
+#, fuzzy
+msgid "Product/Variation IDs"
+msgstr "IDs de produto/variação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:287
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:349
+#, fuzzy
+msgid "Product/variation image"
+msgstr "Imagem do produto/variação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:471
+#, fuzzy
+msgid "Products"
+msgstr "Produtos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1150
+#, fuzzy
+msgid ""
+"Products are imported in USD, the price of imported products will be "
+"converted after applying the price rule below"
+msgstr ""
+"Os produtos são importados em dólares americanos, o preço dos produtos "
+"importados será convertido após a aplicação da regra de preço abaixo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:430
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2572
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:689
+#, fuzzy
+msgid "Publish"
+msgstr "Publicar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:85
+#, fuzzy
+msgid ""
+"Quickly and easily edit your products in bulk with <strong>Bulky – Bulk Edit "
+"Products for WooCommerce</strong>"
+msgstr ""
+"Edite seus produtos em massa de forma rápida e fácil com Bulky – Edição em "
+"massa de produtos para WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1793
+#, fuzzy
+msgid "Received address"
+msgstr "Endereço recebido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:161
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:224
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:708
+#, fuzzy
+msgid "Recommended plugins"
+msgstr "Plug-ins recomendados"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:223
+#, fuzzy
+msgid ""
+"Recommended plugins for ALD - Dropshipping and Fulfillment for AliExpress "
+"and WooCommerce"
+msgstr ""
+"Plugins recomendados para ALD - Dropshipping e Fulfillment para AliExpress e "
+"WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3400
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3703
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1229
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:419
+#, fuzzy
+msgid "Regular price"
+msgstr "Preço normal"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:412
+#, fuzzy
+msgid "Regular price can not be empty."
+msgstr "O preço regular não pode estar vazio."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:497
+#, fuzzy
+msgid "Reimport"
+msgstr "Reimportar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:446
+#, fuzzy
+msgid "Reimport: "
+msgstr "Reimportar:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3137
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1077
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1341
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2413
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2471
+#, fuzzy
+msgid "Remove"
+msgstr "Remover"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:403
+#, fuzzy
+msgid "Remove all failed images from database"
+msgstr "Remover todas as imagens com falha do banco de dados"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2430
+#, fuzzy
+msgid "Remove all products(except overriding products) from Import list"
+msgstr ""
+"Remover todos os produtos (exceto os produtos de substituição) da lista de "
+"importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:87
+#, fuzzy
+msgid "Remove attribute successfully"
+msgstr "Remover atributo com sucesso"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:597
+#, fuzzy
+msgid "Remove existing categories and add selected"
+msgstr "Remova as categorias existentes e adicione as selecionadas"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:628
+#, fuzzy
+msgid "Remove existing tags and add selected"
+msgstr "Remova as tags existentes e adicione as selecionadas"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:660
+#, fuzzy
+msgid "Remove old data in posts table"
+msgstr "Remover dados antigos na tabela de postagens"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2445
+#, fuzzy
+msgid "Remove selected"
+msgstr "Remover selecionado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:417
+#, fuzzy
+msgid "Remove selected product(s) from import list?"
+msgstr "Remover produto(s) selecionado(s) da lista de importação?"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1046
+#, fuzzy
+msgid "Remove Ship-from attribute"
+msgstr "Remover atributo Ship-from"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3013
+#, fuzzy
+msgid "Remove this attribute"
+msgstr "Remover este atributo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3137
+#, fuzzy
+msgid "Remove this product from import list"
+msgstr "Remover este produto da lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:416
+#, fuzzy
+msgid "Remove this product from import list?"
+msgstr "Remover este produto da lista de importação?"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1611
+#, fuzzy
+msgid "Remove this row"
+msgstr "Remover esta linha"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:669
+#, fuzzy
+msgid "Removed"
+msgstr "Removido"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2470
+#, fuzzy
+msgid "Replace"
+msgstr "Substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2401
+#, fuzzy
+msgid "Replace carrier URL"
+msgstr "Substituir URL da operadora"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2412
+#, fuzzy
+msgid "Replace carrier URL with"
+msgstr "Substitua o URL da operadora por"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2404
+#, fuzzy
+msgid ""
+"Replace carrier URL with respective URL below if DOMAIN of original carrier "
+"URL contains search strings(case-insensitive)."
+msgstr ""
+"Substitua a URL da operadora pela respectiva URL abaixo se o DOMÍNIO da URL "
+"da operadora original contiver sequências de pesquisa (sem distinção de "
+"maiúsculas e minúsculas)."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:433
+#, fuzzy
+msgid "Replace description and short description"
+msgstr "Substituir descrição e descrição curta"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2019
+#, fuzzy
+msgid ""
+"Replace description and short description of overridden product with new "
+"product's description and short description"
+msgstr ""
+"Substituir a descrição e a descrição curta do produto substituído pela "
+"descrição e descrição curta do novo produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1998
+#, fuzzy
+msgid ""
+"Replace images and gallery of overridden product with new product's images "
+"and gallery"
+msgstr ""
+"Substituir imagens e galeria do produto substituído pelas imagens e galeria "
+"do novo produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:432
+#, fuzzy
+msgid "Replace product image and gallery"
+msgstr "Substituir imagem e galeria do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:431
+#, fuzzy
+msgid "Replace product title"
+msgstr "Substitua o título do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2008
+#, fuzzy
+msgid ""
+"Replace the additional information of the overridden product with the new "
+"product's specification."
+msgstr ""
+"Substitua as informações adicionais do produto substituído pelas "
+"especificações do novo produto."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1986
+#, fuzzy
+msgid "Replace title of overridden product with new product's title"
+msgstr "Substituir o título do produto substituído pelo título do novo produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1076
+#, fuzzy
+msgid "Replace with"
+msgstr "Substitua por"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:691
+#, fuzzy
+msgid "Replace with new product"
+msgstr "Substitua por um novo produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:978
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1826
+#, fuzzy
+msgid "Replacement"
+msgstr "Substituição"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:363
+#, fuzzy, php-format
+msgid ""
+"Require ALD - Dropshipping and Fulfillment for AliExpress and WooCommerce "
+"plugin version %s, your current version is %s"
+msgstr ""
+"Exigir ALD - Dropshipping e Fulfillment para o plugin AliExpress e "
+"WooCommerce versão %s, sua versão atual é %s"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2064
+#, fuzzy
+msgid "Require billing fields in Latin"
+msgstr "Exigir campos de faturamento em latim"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:36
+#, fuzzy
+msgid "Require city in English"
+msgstr "Exigir cidade em inglês"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:28
+#, fuzzy
+msgid "Require first name in English"
+msgstr "Exigir nome em inglês"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:32
+#, fuzzy
+msgid "Require last name in English"
+msgstr "Exigir sobrenome em inglês"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:50
+#, fuzzy
+msgid "Require shipping city in English"
+msgstr "Exigir cidade de envio em inglês"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:44
+#, fuzzy
+msgid "Require shipping first name in English"
+msgstr "Exigir nome de envio em inglês"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/frontend/shipping.php:47
+#, fuzzy
+msgid "Require shipping last name in English"
+msgstr "Exigir sobrenome de envio em inglês"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:643
+#, fuzzy
+msgid "Restore"
+msgstr "Restaurar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:640
+#, fuzzy
+msgid "Restore this product"
+msgstr "Restaurar este produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:246
+#, fuzzy
+msgid "Return to dashboard"
+msgstr "Retornar ao painel"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:773
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:782
+#, fuzzy
+msgid "Return to Import list"
+msgstr "Retornar à lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1429
+#, fuzzy
+msgid "Rules for Fraction part"
+msgstr "Regras para a parte fracionária"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1426
+#, fuzzy
+msgid "Rules for Fraction part will be applied before rules for Integer part"
+msgstr ""
+"As regras para a parte Fracionária serão aplicadas antes das regras para a "
+"parte Inteira"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1477
+#, fuzzy, php-format
+msgid ""
+"Rules for Fraction part will not take effect because you set %s for Number "
+"of decimals in your <a href=\"admin.php?page=wc-"
+"settings#woocommerce_price_num_decimals\" target=\"_blank\">WooCommerce "
+"settings</a>"
+msgstr ""
+"As regras para a parte de fração não entrarão em vigor porque você definiu "
+"%s para o número de decimais nas configurações do WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1438
+#, fuzzy
+msgid "Rules for Integer part"
+msgstr "Regras para a parte inteira"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1424
+#, fuzzy
+msgid ""
+"Rules will be looped from top to bottom grouped by Compared part to find "
+"matches"
+msgstr ""
+"As regras serão repetidas de cima para baixo, agrupadas pela parte comparada "
+"para encontrar correspondências"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:28
+#, fuzzy
+msgid ""
+"Run setup wizard for ALD - AliExpress Dropshipping and Fulfillment for "
+"WooCommerce"
+msgstr ""
+"Execute o assistente de configuração para ALD - AliExpress Dropshipping e "
+"Fulfillment para WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2239
+#, fuzzy
+msgid "RUT meta field"
+msgstr "Metacampo RUT"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2247
+#, fuzzy
+msgid "RUT number is required when you fulfill orders of Customers from Chile."
+msgstr ""
+"O número RUT é necessário quando você atende pedidos de clientes do Chile."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3396
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3690
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1224
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:414
+#, fuzzy
+msgid "Sale price"
+msgstr "Preço de venda"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:413
+#, fuzzy
+msgid "Sale price must be smaller than regular price."
+msgstr "O preço de venda deve ser menor que o preço normal."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3008
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:260
+#, fuzzy
+msgid "Save"
+msgstr "Salvar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:434
+#, fuzzy
+msgid ""
+"Save my choices and do not show these options again(you can still change "
+"this in <a target=\"_blank\" href=\"admin.php?page=woo-"
+"alidropship#/override\">plugin settings</a>)."
+msgstr ""
+"Salvar minhas escolhas e não mostrar essas opções novamente (você ainda pode "
+"alterar isso nas configurações do plugin)."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2537
+#, fuzzy
+msgid "Save Settings"
+msgstr "Salvar configurações"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:571
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1074
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2411
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2468
+#, fuzzy
+msgid "Search"
+msgstr "Procurar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2390
+#, fuzzy
+msgid "Search and Replace"
+msgstr "Pesquisar e substituir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2458
+#, fuzzy
+msgid "Search and replace strings in Carrier name"
+msgstr "Pesquisar e substituir strings no nome da operadora"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2461
+#, fuzzy
+msgid ""
+"Search for strings in Carrier name and replace found strings with respective "
+"values."
+msgstr ""
+"Pesquise sequências de caracteres no nome da operadora e substitua as "
+"sequências encontradas pelos respectivos valores."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1068
+#, fuzzy
+msgid ""
+"Search for strings in product title and description and replace found "
+"strings with respective values."
+msgstr ""
+"Pesquise sequências de caracteres no título e na descrição do produto e "
+"substitua as sequências encontradas pelos respectivos valores."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:546
+#, fuzzy
+msgid "Search imported product"
+msgstr "Pesquisar produto importado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2546
+#, fuzzy
+msgid "Search product in import list"
+msgstr "Pesquisar produto na lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2581
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:813
+#, fuzzy
+msgid "Search results only"
+msgstr "Somente resultados de pesquisa"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1816
+#, fuzzy
+msgid "Search term"
+msgstr "Termo de pesquisa"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2405
+#, fuzzy
+msgid ""
+"Search will take place with priority from top to bottom and will STOP after "
+"first match."
+msgstr ""
+"A busca ocorrerá com prioridade de cima para baixo e PARARÁ após a primeira "
+"correspondência."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:527
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:287
+#, fuzzy
+msgid "Secret key"
+msgstr "Chave secreta"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:353
+#, fuzzy
+msgid "Secret key does not match"
+msgstr "A chave secreta não corresponde"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:548
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:302
+#, fuzzy
+msgid ""
+"Secret key is one of the two ways to connect the chrome extension with your "
+"store. The other way is to use WooCommerce authentication."
+msgstr ""
+"A chave secreta é uma das duas maneiras de conectar a extensão do Chrome à "
+"sua loja. A outra maneira é usar a autenticação do WooCommerce."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1778
+#, fuzzy
+msgid ""
+"Select an action when a variation of an AliExpress product is no longer "
+"available"
+msgstr ""
+"Selecione uma ação quando uma variação de um produto AliExpress não estiver "
+"mais disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1742
+#, fuzzy
+msgid "Select an action when an AliExpress product is available purchase"
+msgstr ""
+"Selecione uma ação quando um produto AliExpress estiver disponível para "
+"compra"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1760
+#, fuzzy
+msgid "Select an action when an AliExpress product is no longer available"
+msgstr ""
+"Selecione uma ação quando um produto AliExpress não estiver mais disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1751
+#, fuzzy
+msgid "Select an action when an AliExpress product is out-of-stock"
+msgstr ""
+"Selecione uma ação quando um produto AliExpress estiver fora de estoque"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1769
+#, fuzzy
+msgid ""
+"Select an action when an AliExpress product's selected shipping method is "
+"removed or no shipping methods available"
+msgstr ""
+"Selecione uma ação quando o método de envio selecionado de um produto "
+"AliExpress for removido ou nenhum método de envio estiver disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:607
+#, fuzzy
+msgid "Select elements that you want to show menu count for."
+msgstr "Selecione os elementos cuja contagem do menu você deseja mostrar."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:542
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:597
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:628
+#, fuzzy
+msgid "Set"
+msgstr "Definir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2435
+#, fuzzy
+msgid "Set categories"
+msgstr "Definir categorias"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3073
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3088
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3106
+#, fuzzy
+msgid "Set image for selected variation(s)"
+msgstr "Definir imagem para variação(ões) selecionada(s)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:518
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3398
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3402
+#, fuzzy
+msgid "Set price"
+msgstr "Definir preço"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2439
+#, fuzzy
+msgid "Set status - Draft"
+msgstr "Definir status - Rascunho"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2438
+#, fuzzy
+msgid "Set status - Pending"
+msgstr ""
+"Definir status - Pendente\n"
+"status - Publicar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2437
+#, fuzzy
+msgid "Set status - Publish"
+msgstr "Definir status - Publicar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2436
+#, fuzzy
+msgid "Set tags"
+msgstr "Definir tags"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1313
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1382
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:498
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:566
+#, fuzzy
+msgid "Set to"
+msgstr "Definir como"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:527
+#, fuzzy
+msgid "Set to this value"
+msgstr "Defina para este valor"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2443
+#, fuzzy
+msgid "Set visibility - Hidden"
+msgstr "Definir visibilidade - Oculto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2442
+#, fuzzy
+msgid "Set visibility - Search results only"
+msgstr "Definir visibilidade - Somente resultados da pesquisa"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2440
+#, fuzzy
+msgid "Set visibility - Shop and search results"
+msgstr "Definir visibilidade - Resultados da loja e da pesquisa"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2441
+#, fuzzy
+msgid "Set visibility - Shop only"
+msgstr "Definir visibilidade - Somente loja"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/admin.php:33
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2668
+#, fuzzy
+msgid "Settings"
+msgstr "Configurações"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:29
+#, fuzzy
+msgid "Setup Wizard"
+msgstr "Assistente de configuração"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:522
+#, fuzzy
+msgid "Ship to"
+msgstr "Enviar para"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:128
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:409
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:495
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:610
+#, fuzzy
+msgid "Shipped"
+msgstr "Enviado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2907
+#, fuzzy
+msgid "Shipping class"
+msgstr "Classe de envio"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1007
+#, fuzzy
+msgid ""
+"Shipping class selected here will also be selected by default in the Import "
+"list"
+msgstr ""
+"A classe de envio selecionada aqui também será selecionada por padrão na "
+"lista de importação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3381
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3636
+#, fuzzy
+msgid "Shipping cost"
+msgstr "Custo de envio"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2366
+#, fuzzy
+msgid ""
+"Shipping cost of all cart items will be calculated and applied to the cart "
+"so you should not add shipping cost to product price when importing "
+"AliExpress products to avoid making the final price of products paid by your "
+"customers too high"
+msgstr ""
+"O custo de envio de todos os itens do carrinho será calculado e aplicado ao "
+"carrinho, portanto, você não deve adicionar o custo de envio ao preço do "
+"produto ao importar produtos do AliExpress para evitar que o preço final dos "
+"produtos pagos por seus clientes fique muito alto."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:783
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:371
+#, fuzzy
+msgid ""
+"Shipping cost will be added to price of original product after applying "
+"price rules."
+msgstr ""
+"O custo de envio será adicionado ao preço do produto original após a "
+"aplicação das regras de preço."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:352
+#, fuzzy
+msgid ""
+"Shipping cost will be added to price of original product before applying "
+"price rules. You can select shipping country/company to calculate shipping "
+"cost of products before importing."
+msgstr ""
+"O custo do frete será adicionado ao preço do produto original antes da "
+"aplicação das regras de preço. Você pode selecionar o país/empresa de envio "
+"para calcular o custo do frete dos produtos antes da importação."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:756
+#, fuzzy
+msgid ""
+"Shipping cost will be added to price of original product. You can select "
+"shipping country/company to calculate shipping cost of products before "
+"importing."
+msgstr ""
+"O custo do frete será adicionado ao preço do produto original. Você pode "
+"selecionar o país/empresa de envio para calcular o custo do frete dos "
+"produtos antes da importação."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2225
+#, fuzzy
+msgid "Shipping neighborhood meta field"
+msgstr "Metacampo de bairro de envio"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2197
+#, fuzzy
+msgid "Shipping number meta field"
+msgstr "Metacampo do número de envio"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2579
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:811
+#, fuzzy
+msgid "Shop and search results"
+msgstr "Resultados de compras e pesquisas"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2580
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:812
+#, fuzzy
+msgid "Shop only"
+msgstr "Somente loja"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:34
+#, fuzzy
+msgid "Should be greater than 100"
+msgstr "Deve ser maior que 100"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:40
+#, fuzzy
+msgid "Should be greater than 10000"
+msgstr "Deve ser maior que 10000"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:46
+#, fuzzy
+msgid "Should be greater than 300MB"
+msgstr "Deve ser maior que 300 MB"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2276
+#, fuzzy
+msgid "Show action"
+msgstr "Mostrar ação"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:603
+#, fuzzy
+msgid "Show menu count"
+msgstr "Mostrar contagem do menu"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1873
+#, fuzzy
+msgid "Show product video tab"
+msgstr "Mostrar guia de vídeo do produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:747
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:341
+#, fuzzy
+msgid "Show shipping option"
+msgstr "Mostrar opção de envio"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:493
+#, fuzzy
+msgid ""
+"Since version 1.0.2 of <a href=\"https://downloads.villatheme.com/?"
+"download=alidropship-extension\" target=\"_blank\">WooCommerce AliExpress "
+"Dropshipping Extension</a>, you can authenticate your extension using "
+"WooCommerce REST API authentication(recommended). To edit or revoke your "
+"APIs, please go to <a href=\"admin.php?page=wc-"
+"settings&tab=advanced&section=keys\" target=\"_blank\">WooCommerce "
+"settings/Advanced/REST API</a>"
+msgstr ""
+"Desde a versão 1.0.2 da <a href=\"https://downloads.villatheme.com/?"
+"download=alidropship-extension\" target=\"_blank\">Extensão WooCommerce "
+"AliExpress Dropshipping</a>, você pode autenticar sua extensão usando a "
+"autenticação da API REST do WooCommerce (recomendado). Para editar ou "
+"revogar suas APIs, acesse <a href=\"admin.php?page=wc-"
+"settings&tab=advanced&section=keys\" target=\"_blank\">Configurações do "
+"WooCommerce/Avançado/API REST</a>."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:269
+#, fuzzy
+msgid "Site URL"
+msgstr "V"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2395
+#, fuzzy
+msgid "Skip if carrier is <strong>AliExpress Standard Shipping</strong>"
+msgstr ""
+"Ignorar se a transportadora for <strong>AliExpress Standard Shipping</strong>"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:721
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2863
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3331
+#, fuzzy
+msgid "Sku"
+msgstr "Sku"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:922
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1661
+#, fuzzy
+msgid "Sku exists."
+msgstr "Sku existe."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:522
+#, fuzzy
+msgid "SKU: "
+msgstr "SKU:SKU:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2967
+#, fuzzy
+msgid "Slug"
+msgstr "Lesma"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:445
+#, fuzzy
+msgid ""
+"Some extra checkout fields are not configured which may lead to incorrect "
+"address of Brazilian customers when fulfilling AliExpress orders. Please go "
+"to <a href=\"#fulfill\">Fulfill</a> tab to configure CPF, Billing/Shipping "
+"number and neighborhood meta fields. If you already use your own code to "
+"handle these custom fields, please ignore this warning."
+msgstr ""
+"Alguns campos extras de checkout não estão configurados, o que pode levar a "
+"endereços incorretos de clientes brasileiros ao processar pedidos do "
+"AliExpress. Acesse a aba <a href=\"#fulfill\">Fulfill</a> para configurar os "
+"metacampos CPF, Número de Faturamento/Envio e Bairro. Se você já utiliza seu "
+"próprio código para processar esses campos personalizados, ignore este aviso."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/find_product.php:537
+#, fuzzy
+msgid "Sort"
+msgstr "Organizar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:337
+#, fuzzy
+msgid "SSL is required"
+msgstr "SSL é obrigatório"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:604
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2744
+#, fuzzy
+msgid "Store: "
+msgstr "Loja:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:1208
+#, fuzzy
+msgid "Success"
+msgstr "V"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1693
+#, fuzzy
+msgid "Sync price"
+msgstr ""
+"Preço de sincronização\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1697
+#, fuzzy
+msgid ""
+"Sync price of WooCommerce products with AliExpress. All rules in Product "
+"Price tab will be applied to new price."
+msgstr ""
+"Sincronize os preços dos produtos WooCommerce com o AliExpress. Todas as "
+"regras na aba \"Preço do Produto\" serão aplicadas ao novo preço."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1662
+#, fuzzy
+msgid "Sync products at"
+msgstr "Sincronize produtos em"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1654
+#, fuzzy
+msgid "Sync products every"
+msgstr "Sincronize produtos a cada"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1729
+#, fuzzy
+msgid "Sync quantity"
+msgstr "Quantidade sincronizada"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1733
+#, fuzzy
+msgid "Sync quantity of WooCommerce products with AliExpress"
+msgstr "Quantidade de produtos WooCommerce VSync com AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/templates/woocommerce/auth/form-grant-access.php:45
+#, fuzzy
+msgid "Sync your WooCommerce orders with AliExpress orders"
+msgstr "Sincronize seus pedidos do WooCommerce com os pedidos do AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:28
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:72
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:73
+#, fuzzy
+msgid "System Status"
+msgstr "Status do sistema"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2899
+#, fuzzy
+msgid "Tags"
+msgstr ""
+"Etiquetas\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:371
+#, fuzzy
+msgid ""
+"The migration process is currently running in the background. Please do not "
+"import at this time"
+msgstr ""
+"O processo de migração está sendo executado em segundo plano. Não importe "
+"neste momento."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2176
+#, fuzzy
+msgid ""
+"The order meta field that a 3rd party plugin uses to store customer's CPF "
+"field."
+msgstr ""
+"O metacampo do pedido que um plugin de terceiros usa para armazenar o campo "
+"CPF do cliente."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2246
+#, fuzzy
+msgid ""
+"The order meta field that a 3rd party plugin uses to store customer's RUT "
+"number."
+msgstr ""
+"O metacampo do pedido que um plugin de terceiros usa para armazenar o número "
+"RUT do cliente."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:307
+#, fuzzy
+msgid ""
+"The product this image belongs to was deleted so this image is now removed "
+"from list"
+msgstr ""
+"O produto ao qual esta imagem pertence foi excluído, portanto, esta imagem "
+"foi removida da lista. O produto ao qual esta imagem pertence foi excluído, "
+"portanto, esta imagem foi removida da lista."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2365
+#, fuzzy
+msgid ""
+"This feature allows your customers to select shipping method for each item "
+"like you do on AliExpress"
+msgstr ""
+"Este recurso permite que seus clientes selecionem o método de envio para "
+"cada item, como você faz no AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1813
+#, fuzzy
+msgid ""
+"This feature is to automatically replace original attribute term with "
+"respective value in the Import list. This does not apply to products whose "
+"attributes were edited."
+msgstr ""
+"Este recurso substitui automaticamente o termo do atributo original pelo "
+"respectivo valor na lista de importação. Isso não se aplica a produtos cujos "
+"atributos foram editados.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2393
+#, fuzzy
+msgid ""
+"This feature is used for <strong>Orders Tracking for WooCommerce</strong> "
+"plugin when syncing tracking info."
+msgstr ""
+"Este recurso é usado para o plugin <strong>Rastreamento de Pedidos para "
+"WooCommerce</strong> ao sincronizar informações de rastreamento."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:855
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:636
+#, fuzzy
+msgid ""
+"This helps save storage by using original AliExpress image URLs but you will "
+"not be able to edit them"
+msgstr ""
+"Isso ajuda a economizar espaço de armazenamento usando URLs de imagens "
+"originais do AliExpress, mas você não poderá editá-los\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1164
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:384
+#, fuzzy, php-format
+msgid ""
+"This is exchange rate to convert product price from USD to your store's "
+"currency(%s) when adding products to import list."
+msgstr ""
+"Esta é a taxa de câmbio para converter o preço do produto de USD para a "
+"moeda da sua loja(%s) ao adicionar produtos à lista de importação."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2177
+#, fuzzy
+msgid ""
+"This is used only for Customers from Brazil. If empty, billing company will "
+"be used as CPF when fulfilling AliExpress orders."
+msgstr ""
+"Usado apenas para clientes do Brasil. Se o campo estiver vazio, o CPF da "
+"empresa de cobrança será usado para processar pedidos do AliExpress.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2462
+#, fuzzy
+msgid "This only works when new <strong>Custom carrier</strong> is created"
+msgstr ""
+"Isso só funciona quando uma nova <strong>Transportadora "
+"personalizada</strong> é criada\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:290
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:928
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:1667
+#, fuzzy
+msgid "This product has already been imported"
+msgstr ""
+"Este produto já foi importado\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:320
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:690
+#, fuzzy, php-format
+msgid ""
+"This product is being overridden by: %1$s. Please go to %2$s to complete the "
+"process."
+msgstr ""
+"Este produto está sendo substituído por: %1$s. Acesse %2$s para concluir o "
+"processo."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:656
+#, fuzzy
+msgid "This product is deleted from your WooCommerce store."
+msgstr ""
+"Este produto foi excluído da sua loja WooCommerce.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:92
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:122
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:157
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/class/class-parse-ali-data.php:404
+#, fuzzy
+msgid "This product is no longer available"
+msgstr "Este produto não está mais disponível"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:293
+#, fuzzy
+msgid "This product is overriding an other product."
+msgstr ""
+"Este produto substitui outro produto.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:625
+#, fuzzy
+msgid "This product is trashed from your WooCommerce store."
+msgstr "Este produto foi removido da sua loja WooCommerce."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2767
+#, fuzzy
+msgid "This product will override: "
+msgstr "Este produto substituirá:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:816
+#, fuzzy
+msgid "This setting determines which shop pages products will be listed on."
+msgstr ""
+"Esta configuração determina em quais páginas da loja os produtos serão "
+"listados."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:264
+#, fuzzy
+msgid "To import AliExpress products, this chrome extension is required."
+msgstr ""
+"Para importar produtos do AliExpress, esta extensão do Chrome é necessária."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3188
+#, fuzzy, php-format
+msgid "To import AliExpress products, you have to install and activate %s"
+msgstr ""
+"Para importar produtos do AliExpress, você precisa instalar e ativar %s"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:549
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:303
+#, fuzzy
+msgid ""
+"To let the chrome extension connect with this store, please click the "
+"\"Connect the Extension\" button below."
+msgstr ""
+"Para permitir que a extensão do Chrome se conecte a esta loja, clique no "
+"botão \"Conectar a extensão\" abaixo."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:126
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:413
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:608
+#, fuzzy
+msgid "To Order"
+msgstr ""
+"Para encomendar\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:498
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:665
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:676
+#, fuzzy
+msgid "To order"
+msgstr "Para pedir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:706
+#, fuzzy
+msgid "To Order AliExpress"
+msgstr "Para encomendar AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:872
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:653
+#, fuzzy, php-format
+msgid "To use this feature, you have to install and activate %1$s plugin. %2$s"
+msgstr ""
+"Para usar este recurso, você precisa instalar e ativar o plugin %1$s. %2$s"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:485
+#, fuzzy
+msgid "Tracking Carrier"
+msgstr ""
+"Transportadora de rastreamento\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:544
+#, fuzzy
+msgid "Tracking code: "
+msgstr "Código de rastreamento:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/order.php:293
+#, fuzzy
+msgid "Tracking number"
+msgstr ""
+"Número de rastreamento\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2352
+#, fuzzy
+msgid "Tracking number existed"
+msgstr "O número de rastreamento existia"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Transfer data from AliExpress products to WooCommerce effortlessly and "
+"fulfill WooCommerce orders to AliExpress automatically."
+msgstr ""
+"Transfira dados de produtos do AliExpress para o WooCommerce sem esforço e "
+"atenda pedidos do WooCommerce para o AliExpress automaticamente.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:40
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:41
+#, fuzzy
+msgid "Transfer Settings"
+msgstr ""
+"Configurações de transferência\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:436
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:628
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:659
+#, fuzzy
+msgid "Trash"
+msgstr "Lixo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/recommend.php:92
+#, fuzzy
+msgid ""
+"Try our brand new <strong>Email Template Customizer for WooCommerce</strong> "
+"plugin to easily customize your WooCommerce emails and make them more "
+"beautiful and professional."
+msgstr ""
+"Experimente nosso novo plugin <strong>Email Template Customizer for "
+"WooCommerce</strong> para personalizar facilmente seus e-mails WooCommerce e "
+"torná-los mais bonitos e profissionais."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:293
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/api.php:301
+#, fuzzy
+msgid "Unauthorized"
+msgstr "Não autorizado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1200
+#, fuzzy
+msgid "Update rate automatically"
+msgstr "Taxa de atualização automaticamente"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2557
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2588
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2619
+#, fuzzy
+msgid "Upgrade"
+msgstr "Atualizar"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:522
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:597
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:606
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:703
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:713
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:740
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:768
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1194
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1203
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1649
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1657
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1665
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1672
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1687
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1696
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1705
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1714
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1723
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1732
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1741
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1750
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1759
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1768
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1777
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1787
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1796
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1805
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1833
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1867
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1876
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1885
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1894
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1902
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1916
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1950
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1959
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2007
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2046
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2095
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2322
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2337
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2346
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2355
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2377
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2560
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2591
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2622
+#, fuzzy
+msgid "Upgrade This Feature"
+msgstr "Atualize este recurso"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:892
+#, fuzzy
+msgid ""
+"Upload images in product description if any. If disabled, images in "
+"description will use the original AliExpress cdn links"
+msgstr ""
+"Carregue imagens na descrição do produto, se houver. Se desabilitado, as "
+"imagens na descrição usarão os links originais do CDN do AliExpress."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2433
+#, fuzzy
+msgid "URL of a replacement carrier"
+msgstr "URL de uma operadora substituta"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:518
+#, fuzzy
+msgid "Use API"
+msgstr "Usar API"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:838
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:619
+#, fuzzy
+msgid "Use external links for images"
+msgstr "Use links externos para imagens"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:720
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:663
+#, fuzzy
+msgid "Use global attributes"
+msgstr ""
+"Usar atributos globais\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1670
+#, fuzzy
+msgid "Use HTTP service URL"
+msgstr "Usar URL do serviço HTTP"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:615
+#, fuzzy
+msgid "Use new table for Ali product"
+msgstr ""
+"Use a nova tabela para o produto Ali\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:247
+#, fuzzy
+msgid "Used for"
+msgstr ""
+"Usado para\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2968
+#, fuzzy
+msgid "Values"
+msgstr "Valores"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:2807
+#, fuzzy, php-format
+msgid "Variations(%s)"
+msgstr ""
+"Variações(%s)\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:307
+#, fuzzy
+msgid "Video guide"
+msgstr "Prioridade da guia de vídeo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1882
+#, fuzzy
+msgid "Video tab priority"
+msgstr "Prioridade da guia de vídeo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1447
+#, fuzzy
+msgid "View detailed example with explanation"
+msgstr ""
+"Veja um exemplo detalhado com explicação\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:616
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3134
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:170
+#, fuzzy
+msgid "View on AliExpress"
+msgstr ""
+"Veja no AliExpress\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:172
+#, fuzzy
+msgid "View on Imported"
+msgstr ""
+"Ver em Importado\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3311
+#, fuzzy
+msgid "View product"
+msgstr "Ver produto"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:170
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:249
+#, fuzzy
+msgid "View product on AliExpress"
+msgstr ""
+"Ver produto no AliExpress\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/product.php:172
+#, fuzzy
+msgid "View product on Imported page"
+msgstr "Ver produto na página Importado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1631
+#, fuzzy
+msgid "View result"
+msgstr "Ver resultado"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3133
+#, fuzzy
+msgid "View this product on AliExpress.com"
+msgstr ""
+"Veja este produto no AliExpress.com\n"
+
+#. Author of the plugin
+#, fuzzy
+msgid "VillaTheme(villatheme.com)"
+msgstr ""
+"\n"
+"VillaTheme (villatheme.com)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2323
+#, fuzzy
+msgid ""
+"When fulfilling orders, tracking number is not available yet. This function "
+"helps you check and sync tracking number automatically"
+msgstr ""
+"Ao processar pedidos, o número de rastreamento ainda não está disponível. "
+"Esta função ajuda você a verificar e sincronizar o número de rastreamento "
+"automaticamente."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:714
+#, fuzzy
+msgid ""
+"When importing product in Import list, automatically generate unique sku by "
+"adding increment if sku exists"
+msgstr ""
+"Ao importar um produto na lista de importação, gere automaticamente um SKU "
+"exclusivo adicionando um incremento se o SKU existir"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:924
+#, fuzzy
+msgid ""
+"When importing products, instead of letting their images import in the "
+"background, main product image will be uploaded immediately while gallery "
+"and variation images(if any) will be added to Failed images page so that you "
+"can go there to import them manually."
+msgstr ""
+"Ao importar produtos, em vez de deixar suas imagens serem importadas em "
+"segundo plano, a imagem principal do produto será carregada imediatamente, "
+"enquanto as imagens da galeria e de variação (se houver) serão adicionadas à "
+"página Imagens com falha para que você possa acessá-las e importá-las "
+"manualmente.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2047
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2338
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2347
+#, fuzzy
+msgid ""
+"When migrating a product from other plugins(Link existing Woo product), only "
+"link existing variations"
+msgstr ""
+"\n"
+"Ao migrar um produto de outros plugins (vincular produto Woo existente), "
+"vincule apenas as variações existentes"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2394
+#, fuzzy
+msgid ""
+"When syncing orders with AliExpress, if Orders Tracking for WooCommerce "
+"plugin is active, it will automatically search for carrier URL in the "
+"existing carriers of this plugin (The <strong>Search and Replace</strong> "
+"function runs right before this step). If found, it will save tracking info "
+"with that carrier; otherwise, a new <strong>Custom carrier</strong> will be "
+"created."
+msgstr ""
+"Ao sincronizar pedidos com o AliExpress, se o plugin Orders Tracking for "
+"WooCommerce estiver ativo, ele buscará automaticamente a URL da "
+"transportadora nas transportadoras existentes deste plugin (a função <strong>"
+"Localizar e Substituir</strong> é executada logo antes desta etapa). Se "
+"encontrado, ele salvará as informações de rastreamento com essa "
+"transportadora; caso contrário, uma nova <strong>Transportadora "
+"Personalizada</strong> será criada.\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1788
+#, fuzzy
+msgid ""
+"When syncing products, send email to admin if an AliExpress product is no "
+"longer available/is out of stock/has price changed"
+msgstr ""
+"Ao sincronizar produtos, envie um e-mail ao administrador se um produto do "
+"AliExpress não estiver mais disponível/estiver fora de estoque/tiver o preço "
+"alterado\n"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/includes/setup-wizard.php:261
+#, fuzzy
+msgid "WooCommerce AliExpress Dropshipping Extension"
+msgstr "Extensão WooCommerce AliExpress Dropshipping"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:49
+#, fuzzy
+msgid "WooCommerce AliExpress Dropshipping Extension installed and active"
+msgstr ""
+"\n"
+"Extensão WooCommerce AliExpress Dropshipping instalada e ativa"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/imported.php:775
+#, fuzzy
+msgid "WooCommerce Price"
+msgstr "Preço WooCommerce"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:112
+#, fuzzy, php-format
+msgid ""
+"You are using Permalink structure as Plain. Please go to <a href=\"%s\" "
+"target=\"_blank\">Permalink Settings</a> to change it."
+msgstr ""
+"Você está usando a estrutura de Permalink como Simples. Acesse <a "
+"href=\"%s\" target=\"_blank\">Configurações de Permalink</a> para alterá-la."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1886
+#, fuzzy
+msgid "You can adjust this value to change order of video tab"
+msgstr "Você pode ajustar este valor para alterar a ordem da guia de vídeo"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/import_list.php:3034
+#, fuzzy
+msgid "You can edit product attributes on Attributes tab"
+msgstr ""
+"\n"
+"Você pode editar os atributos do produto na guia Atributos"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/error_images.php:529
+#, fuzzy
+msgid "You don't have any failed images."
+msgstr ""
+"\n"
+"Você não tem nenhuma imagem com falha."
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2367
+#, fuzzy, php-format
+msgid ""
+"You have to create at least 1 shipping method in <a target=\"_blank\" "
+"href=\"%s\">WooCommerce settings/Shipping</a>"
+msgstr ""
+"Você precisa criar pelo menos 1 método de envio em <a target=\"_blank\" "
+"href=\"%s\">Configurações do WooCommerce/Envio</a>"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/system.php:53
+#, fuzzy
+msgid ""
+"You have to install the chrome extension to import products from AliExpress"
+msgstr ""
+"Você precisa instalar a extensão do Chrome para importar produtos do "
+"AliExpress"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:511
+#, fuzzy
+msgid ""
+"You need to enable this to let WooCommerce AliExpress Dropshipping Extension "
+"connect to your store"
+msgstr ""
+"Você precisa habilitar isso para permitir que a extensão WooCommerce "
+"AliExpress Dropshipping se conecte à sua loja"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/transfer_settings.php:76
+#, fuzzy
+msgid "Your current settings:"
+msgstr "Suas configurações atuais:"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:1425
+#, fuzzy
+msgid ""
+"Your input price can only be applied by 1 rule for each "
+"part(fraction/integer)=>maximum 2 rules in total(1 for Integer part and 1 "
+"for Fraction part)"
+msgstr ""
+"Seu preço de entrada só pode ser aplicado por 1 regra para cada parte "
+"(fração/inteiro) => máximo de 2 regras no total (1 para a parte inteira e 1 "
+"para a parte fração)"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:2551
+#, fuzzy
+msgid "Your logs show here"
+msgstr ""
+"\n"
+"Seus registros são exibidos aqui"
+
+#: D:/git-2024-12/free-version/woo-alidropship/woo-alidropship/admin/settings.php:115
+#, fuzzy
+msgid ""
+"Your site is not using HTTPS. For more details, please read <a "
+"target=\"_blank\" href=\"https://wordpress.org/documentation/article/https-"
+"for-wordpress/\">HTTPS for WordPress</a>"
+msgstr ""
+"\n"
+"Seu site não utiliza HTTPS. Para mais detalhes, leia <a target=\"_blank\" "
+"href=\"https://wordpress.org/documentation/article/https-for-wordpress/\">"
+"HTTPS para WordPress</a>"

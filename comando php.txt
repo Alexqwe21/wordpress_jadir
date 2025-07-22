@@ -1,0 +1,473 @@
+----------------------------------------------------------------------
+
+Testando e aprendendo alguns comandos 
+
+<?php
+$nome = "alex";
+$nome_site = "lojas de roupas";
+
+$sobrenome = " Pimenta";
+
+
+$soma = 5+5+5;
+$multiplicação = 5*10;
+
+$concatenacao = $nome . $sobrenome;
+
+echo "cheguei aqui parabens  continue.... vamos ";
+
+echo $nome;
+
+$produtos = ['Bermudas', 'Camisetas' , 'Casacos'];
+
+$produtos_associativo = [
+
+'nome'  => 'camiseta preta',
+'preco'=> 'R$:20,00',
+'img' => [
+  'src'=> './img/image.png', 
+  'alt'=> 'Camisa Preta',
+]
+];
+
+$categorias = ['Camisetas'];
+$categorias[] = 'Blusa De Frio';
+$categorias[] = 'Regata';
+$categorias[] = 'Chinelo';
+$categorias[] = 'Tenis';
+
+$produtos['Estoque'] = '10 item';
+
+
+
+?>
+
+<h1><?= $nome_site ?></h1>
+
+<h2><?= $soma?></h2>
+
+<h3><?=$multiplicação?></h3>
+
+<h4><?= $concatenacao ?></h4>
+
+<h5><?= $produtos[0];?></h5>
+
+<h6><?= $produtos[1]?></h6>
+
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+<pre>
+<?= var_dump($produtos); ?>
+</pre>
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+-------------------------------------------------
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+<pre>
+  <?= print_r($produtos) ?>
+</pre>
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+
+
+
+<!--  A TAG PRE  ela formata bonito um array ASOCIATIVO ou erro  -->
+<pre>
+<?= var_dump($produtos_associativo); ?>
+</pre>
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+-------------------------------------------------
+<!--  A TAG PRE  ela formata bonito um array ASOCIATIVO ou erro  -->
+<pre>
+  <?= print_r($produtos_associativo) ?>
+</pre>
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+
+<h1><?= $produtos_associativo['nome'] ?></h1>
+<p><?= $produtos_associativo['preco']?></p>
+<img src="<?= $produtos_associativo['img']['src']; ?>" alt="<?= $produtos_associativo['img'] ['alt']; ?>">
+
+
+
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+<pre>
+<?= var_dump($categorias); ?>
+</pre>
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+-------------------------------------------------
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+<pre>
+  <?= print_r($categorias); ?>
+</pre>
+<!--  A TAG PRE  ela formata bonito um array ou erro  -->
+
+
+<?php 
+
+
+unset($produtos['preco']);
+$total_produto = count($produtos);
+echo $total_produto
+
+?>
+
+
+
+
+<?php
+  for ($i = 0; $i <= 20; $i++) {
+    echo $i;
+  }
+
+
+
+  $produtos = [
+    [
+      'nome' => 'Camisa Preta',
+      'preco' => '20,00'
+    ],
+    [
+      'nome' => 'Bermuda branca',
+      'preco' => '50,00'
+    ],
+    [
+      'nome' => 'Regata rosa',
+      'preco' => '500,00'
+    ]
+  ];
+
+
+  foreach ($produtos as $produto) {
+
+    echo '<h1>' . $produto['nome'] . '</h1>';
+
+    echo '<p>' . $produto['preco'] . '</p>';
+  }
+
+
+  foreach ($produtos as $produto) { ?>
+    <div style="display: flex; background-color: brown; color: white; flex-direction: column; align-items: center; ">
+      <h2><?= $produto['nome'] ?> </h2>
+      <h3><?= $produto['preco'] ?></h3>
+    </div>
+
+  <?php } ?>
+
+
+  <?php
+$produto = [
+'nome'=> 'Camisa Prete',
+'preco'=> '2000,00'
+];
+
+foreach ($produto as $key => $value) { ?>
+
+<p><?= $key; ?> <?= $value; ?></p>
+
+<?php }   ?>
+
+
+
+ <?php
+  $vitalicio = false;
+
+  if ($vitalicio) {
+    $liberar_curso = true;
+    echo "liberado";
+  } else {
+    $liberar_curso = false;
+    echo "acesso negado";
+  }
+  ?>
+
+
+$produto  = [];
+
+if(!empty($produto)){
+echo $produto;
+}else{
+  echo "Não existe produto";
+}
+
+
+$produto  = [
+  "nome"=> " usados",
+];
+
+if(!empty($produto)){
+echo $produto['nome'] ;
+}else{
+  echo "Não existe produto";
+}
+
+
+
+<?php
+$vitalicio = true;
+
+if($vitalicio) {
+  $liberar_curso = true;
+} else {
+  $liberar_curso = false;
+}
+?>
+
+
+<?php
+if($vitalicio || $anual) {
+  echo "Entre em contato com o suporte";
+} elseif($mensal) {
+  echo "Você não possui suporte";
+} else {
+  echo "Faça o login na sua conta";
+}
+?>
+
+<?php
+ $nomeLoja =  get_bloginfo('url');
+ echo  $nomeLoja;
+?> 
+
+
+<?php
+
+function somar($a , $b) {
+  return $a + $b;
+}
+
+echo somar(10, 15);
+
+?>
+
+
+<?php
+function formulario_contato(){
+?>
+<form action="">
+  <input type="text" placeholder="buscar...">
+  <input type="button" value="Enviar">
+</form>
+<?php
+ }
+?>
+
+
+<?php
+function jogos(){
+?>
+<div>
+  <h1>vitoria</h1>
+  <h2>bahia</h2>
+  <h3>Santos</h3>
+</div>
+<?php
+ }
+?>
+
+
+<?php  formulario_contato(); ?>
+
+<?php  formulario_contato(); ?>
+
+
+<?php  formulario_contato(); ?>
+
+
+<?php  jogos(); ?>
+
+<?php  jogos(); ?>
+
+<?php  jogos(); ?>
+
+<?php
+function valor_final($valor, $moeda = 'R$ ') {
+  return  $moeda . $valor;
+}
+
+echo valor_final(100);
+?>
+
+
+
+  <?php
+  class Produto
+  {
+    public $preco = 2000;
+
+
+    public function nome()
+    {
+      return 'Camisa preta';
+    }
+
+    public function preco_final()
+    {
+      return 'R$' . $this->preco / 100;
+    }
+  }
+  $camisa =   new Produto();
+
+  print_r($camisa->nome() .  '  <br> <br>  <br> ' . ' peguei o esquema ');
+  
+  echo($camisa->preco_final() . '  <br> <br>  <br> ' . ' este e o preco ');
+
+  var_dump($camisa->preco . '  <br> <br>  <br> ' .'propriedade nao precisa do()');
+
+  
+  ?>
+
+<pre>
+  <?php   
+  print_r(get_class_methods('Produto'))
+  ?>
+</pre>
+
+
+
+
+<?php
+
+$query = new WP_Query([
+  'post type' => 'product'
+]);
+
+
+?>
+
+<?php foreach( $query->posts as $post ) {  ?>
+
+
+<?=  $post->post_title; ?>
+<?php } ?>
+
+
+
+
+<?php
+if (have_posts()) {
+  while (have_posts()) {
+    the_post();
+    
+    echo '<h1>Bem Vindo ao Post</h1>';
+  }
+} else {
+  echo '<h1>Essa página não existe</h1>';
+}
+?>
+  
+<?php 
+echo '<pre>';
+print_r($wp_query);  
+
+
+echo'</pre>';
+
+?> 
+
+<?php
+$wp_query_ = [
+  [
+    'titulo' => 'Primeiro post',
+  ],
+  [
+    'titulo' => 'Segundo post',
+  ]
+];
+
+function have_posts_() {
+  global $wp_query_;
+  return !empty($wp_query_);
+}
+
+function the_post_() {
+  global $wp_query_;
+  array_shift($wp_query_);
+}
+
+function the_title_() {
+  global $wp_query_;
+  echo $wp_query_[0]['titulo'];
+}
+
+if(have_posts_()) {
+  while(have_posts_()) {
+    the_title_();
+    
+    the_post_();
+  }
+}
+?>
+
+
+
+// ✅ Função personalizada que exibe HTML simples 
+function executar_na_home() { ?>
+  <div>
+    <h1>cheguei aqui teste de função para retornar algo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, molestias!</p>
+  </div>
+<?php }
+
+// Dispara a função `executar_na_home` dentro da ação customizada `dentro_da_home`
+add_action('dentro_da_home', 'executar_na_home');
+
+
+// ✅ Função com argumentos, também carregando HTML
+function executar_na_home_2($arg1, $arg2) { ?>
+  <div>
+    <h1><?php echo $arg1 . ' segunda vez com argumentos ' . $arg2; ?></h1>
+  </div>
+<?php }
+
+// Dispara `executar_na_home_2` com prioridade 1 e suporte a 2 argumentos
+add_action('dentro_da_home', 'executar_na_home_2', 1, 2);
+
+
+// ✅ Filter personalizado para modificar título com <h2>
+function mudar_titulo($titulo) {
+  echo '<h2>' . $titulo . '</h2>';
+}
+add_filter('titulo_home', 'mudar_titulo');
+
+
+// ✅ Filter nativo para modificar os títulos do WordPress
+function mudar_the_title($title) {
+  return $title . ' Jadir Store';
+}
+add_filter('the_title', 'mudar_the_title');
+
+
+<!-- mais uusados para funçoes do_action -->
+
+<?php do_action('dentro_da_home', 'handel' ,  'camisa'); ?>
+
+<!-- SERVE PARA SER USADO  PARA VARIAVEIS OU STRING -->
+ 
+<?php  echo  apply_filters('titulo_home' , 'Essa é  a home') ?>
+
+
+
+$cart = $woo->cart->get_cart();
+foreach($cart as $car){
+echo '<p>Nome: ' . $car['data']->get_name();
+echo '<p>Preço: ' . $car['data']->get_price();
+}
+// print_r($cart);
+echo '<p>' . $woo->countries->get_base_address();
+echo '<p>' . $woo->countries->get_base_city();
+echo '<p>' . $woo->countries->get_base_state();
+
+
+function mudar_class_preco(){
+  return 'preco';
+}
+
+add_filter('woocommerce_product_price_class', 'mudar_class_preco');
+
+function adicionar_antes_do_produto(){
+  echo "isso e antes";  
+}
+
+add_action('woocommerce_single_product_summary','adicionar_antes_do_produto') 
+
+
+
+
+----------------------------------------------------------------------

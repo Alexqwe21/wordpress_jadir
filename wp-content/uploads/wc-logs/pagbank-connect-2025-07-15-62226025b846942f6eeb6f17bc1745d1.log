@@ -1,0 +1,357 @@
+2025-07-15T05:00:11+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-15T05:00:12+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T05:00:12+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T05:00:12+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 24270
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-15T05:00:16+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T05:00:16+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 24270
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-15T05:01:07+00:00 DEBUG POST Request to ws/orders with params: {
+    "reference_id": 178,
+    "customer": {
+        "name": "ALEX JUNIOR",
+        "email": "desenvolvedorweb21@gmail.com",
+        "tax_id": "48960103888",
+        "phone": [
+            {
+                "country": 55,
+                "area": 11,
+                "number": 968812993,
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "items": [
+        {
+            "reference_id": "127",
+            "name": "Bermuda Preta",
+            "quantity": 1,
+            "unit_amount": 20000
+        }
+    ],
+    "shipping": {
+        "address": {
+            "street": "RUA DESEMBARGADOR ARLINDO PERERIA LIMA",
+            "number": "...",
+            "complement": "Casa",
+            "locality": "...",
+            "city": "S\u00e3o Paulo",
+            "region": "S\u00e3o Paulo",
+            "region_code": "SP",
+            "country": "BRA",
+            "postal_code": "68900070"
+        }
+    },
+    "notification_urls": [
+        "http:\/\/localhost\/wordpress_jadir\/?wc-api=rm_ps_notif&hash=57246"
+    ],
+    "qr_codes": [
+        {
+            "amount": {
+                "value": 24270,
+                "currency": "BRL"
+            },
+            "expiration_date": "2025-07-16T05:01:07+00:00"
+        }
+    ]
+}
+array (
+)
+2025-07-15T05:01:07+00:00 DEBUG Response from ws/orders: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T05:01:07+00:00 ERROR Erro Connect: UNAUTHORIZED - Public Key is missing. Review AUTHORIZATION header. ()
+array (
+)
+2025-07-15T20:43:53+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-15T20:43:54+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-15T20:43:54+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T20:43:54+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T20:43:54+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 40000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-15T20:44:01+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T20:44:02+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-15T23:00:57+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-15T23:00:58+00:00 DEBUG POST Request to ws-sdk/checkout-sdk/sessions with params: []
+array (
+)
+2025-07-15T23:00:58+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T23:00:58+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions: {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T23:00:58+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-15T23:01:01+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T23:01:01+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)
+2025-07-15T23:02:03+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T23:02:18+00:00 DEBUG Response from ws-sdk/checkout-sdk/sessions (cached): {
+    "error_messages": [
+        {
+            "code": "UNAUTHORIZED",
+            "description": "Public Key is missing. Review AUTHORIZATION header."
+        }
+    ]
+}
+array (
+)
+2025-07-15T23:02:18+00:00 DEBUG Erro ao calcular as parcelasArray
+(
+    [0] => Array
+        (
+            [0] => Array
+                (
+                    [code] => UNAUTHORIZED
+                    [description] => Public Key is missing. Review AUTHORIZATION header.
+                )
+
+        )
+
+    [1] => Array
+        (
+            [payment_methods] => CREDIT_CARD
+            [value] => 20000
+            [credit_card_bin] => 555566
+            [max_installments_no_interest] => 
+        )
+
+)
+
+array (
+)

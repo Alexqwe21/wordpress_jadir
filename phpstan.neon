@@ -1,0 +1,7 @@
+parameters:
+  level: max
+  paths:
+    - %currentWorkingDirectory%/wp-content
+  scanFiles:
+    - %currentWorkingDirectory%/wp-includes/functions.php
+    - %currentWorkingDirectory%/wp-includes/template.php
