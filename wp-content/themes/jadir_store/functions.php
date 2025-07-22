@@ -244,3 +244,137 @@ function permitir_acesso_alidropship_para_gerente() {
 add_action('init', 'permitir_acesso_alidropship_para_gerente');
 
 
+
+
+
+add_action('admin_menu', 'ocultar_menus_personalizados', 999);
+
+function ocultar_menus_personalizados() {
+    // Oculta WPForms
+    remove_menu_page('wpforms-overview');
+
+    // Oculta WP Mail SMTP
+    remove_menu_page('wp-mail-smtp');
+
+    // Oculta Duplicator
+    remove_menu_page('duplicator');
+}
+
+
+add_action('admin_init', 'redirecionar_gerente_para_woocommerce_dashboard');
+
+function redirecionar_gerente_para_woocommerce_dashboard() {
+    // Se for área administrativa e usuário logado
+    if (is_admin()) {
+        $user = wp_get_current_user();
+
+        // Verifica se o usuário tem a role "shop_manager" (Gerente da Loja)
+        if (in_array('shop_manager', (array) $user->roles)) {
+            // Evita loop infinito redirecionando somente da página padrão do admin
+            $current_url = $_SERVER['REQUEST_URI'];
+
+            // Se estiver na dashboard padrão do wp-admin, redireciona
+            if (strpos($current_url, '/wp-admin/index.php') !== false || $current_url === '/wp-admin/') {
+                wp_safe_redirect(admin_url('admin.php?page=wc-admin'));
+                exit;
+            }
+        }
+    }
+}
+
+add_action('admin_footer', 'ocultar_botao_novo_post');
+
+function ocultar_botao_novo_post() {
+    if (current_user_can('shop_manager')) {
+        ?>
+        <script>
+            jQuery(document).ready(function($) {
+                $('#wp-admin-bar-new-post').remove(); // Remove o item "Novo Post" da admin bar
+                // Alternativa: remove qualquer link com href específico
+                $('#wp-admin-bar-new-content a[href$="post-new.php"]').parent().remove();
+            });
+        </script>
+        <?php
+    }
+}
+
+
+add_action('admin_footer', 'ocultar_menu_wpforms');
+
+function ocultar_menu_wpforms() {
+    if (current_user_can('shop_manager')) {
+        ?>
+        <script>
+            jQuery(document).ready(function($) {
+                // Remove o menu WPForms da barra superior
+                $('#wp-admin-bar-wpforms-menu').remove();
+            });
+        </script>
+        <?php
+    }
+}
+
+
+add_action('admin_footer', 'ocultar_menu_comentarios');
+
+function ocultar_menu_comentarios() {
+    if (current_user_can('shop_manager')) {
+        ?>
+        <script>
+            jQuery(document).ready(function($) {
+                // Remove o item de Comentários da barra superior
+                $('#wp-admin-bar-comments').remove();
+            });
+        </script>
+        <?php
+    }
+}
+
+
+// Ocultar o menu lateral do W3 Total Cache
+add_action('admin_menu', 'ocultar_menu_w3tc_para_gerente', 999);
+function ocultar_menu_w3tc_para_gerente() {
+    if (current_user_can('shop_manager')) {
+        remove_menu_page('w3tc_dashboard');
+    }
+}
+
+// Ocultar o item "Performance" da admin bar
+add_action('admin_bar_menu', 'ocultar_admin_bar_w3tc_para_gerente', 999);
+function ocultar_admin_bar_w3tc_para_gerente($wp_admin_bar) {
+    if (current_user_can('shop_manager')) {
+        $wp_admin_bar->remove_node('w3tc');
+    }
+}
+
+
+
+// No seu functions.php
+add_filter('woocommerce_show_variation_price', '__return_true');
+
+add_action('woocommerce_single_product_summary', 'alex_mover_preco_variacao', 9);
+function alex_mover_preco_variacao() {
+    global $product;
+
+    if ( $product->is_type('variable') ) {
+        echo '<div id="novo-preco-variacao" style="font-size: 22px; color: #222; font-weight: bold;"></div>';
+    }
+}
+
+// Script para atualizar o preço
+add_action('wp_footer', 'alex_script_preco_variacao');
+function alex_script_preco_variacao() {
+    if (!is_product()) return;
+    ?>
+    <script>
+    jQuery(function($) {
+        $('form.variations_form').on('show_variation', function(event, variation) {
+            $('#novo-preco-variacao').html(variation.price_html);
+        }).on('hide_variation', function() {
+            $('#novo-preco-variacao').html('');
+        });
+    });
+    </script>
+    <?php
+}
+

@@ -586,17 +586,35 @@ p:contains("woocommerce_checkout") {
   }
 }
 
-.woocommerce-notices-wrapper{
-  border-top: 5px solid  #C622E0;
+.woocommerce-notices-wrapper {
+  border-top: 5px solid #C622E0;
   padding-bottom: 20px;
   border-radius: 2px;
 }
 
 
-#customer_login{
+#customer_login {
   display: flex !important;
 }
 
-.has-text-align-center{
+.has-text-align-center {
   margin-bottom: 30px;
 }
+
+.woo-variation-swatches .wvs-style-squared.variable-items-wrapper .variable-item:not(.radio-variable-item) {
+  border-radius: 30px !important;
+}
+
+.variable-item-span.variable-item-span-color {
+  border-radius: 30px !important;
+}
+
+
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item):focus,
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item):hover,
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected,
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item).selected:hover {
+  box-shadow: 0 0 0 4px #C622E0 !important;
+}
+
+

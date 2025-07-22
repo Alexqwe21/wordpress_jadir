@@ -59,14 +59,23 @@ function format_single_product($id, $img_size = 'medium')
           <img data-gallery="main" src="<?= $produto['img'] ?>" alt="<?= $produto['name'] ?>">
         </div>
       </div>
-      <div class="product-detail">
-        <small><?= $produto['sku'] ?></small>
-        <h1><?= $produto['name'] ?></h1>
-        <p class="product-price"><?= $produto['price'] ?></p>
-        <?php woocommerce_template_single_add_to_cart() ?>
-        <h2>Descrição</h2>
-        <p><?= $produto['description'] ?></p>
-      </div>
+  <div class="product-detail">
+  <small><?= $produto['sku'] ?></small>
+  <h1><?= $produto['name'] ?></h1>
+  
+  <?php if ( $product->is_type('variable') ) : ?>
+    <div class="woocommerce-variation-price" style="font-size: 24px; font-weight: bold; margin-bottom: 15px;"></div>
+  <?php else : ?>
+    <p class="product-price"><?= $produto['price'] ?></p>
+  <?php endif; ?>
+  
+  <?php woocommerce_template_single_add_to_cart() ?>
+  
+  <h2>Descrição</h2>
+  <p><?= $produto['description'] ?></p>
+</div>
+
+
   <?php }
   } ?>
 
