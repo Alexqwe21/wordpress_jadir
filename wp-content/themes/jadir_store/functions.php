@@ -227,5 +227,20 @@ function ocultar_downloads_pedido_para_gerente() {
 add_action('admin_head', 'ocultar_downloads_pedido_para_gerente');
 
 
+function adicionar_favicon_no_head() {
+    echo '<link rel="shortcut icon" href="' . get_stylesheet_directory_uri() . '/img/logo_favicoon.png" type="image/x-icon">' . "\n";
+}
+add_action('wp_head', 'adicionar_favicon_no_head');
+
+
+
+function permitir_acesso_alidropship_para_gerente() {
+    // Garante que o papel tenha a permissão necessária
+    $role = get_role('shop_manager');
+    if ($role && !$role->has_cap('manage_options')) {
+        $role->add_cap('manage_options'); // ou 'vi_wad_import_list' se o plugin usar uma custom capability
+    }
+}
+add_action('init', 'permitir_acesso_alidropship_para_gerente');
 
 
