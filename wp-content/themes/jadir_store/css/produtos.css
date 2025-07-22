@@ -5,6 +5,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 
+  
+
   del {
     text-decoration: line-through !important;
     font-weight: bold !important;
