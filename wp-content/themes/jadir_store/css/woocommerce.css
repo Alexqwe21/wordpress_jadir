@@ -618,3 +618,22 @@ p:contains("woocommerce_checkout") {
 }
 
 
+.produto-gallery-main {
+  position: sticky;
+  top: 100px; /* ou a altura do seu header fixo */
+  align-self: flex-start;
+}
+
+
+.produto-gallery-main img {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.is-large.wc-block-cart .wc-block-cart-items th:last-child{
+  display: none !important;
+}
+
+.is-large.wc-block-cart .wc-block-cart-items td:last-child{
+  display: none !important;
+}
