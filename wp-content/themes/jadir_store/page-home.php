@@ -39,9 +39,15 @@ $data['vendas'] =  format_products($products_new, 'medium');
 
 $home_id = get_the_ID();
 
+
+
 $categoria_esquerda = get_post_meta($home_id, 'categoria_esquerda', true);
 
 $categoria_direita = get_post_meta($home_id, 'categoria_direita', true);
+
+$anime = get_post_meta($home_id, 'anime', true);
+
+
 
 function get_product_category_data($category)
 {
@@ -61,6 +67,8 @@ $data['categorias'][$categoria_esquerda] = get_product_category_data($categoria_
 
 $data['categorias'][$categoria_direita] = get_product_category_data($categoria_direita);
 
+$data['anime'][$anime] = get_product_category_data($anime);
+
 ?>
 
 
@@ -74,6 +82,8 @@ $data['categorias'][$categoria_direita] = get_product_category_data($categoria_d
       <li>Troca Fácil</li>
       <li>Até 12x</li>
     </ul>
+
+
 
     <section class="slide-wrapper">
       <ul class="slide">
@@ -107,6 +117,44 @@ $data['categorias'][$categoria_direita] = get_product_category_data($categoria_d
 <?php } ?>
 </section>
 
+
+ 
+
+
+  <section class="anime">
+  <h1 class="subtitulo">Categorias</h1>
+  <div class="carousel-container">
+    <article class="site carousel-slide">
+      <?php foreach ($data['anime'] as $categoria) { ?>
+        <div class="separador">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+        </div>
+        <div class="separador">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+        </div>
+        <div class="separador">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+        </div>
+        <div class="separador">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+        </div>
+      <?php } ?>
+    </article>
+  </div>
+</section>
+
+
+
+
+
     <section class="container">
       <h1 class="subtitulo">Mais Vendidos</h1>
       <?php jadir_store_product_list($data['vendas']) ?>
@@ -119,3 +167,39 @@ $data['categorias'][$categoria_direita] = get_product_category_data($categoria_d
 } ?>
 
 <?php get_footer(); ?>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const wrapper = document.querySelector('.carrossel-wrapper');
+  const items = Array.from(wrapper.children);
+  const totalWidth = wrapper.scrollWidth;
+
+  // Clona os itens
+  items.forEach(item => {
+    const clone = item.cloneNode(true);
+    wrapper.appendChild(clone);
+  });
+
+  let position = 0;
+  const speed = 5; // quanto maior, mais rápido
+
+  function animate() {
+    position += speed;
+    if (position >= totalWidth) {
+      position = 0;
+    }
+    wrapper.style.transform = `translateX(-${position}px)`;
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+});
+</script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const slide = document.querySelector('.carousel-slide');
+    slide.innerHTML += slide.innerHTML; // duplica os itens
+  });
+</script>

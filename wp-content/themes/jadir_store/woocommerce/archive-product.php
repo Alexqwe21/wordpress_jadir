@@ -32,7 +32,6 @@ $data['products'] = format_products($products);
 
     <?php if (!is_shop()) : ?>
    
-
       <div class="filtro">
         <h3 class="filtro-titulo">Filtrar por preço</h3>
         <form action="" class="filtro-preco">

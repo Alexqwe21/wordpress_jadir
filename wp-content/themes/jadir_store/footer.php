@@ -40,6 +40,9 @@
 <?php wp_footer(); ?>
 <script type="module" src="<?= get_stylesheet_directory_uri(); ?>/js/slide.js"></script>
 <script type="module" src="<?= get_stylesheet_directory_uri(); ?>/js/script.js"></script>
+<script  type="module" src="<?= get_stylesheet_directory_uri(); ?>/js/botao_fixo.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </body>
 
 </html>

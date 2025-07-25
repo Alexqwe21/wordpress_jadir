@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.site{
+      width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 body {
   font-family: 'Roboto', sans-serif !important;
@@ -116,4 +122,57 @@ color: #C622E0;
 p:has(> strong:only-child),
 p:contains("woocommerce_checkout") {
   display: none !important;
+}
+
+
+.whatsapp-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 17px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.whatsapp-fixo:hover {
+    transform: scale(1.1);
+}
+.whatsapp-fixo img {
+    width: 100%;
+    height: 100%;
+}
+
+#back-to-top {
+    position: fixed;
+    z-index: 9999;
+    bottom: 100px;
+    right: 18px;
+    backdrop-filter: blur(15px);
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #fff !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.9s ease, transform 0.9s ease, visibility 0.9s;
+}
+#back-to-top img {
+    width: 30px;
+    height: 30px;
+}
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+#back-to-top:hover {
+    transform: scale(1.1);
 }

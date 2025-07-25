@@ -10,12 +10,22 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-  <?php
+    <?php
 
   $img_url = get_stylesheet_directory_uri() . '/img';
 $cart_count =  WC()->cart->get_cart_contents_count();
   ?>
+<!-- Botão WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=5511996038329" target="_blank" class="whatsapp-fixo"
+   aria-label="Fale conosco pelo WhatsApp">
+   <img src="<?= $img_url;  ?>/whatsapp_Flutuante.svg" alt="WhatsApp"/>
+</a>
+
+<!-- Botão Voltar ao Topo -->
+<button id="back-to-top" title="Voltar para o Topo">
+   <img src="<?= $img_url;  ?>/seta_para_cima.svg" alt="seta">
+</button>
+
 
 
   <header class="header container">
