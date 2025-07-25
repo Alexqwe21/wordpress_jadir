@@ -29,7 +29,8 @@
       <ul>
         <li>Cartão De Crédito</li>
         <li>Boleto Bancário</li>
-        <li>PagSeguro</li>
+        <li>Mercado Pago</li>
+         <li>Pix</li>
       </ul>
     </section>
   </div>

@@ -672,7 +672,17 @@ p:contains("woocommerce_checkout") {
   display: none !important;
 }
 
-.cfvsw-image-option{
+.cfvsw-image-option {
   width: 100px !important;
   height: 100px !important;
+}
+
+@media(max-width: 800px) {
+  .container{
+    margin: 35px 0;
+  }
+  .woocommerce-breadcrumb {
+    border: none !important;
+    padding: 0 !important;
+  }
 }

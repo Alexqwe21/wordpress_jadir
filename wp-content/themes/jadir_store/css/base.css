@@ -8,6 +8,9 @@
     margin: 0 auto;
 }
 
+.space{
+height: 10px;
+}
 
 body {
   font-family: 'Roboto', sans-serif !important;
