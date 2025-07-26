@@ -257,6 +257,50 @@ $data['anime'][$anime] = get_product_category_data($anime);
 </section>
 
 
+<section class="categorias_lado">
+  <article class="site">
+       <h1 class="subtitulo">Veja Mais Categorias</h1>
+<div class="lado_lado">
+ <?php foreach ($data['anime'] as $categoria) { ?>
+        <div class="mais_categorias">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+          <div>
+            <span class="nome_categoria" ><?= $categoria['name'] ?></span>
+          
+          </div>
+        </div>
+
+
+         <div class="mais_categorias">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+          <div>
+            <span class="nome_categoria" ><?= $categoria['name'] ?></span>
+          
+          </div>
+        </div>
+
+         <div class="mais_categorias">
+          <a href="<?= $categoria['link'] ?>">
+            <img src="<?= $categoria['img'] ?>" alt="<?= $categoria['name'] ?>">
+          </a>
+          <div>
+            <span class="nome_categoria" ><?= $categoria['name'] ?></span>
+          
+          </div>
+        </div>
+
+         
+       
+      <?php } ?>
+</div>
+  </article>
+</section>
+
+
 <?php }
 } ?>
 
@@ -270,7 +314,7 @@ $data['anime'][$anime] = get_product_category_data($anime);
     images[index].classList.remove('active');
     index = (index + 1) % images.length;
     images[index].classList.add('active');
-  }, 3000); // troca a cada 3 segundos
+  }, 10000); // troca a cada 3 segundos
 </script>
 
 

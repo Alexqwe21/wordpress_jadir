@@ -440,7 +440,9 @@
 }
 
 .swiper-button-next:after,
-.swiper-button-prev:after {color: #C622E0 !important;}
+.swiper-button-prev:after {
+  color: #C622E0 !important;
+}
 
 /* Estilo para todos os bullets */
 .swiper-pagination-bullet {
@@ -452,4 +454,126 @@
 .swiper-pagination-bullet-active {
   background-color: #C622E0 !important;
   opacity: 1;
+}
+
+.categorias_lado {
+  background-color: #c5c5c517;
+  padding-top: 40px;
+
+  .site {
+
+    .lado_lado {
+      display: flex;
+      justify-content: space-between;
+
+      .mais_categorias {
+        animation: slideUpFade 0.8s ease-in-out both;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation-fill-mode: forwards;
+
+        a {
+          width: 350px;
+          display: flex;
+          height: auto;
+
+          img {
+            width: 350px;
+            height: 380px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            border: 3px solid #C622E0;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+            &:hover {
+              transform: scale(1.05) rotateZ(-1deg);
+              box-shadow: 0 10px 25px rgba(198, 34, 224, 0.4);
+            }
+          }
+        }
+      }
+
+      .nome_categoria {
+        text-align: center;
+        background-color: #C622E0 !important;
+        color: white;
+        width: 100px;
+        display: flex;
+        height: 40px;
+        margin: 10px 0;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mais_categorias:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.mais_categorias:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.mais_categorias:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@media(max-width: 800px) {
+  .categorias_lado {
+    & .site {
+      .lado_lado {
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
+
+
+@media(max-width: 390px) {
+  .categorias_lado {
+    & .site {
+      & .lado_lado {
+        & .mais_categorias {
+          & a {
+            justify-content: center;
+
+            img {
+              width: 300px;
+              height: 330px;
+
+            }
+          }
+        }
+      }
+    }
+
+    .nome_categoria {
+      margin: 20px 0 !important;
+    }
+  }
 }
