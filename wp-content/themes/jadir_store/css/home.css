@@ -399,10 +399,10 @@
   .card {
     width: 270px !important;
     margin-bottom: 20px;
-    
+
   }
 
-  .card:hover .content::after{
+  .card:hover .content::after {
     width: 80% !important;
   }
 }
@@ -439,3 +439,17 @@
   object-fit: cover;
 }
 
+.swiper-button-next:after,
+.swiper-button-prev:after {color: #C622E0 !important;}
+
+/* Estilo para todos os bullets */
+.swiper-pagination-bullet {
+  background-color: #C622E0 !important;
+  opacity: 0.5;
+}
+
+/* Estilo para o bullet ativo */
+.swiper-pagination-bullet-active {
+  background-color: #C622E0 !important;
+  opacity: 1;
+}

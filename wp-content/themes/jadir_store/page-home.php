@@ -242,7 +242,9 @@ $data['anime'][$anime] = get_product_category_data($anime);
         </div>
 
           <div class="swiper-slide">
+            <a href="#">
           <img src="<?= $img_url; ?>/produto_eletronico.png" alt="Produto 3">
+          </a>
         </div>
       </div>
 
