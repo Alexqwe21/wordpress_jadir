@@ -378,6 +378,20 @@ function alex_script_preco_variacao() {
     <?php
 }
 
+function adicionar_swiper_slider() {
+    // CSS Swiper
+    wp_enqueue_style('swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+
+    // JS Swiper tradicional
+    wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), null, true);
+
+    // Script personalizado (sem módulos)
+    wp_enqueue_script('swiper-init', get_stylesheet_directory_uri() . '/js/swiper-init.js', array('swiper-js'), null, true);
+}
+add_action('wp_enqueue_scripts', 'adicionar_swiper_slider');
+
+
+
 
 
 

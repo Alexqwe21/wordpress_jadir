@@ -685,4 +685,22 @@ p:contains("woocommerce_checkout") {
     border: none !important;
     padding: 0 !important;
   }
+
+
+  #customer_login{
+    display: flex;
+    flex-direction: column;
+
+    .woocommerce-form-login__submit{
+      background-color: #C622E0 !important;
+    }
+
+
+ .woocommerce-form-register__submit{
+  background-color: #C622E0 !important;
+  margin-top: 10px;
+ }
+
+  }
 }
+

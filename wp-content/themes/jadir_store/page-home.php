@@ -225,8 +225,34 @@ $data['anime'][$anime] = get_product_category_data($anime);
 </section>
 
 
+<section class="carrosel_produtos">
+  <article class="site">
+     <h1 class="subtitulo">Produtos Mais Amados</h1>
+    <div class="swiper slicer-slider">
+      <div class="swiper-wrapper">
+        <!-- Slides com imagens reais -->
+        <div class="swiper-slide">
+          <img src="<?= $img_url; ?>/produto_eletronico.png" alt="Produto 1">
+        </div>
+        <div class="swiper-slide">
+          <img src="<?= $img_url; ?>/produto_eletronico.png" alt="Produto 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="<?= $img_url; ?>/produto_eletronico.png" alt="Produto 3">
+        </div>
 
+          <div class="swiper-slide">
+          <img src="<?= $img_url; ?>/produto_eletronico.png" alt="Produto 3">
+        </div>
+      </div>
 
+      <!-- Botões e paginação -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </article>
+</section>
 
 
 <?php }
@@ -281,3 +307,40 @@ document.addEventListener('DOMContentLoaded', () => {
     slide.innerHTML += slide.innerHTML; // duplica os itens
   });
 </script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.slicer-slider', {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      centeredSlides: false,
+      loop: true,
+      speed: 2500,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+      freeMode: true,
+      freeModeMomentum: false,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        320: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      },
+    });
+  });
+</script>
+
+
+
+
+

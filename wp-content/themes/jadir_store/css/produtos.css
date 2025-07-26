@@ -5,7 +5,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 
-  
+
 
   del {
     text-decoration: line-through !important;
@@ -135,7 +135,8 @@
       background: rgba(0, 0, 0, .2);
       cursor: pointer;
     }
-    label{
+
+    label {
       width: 60px;
       display: inline-block;
       margin-bottom: 10px;
@@ -145,43 +146,46 @@
 }
 
 @media(max-width: 800px) {
- .filtros{
-  margin-top: 40px;
-  grid-row: 2;
-  &::before{
-    content: 'Filtrar Resultados';
-    display: block;
-    background: black;
-    color: white;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
+  .filtros {
+    margin-top: 40px;
+    grid-row: 2;
+
+    &::before {
+      content: 'Filtrar Resultados';
+      display: block;
+      background: black;
+      color: white;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
   }
- }
 }
 
-.filtro-cat{
-  a{
+.filtro-cat {
+  a {
     margin-bottom: 5px;
     display: block;
-    
+
   }
-  .sub-menu{
+
+  .sub-menu {
     margin-bottom: 20px;
-    a{
-      &::before{
-      content: '';
-      width: 10px;
-      height: 3px;
-      background: #C622E0;
-      display: inline-block;
-      margin-right: 5px;
-    }
+
+    a {
+      &::before {
+        content: '';
+        width: 10px;
+        height: 3px;
+        background: #C622E0;
+        display: inline-block;
+        margin-right: 5px;
+      }
     }
   }
 }
 
-.current-menu-item > a{
+.current-menu-item>a {
   color: #C622E0;
 }
 
@@ -196,26 +200,32 @@
 }
 
 .woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen a::before {
-background: #C622E0;
+  background: #C622E0;
 }
 
-.woocommerce .woocommerce-widget-layered-nav-list .count{
+.woocommerce .woocommerce-widget-layered-nav-list .count {
   display: none;
 }
 
 /* ORDEM */
 
-.woocommerce-ordering{
+.woocommerce-ordering {
   margin-bottom: 20px;
   margin-left: auto;
   float: none !important;
 
-  select{
+  select {
     font-size: 1rem;
+    height: 40px !important;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid #C622E0;
   }
 }
+
 /* ORDEM */
 
-.notificacao{
+.notificacao {
   margin: 20px auto;
 }
